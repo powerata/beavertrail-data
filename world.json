@@ -1,0 +1,6031 @@
+{
+  "kind": "beaver-trails-world",
+  "format": 1,
+  "exportedAt": 0,
+  "lands": [
+    {
+      "id": "camp-ogonyok",
+      "properties": {
+        "id": "camp-ogonyok",
+        "name": "Лагерь «Огонёк»",
+        "peace": true,
+        "description": "Бывший детский лагерь в соснах на берегу Волмы. Пусто, но место живое: у статуи читающего лежит книга имён. Комитет ставит лагерь на учёт под сборный пункт.",
+        "fill": "#6b7f5a",
+        "fillOpacity": 0.3,
+        "objects": [
+          {
+            "id": "committee-watcher",
+            "kind": "npc",
+            "name": "Наблюдатель",
+            "faction": "committee",
+            "portraitId": "asset:committee-clerk-pedant",
+            "npcId": "committee-watcher"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.9205808,
+              53.9088072
+            ],
+            [
+              27.9177195,
+              53.9076327
+            ],
+            [
+              27.9204795,
+              53.9062589
+            ],
+            [
+              27.921775,
+              53.9061726
+            ],
+            [
+              27.9241632,
+              53.9061793
+            ],
+            [
+              27.9255826,
+              53.9092784
+            ],
+            [
+              27.923217,
+              53.909796
+            ],
+            [
+              27.9205808,
+              53.9088072
+            ]
+          ]
+        ]
+      },
+      "updatedAt": 0
+    },
+    {
+      "id": "committee-forest-yard",
+      "properties": {
+        "id": "committee-forest-yard",
+        "name": "Лесной участок",
+        "peace": true,
+        "description": "Приёмный участок Комитета: штабеля, журнал, окно выдачи нарядов.",
+        "fill": "#4b5563",
+        "fillOpacity": 0.28,
+        "objects": [
+          {
+            "id": "committee-yard-npc",
+            "kind": "npc",
+            "name": "Нарядчик",
+            "faction": "committee",
+            "portraitId": "asset:committee-yard-npc",
+            "npcId": "committee-yard-npc"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.620212889671347,
+              53.939696182829195
+            ],
+            [
+              27.624768018722538,
+              53.93994662998251
+            ],
+            [
+              27.623609304428104,
+              53.94115915873734
+            ],
+            [
+              27.6204,
+              53.9417
+            ],
+            [
+              27.620212889671347,
+              53.939696182829195
+            ]
+          ]
+        ]
+      },
+      "updatedAt": 0
+    },
+    {
+      "id": "committee-fortress",
+      "properties": {
+        "id": "committee-fortress",
+        "name": "Крепость Комитета Удачи",
+        "peace": true,
+        "description": "Штаб канцелярии. Мирная зона. Дом лежит внутри.",
+        "fill": "#2f4a1c",
+        "fillOpacity": 0.28,
+        "objects": [
+          {
+            "id": "committee-npc",
+            "kind": "npc",
+            "name": "Канцелярия",
+            "faction": "committee",
+            "portraitId": "asset:committee-npc",
+            "npcId": "committee-npc"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.5397062,
+              53.9310247
+            ],
+            [
+              27.5340871,
+              53.9300211
+            ],
+            [
+              27.530004,
+              53.9298998
+            ],
+            [
+              27.5306783,
+              53.9319405
+            ],
+            [
+              27.5300602,
+              53.9337159
+            ],
+            [
+              27.528131,
+              53.9350281
+            ],
+            [
+              27.5266712,
+              53.9355364
+            ],
+            [
+              27.5245172,
+              53.935823
+            ],
+            [
+              27.522588,
+              53.9355253
+            ],
+            [
+              27.5209398,
+              53.9351174
+            ],
+            [
+              27.5181225,
+              53.9335535
+            ],
+            [
+              27.5164743,
+              53.933322
+            ],
+            [
+              27.5166054,
+              53.9349539
+            ],
+            [
+              27.5192838,
+              53.9372914
+            ],
+            [
+              27.520784,
+              53.9385188
+            ],
+            [
+              27.5263468,
+              53.9399632
+            ],
+            [
+              27.5282198,
+              53.939037
+            ],
+            [
+              27.5328087,
+              53.9377029
+            ],
+            [
+              27.5361854,
+              53.9344463
+            ],
+            [
+              27.5397062,
+              53.9310247
+            ]
+          ]
+        ]
+      },
+      "updatedAt": 0
+    },
+    {
+      "id": "dom-chernoknignika",
+      "properties": {
+        "id": "dom-chernoknignika",
+        "name": "Дом чернокнижника",
+        "peace": true,
+        "description": "Неприметный городской дом на отшибе: днём ставни закрыты, к ночи в окне огонь. Соседи имени хозяина не знают, в описях дом есть, а хозяин в них не значится. По ночам из-за стены слышно перо.",
+        "fill": "#575f6b",
+        "fillOpacity": 0.3,
+        "objects": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.6015,
+              53.9076
+            ],
+            [
+              27.6021,
+              53.90735
+            ],
+            [
+              27.6032,
+              53.9075
+            ],
+            [
+              27.6036,
+              53.9082
+            ],
+            [
+              27.6028,
+              53.90875
+            ],
+            [
+              27.6017,
+              53.9087
+            ],
+            [
+              27.60115,
+              53.9081
+            ],
+            [
+              27.6015,
+              53.9076
+            ]
+          ]
+        ]
+      },
+      "updatedAt": 0
+    },
+    {
+      "id": "fish-land",
+      "properties": {
+        "id": "fish-land",
+        "name": "Рыбий скелет",
+        "peace": true,
+        "description": "Каменные рёбра лежат через русло — скелет огромной рыбы. Вода идёт сквозь кости, и переправа старше моста. Комитет её не нумерует: не мост это, скелет.",
+        "fill": "#5b6b64",
+        "fillOpacity": 0.28,
+        "objects": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.599,
+              53.8869
+            ],
+            [
+              27.6002,
+              53.8868
+            ],
+            [
+              27.6012,
+              53.8873
+            ],
+            [
+              27.601,
+              53.8883
+            ],
+            [
+              27.6002,
+              53.8889
+            ],
+            [
+              27.5992,
+              53.8888
+            ],
+            [
+              27.5986,
+              53.888
+            ],
+            [
+              27.5987,
+              53.8873
+            ],
+            [
+              27.599,
+              53.8869
+            ]
+          ]
+        ]
+      },
+      "updatedAt": 0
+    },
+    {
+      "id": "hosts-lumberyard",
+      "properties": {
+        "id": "hosts-lumberyard",
+        "name": "Дровяной двор",
+        "peace": true,
+        "description": "Склад Комитета, где работает Нестер. Здесь помнят лес.",
+        "fill": "#b45309",
+        "fillOpacity": 0.28,
+        "objects": [
+          {
+            "id": "hosts-nester",
+            "kind": "npc",
+            "name": "Нестер",
+            "faction": "hosts",
+            "portraitId": "asset:hosts-nester",
+            "npcId": "hosts-nester"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.5693,
+              53.92992
+            ],
+            [
+              27.57,
+              53.92978
+            ],
+            [
+              27.5706,
+              53.92994
+            ],
+            [
+              27.57088,
+              53.93028
+            ],
+            [
+              27.5706,
+              53.93055
+            ],
+            [
+              27.57005,
+              53.93062
+            ],
+            [
+              27.56955,
+              53.93045
+            ],
+            [
+              27.5693,
+              53.92992
+            ]
+          ]
+        ]
+      },
+      "updatedAt": 0
+    },
+    {
+      "id": "kolodishchi-cemetery",
+      "properties": {
+        "id": "kolodishchi-cemetery",
+        "name": "Кладбище у Колодищ",
+        "peace": true,
+        "description": "Старый погост на краю Колодищ: кресты, ограды, железнодорожные могилы. Где родни не осталось, Комитет снял имя и поставил номер.",
+        "fill": "#6a6f66",
+        "fillOpacity": 0.3,
+        "objects": [
+          {
+            "id": "gravedigger-npc",
+            "kind": "npc",
+            "name": "Могильщик",
+            "faction": "hosts",
+            "portraitId": "asset:gravedigger-npc",
+            "npcId": "gravedigger-npc"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.8404399,
+              53.9023289
+            ],
+            [
+              27.8403401,
+              53.9022467
+            ],
+            [
+              27.834201,
+              53.9013749
+            ],
+            [
+              27.8308215,
+              53.9020175
+            ],
+            [
+              27.8292541,
+              53.9033218
+            ],
+            [
+              27.8277844,
+              53.9065107
+            ],
+            [
+              27.8265513,
+              53.9091507
+            ],
+            [
+              27.8304426,
+              53.9099151
+            ],
+            [
+              27.8332443,
+              53.9105689
+            ],
+            [
+              27.8348471,
+              53.9103802
+            ],
+            [
+              27.8360553,
+              53.9102743
+            ],
+            [
+              27.8393887,
+              53.9073224
+            ],
+            [
+              27.8399053,
+              53.9046773
+            ],
+            [
+              27.8404399,
+              53.9023289
+            ]
+          ]
+        ]
+      },
+      "updatedAt": 0
+    },
+    {
+      "id": "kolodishchi-station",
+      "properties": {
+        "id": "kolodishchi-station",
+        "name": "Вокзал Колодищи",
+        "peace": true,
+        "description": "Станция на линии Минск — Борисов. Отсюда когда-то уходила детская ветка на Волму. В запертой дежурке живёт сторож, что пропал по наряду № 19.",
+        "fill": "#4b5563",
+        "fillOpacity": 0.3,
+        "objects": [
+          {
+            "id": "line-watchman-npc",
+            "kind": "npc",
+            "name": "Путей",
+            "faction": "hosts",
+            "portraitId": "asset:line-watchman-npc",
+            "npcId": "line-watchman-npc"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.7736,
+              53.9449
+            ],
+            [
+              27.7748,
+              53.94455
+            ],
+            [
+              27.7762,
+              53.94475
+            ],
+            [
+              27.7768,
+              53.9457
+            ],
+            [
+              27.7761,
+              53.94635
+            ],
+            [
+              27.7746,
+              53.9462
+            ],
+            [
+              27.77375,
+              53.94555
+            ],
+            [
+              27.7736,
+              53.9449
+            ]
+          ]
+        ]
+      },
+      "updatedAt": 0
+    },
+    {
+      "id": "land_2qw7rgze",
+      "properties": {
+        "id": "land_2qw7rgze",
+        "name": "Лесной базар",
+        "peace": true,
+        "level": 3,
+        "description": "Менялы скупают хабар и продают пустые сосуды.",
+        "fill": "#ff9305",
+        "fillOpacity": 0.2196078431372549,
+        "objects": [
+          {
+            "id": "obj_mtzuglfb",
+            "kind": "npc",
+            "name": "Скупщик",
+            "faction": "changers",
+            "portraitId": "asset:changer-npc",
+            "npcId": "changer-npc"
+          },
+          {
+            "id": "bazaar-tara",
+            "kind": "npc",
+            "name": "Тара",
+            "faction": "changers",
+            "npcId": "tara-npc"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.642057538032535,
+              53.914772385953434
+            ],
+            [
+              27.642293572425846,
+              53.91503778965649
+            ],
+            [
+              27.642856836318973,
+              53.91516733132752
+            ],
+            [
+              27.643103599548343,
+              53.91532214889503
+            ],
+            [
+              27.6435649394989,
+              53.91497775801413
+            ],
+            [
+              27.643371820449833,
+              53.914864013613006
+            ],
+            [
+              27.642325758934025,
+              53.9145132997591
+            ],
+            [
+              27.642057538032535,
+              53.914772385953434
+            ]
+          ]
+        ]
+      },
+      "updatedAt": 0
+    },
+    {
+      "id": "malaya-koleya",
+      "properties": {
+        "id": "malaya-koleya",
+        "name": "Малая колея",
+        "peace": true,
+        "level": 5,
+        "description": "Кольцо первой дороги. Она была детской: отсюда вагончики шли до Волмы, до лагеря «Огонёк». Теперь — обрывок: стрелка, будка, ржавые рельсы.",
+        "fill": "#8a5c6e",
+        "fillOpacity": 0.25882352941176473,
+        "objects": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.645461694717437,
+              53.91422304469288
+            ],
+            [
+              27.647871091747326,
+              53.91460071430108
+            ],
+            [
+              27.647657672882108,
+              53.91590876699631
+            ],
+            [
+              27.64628245067599,
+              53.916138357840104
+            ],
+            [
+              27.644309358329807,
+              53.91547591351494
+            ],
+            [
+              27.645461694717437,
+              53.91422304469288
+            ]
+          ]
+        ]
+      },
+      "updatedAt": 0
+    },
+    {
+      "id": "rusalochiy-dom",
+      "properties": {
+        "id": "rusalochiy-dom",
+        "name": "Дом с русалками",
+        "peace": true,
+        "description": "Старый городской дом у северного конца переправы: по обе стороны входа — русалки, окна светятся, хотя хозяев нет. Дома нет ни в одной описи: он старше моста и помнит реку по имени.",
+        "fill": "#6a7583",
+        "fillOpacity": 0.3,
+        "objects": [
+          {
+            "id": "rusalochiy-threshold",
+            "kind": "threshold",
+            "name": "Крыльцо с русалками"
+          },
+          {
+            "id": "rusalochiy-vodyanoy",
+            "kind": "npc",
+            "name": "Водяной",
+            "faction": "hosts",
+            "npcId": "vodyanoy-npc"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.6062,
+              53.8909
+            ],
+            [
+              27.6074,
+              53.8908
+            ],
+            [
+              27.6083,
+              53.8914
+            ],
+            [
+              27.6079,
+              53.8921
+            ],
+            [
+              27.6068,
+              53.8923
+            ],
+            [
+              27.6059,
+              53.8917
+            ],
+            [
+              27.6062,
+              53.8909
+            ]
+          ]
+        ]
+      },
+      "updatedAt": 0
+    },
+    {
+      "id": "volma-bridge",
+      "properties": {
+        "id": "volma-bridge",
+        "name": "Переправа через Волму",
+        "peace": true,
+        "description": "Старый мост через Волму. Фермы лежат в чёрной воде, сваи торчат как сломанные зубы. Хозяин места держит имя во рту — покуда сваи не встанут.",
+        "fill": "#41505a",
+        "fillOpacity": 0.3,
+        "objects": [
+          {
+            "id": "mostovoy-npc",
+            "kind": "npc",
+            "name": "Мостовой",
+            "portraitId": "asset:mostovoy-npc",
+            "npcId": "mostovoy-npc"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.916,
+              53.92148
+            ],
+            [
+              27.9158,
+              53.92093
+            ],
+            [
+              27.9159,
+              53.92034
+            ],
+            [
+              27.9162,
+              53.92004
+            ],
+            [
+              27.9163,
+              53.91962
+            ],
+            [
+              27.9162,
+              53.91923
+            ],
+            [
+              27.9157,
+              53.91847
+            ],
+            [
+              27.9135,
+              53.91847
+            ],
+            [
+              27.914,
+              53.91923
+            ],
+            [
+              27.9141,
+              53.91962
+            ],
+            [
+              27.914,
+              53.92004
+            ],
+            [
+              27.9137,
+              53.92034
+            ],
+            [
+              27.9136,
+              53.92093
+            ],
+            [
+              27.9138,
+              53.92148
+            ],
+            [
+              27.916,
+              53.92148
+            ]
+          ]
+        ]
+      },
+      "updatedAt": 0
+    },
+    {
+      "id": "zhmenya-home",
+      "properties": {
+        "id": "zhmenya-home",
+        "name": "Дом Жмени",
+        "peace": true,
+        "start": true,
+        "description": "Квартира. В Тенебре это двор крепости. Здесь дом и отдых.",
+        "fill": "#d48f2d",
+        "fillOpacity": 0.55,
+        "objects": [
+          {
+            "id": "home",
+            "kind": "home",
+            "name": "Дом"
+          },
+          {
+            "id": "home-board",
+            "kind": "board",
+            "name": "Доска поручений"
+          },
+          {
+            "id": "home-diretkiny",
+            "kind": "npc",
+            "name": "Диреткины",
+            "faction": "whisperers",
+            "npcId": "diretkiny-npc"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.5331657,
+              53.9352638
+            ],
+            [
+              27.5341866,
+              53.9344382
+            ],
+            [
+              27.5319317,
+              53.9335466
+            ],
+            [
+              27.5313035,
+              53.9344184
+            ],
+            [
+              27.5331657,
+              53.9352638
+            ]
+          ]
+        ]
+      },
+      "updatedAt": 0
+    },
+    {
+      "id": "staraya-roshcha",
+      "properties": {
+        "id": "staraya-roshcha",
+        "name": "Старая роща",
+        "peace": true,
+        "description": "Роща за стенами крепости, у самой воды. На старом дубе Жменя сидела часами, ещё не зная, что роща — уже Тенебра. Место помнит её шаги и открывает порог без бумаги.",
+        "fill": "#4f6f3a",
+        "fillOpacity": 0.35,
+        "objects": [
+          {
+            "id": "dub-zhmeni",
+            "kind": "threshold",
+            "name": "Старый дуб"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.5303,
+              53.933
+            ],
+            [
+              27.5311,
+              53.9329
+            ],
+            [
+              27.5317,
+              53.9336
+            ],
+            [
+              27.5312,
+              53.9344
+            ],
+            [
+              27.5299,
+              53.93445
+            ],
+            [
+              27.5295,
+              53.9338
+            ],
+            [
+              27.5303,
+              53.933
+            ]
+          ]
+        ]
+      },
+      "updatedAt": 0
+    },
+    {
+      "id": "old-archive",
+      "properties": {
+        "id": "old-archive",
+        "name": "Старый архив",
+        "peace": true,
+        "description": "Национальный исторический архив: полки стоят рядами, корешки шепчут, в читальном зале пахнет пылью и недопетым. Шептуны прячут здесь имена в описях и переплётах — там, где Комитет ищет только номера.",
+        "fill": "#6d6485",
+        "fillOpacity": 0.3,
+        "objects": [
+          {
+            "id": "archive-whisperer",
+            "kind": "npc",
+            "name": "Архивариус",
+            "faction": "whisperers",
+            "portraitId": "asset:whisperer-npc",
+            "npcId": "whisperer-npc"
+          },
+          {
+            "id": "archive-dopevshaya",
+            "kind": "npc",
+            "name": "Допевшая",
+            "faction": "whisperers",
+            "npcId": "dopevshaya-npc"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.5558,
+              53.9187
+            ],
+            [
+              27.5582,
+              53.9187
+            ],
+            [
+              27.5582,
+              53.9203
+            ],
+            [
+              27.5558,
+              53.9203
+            ],
+            [
+              27.5558,
+              53.9187
+            ]
+          ]
+        ]
+      },
+      "updatedAt": 0
+    }
+  ],
+  "factions": [
+    {
+      "id": "bookworms",
+      "name": "Чернокнижники",
+      "color": "#241b14",
+      "icon": "Scroll",
+      "updatedAt": 0
+    },
+    {
+      "id": "changers",
+      "name": "Менялы",
+      "color": "#5d5043",
+      "icon": "Coins",
+      "updatedAt": 0
+    },
+    {
+      "id": "committee",
+      "name": "Комитет",
+      "color": "#36491f",
+      "icon": "Stamp",
+      "updatedAt": 0
+    },
+    {
+      "id": "hosts",
+      "name": "Хозяева",
+      "color": "#6c4216",
+      "icon": "TreePine",
+      "updatedAt": 0
+    },
+    {
+      "id": "whisperers",
+      "name": "Шептуны",
+      "color": "#453425",
+      "icon": "BookOpen",
+      "updatedAt": 0
+    }
+  ],
+  "npcs": [
+    {
+      "id": "bookworm-npc",
+      "name": "Списанный клерк",
+      "faction": "bookworms",
+      "portraitId": "asset:bookworm-npc",
+      "updatedAt": 0
+    },
+    {
+      "id": "changer-npc",
+      "name": "Скупщик",
+      "faction": "changers",
+      "portraitId": "asset:changer-npc",
+      "updatedAt": 0
+    },
+    {
+      "id": "committee-npc",
+      "name": "Канцелярия",
+      "faction": "committee",
+      "portraitId": "asset:committee-npc",
+      "updatedAt": 0
+    },
+    {
+      "id": "committee-watcher",
+      "name": "Наблюдатель",
+      "faction": "committee",
+      "portraitId": "asset:committee-clerk-pedant",
+      "updatedAt": 0
+    },
+    {
+      "id": "committee-yard-npc",
+      "name": "Нарядчик",
+      "faction": "committee",
+      "portraitId": "asset:committee-yard-npc",
+      "updatedAt": 0
+    },
+    {
+      "id": "gravedigger-npc",
+      "name": "Могильщик",
+      "faction": "hosts",
+      "portraitId": "asset:gravedigger-npc",
+      "updatedAt": 0
+    },
+    {
+      "id": "hosts-nester",
+      "name": "Нестер",
+      "faction": "hosts",
+      "portraitId": "asset:hosts-nester",
+      "updatedAt": 0
+    },
+    {
+      "id": "line-watchman-npc",
+      "name": "Путей",
+      "faction": "hosts",
+      "portraitId": "asset:line-watchman-npc",
+      "updatedAt": 0
+    },
+    {
+      "id": "mostovoy-npc",
+      "name": "Мостовой",
+      "portraitId": "asset:mostovoy-npc",
+      "updatedAt": 0
+    },
+    {
+      "id": "whisperer-npc",
+      "name": "Архивариус",
+      "faction": "whisperers",
+      "portraitId": "asset:whisperer-npc",
+      "updatedAt": 0
+    },
+    {
+      "id": "diretkiny-npc",
+      "name": "Диреткины",
+      "faction": "whisperers",
+      "updatedAt": 0
+    },
+    {
+      "id": "dopevshaya-npc",
+      "name": "Допевшая",
+      "faction": "whisperers",
+      "updatedAt": 0
+    },
+    {
+      "id": "tara-npc",
+      "name": "Тара",
+      "faction": "changers",
+      "updatedAt": 0
+    },
+    {
+      "id": "vodyanoy-npc",
+      "name": "Водяной",
+      "faction": "hosts",
+      "updatedAt": 0
+    },
+    {
+      "id": "miller-npc",
+      "name": "Мельник",
+      "faction": "hosts",
+      "portraitId": "asset:mill-keeper-npc",
+      "updatedAt": 0
+    }
+  ],
+  "dialogues": [
+    {
+      "objectId": "committee-watcher",
+      "startId": "node_fbjh0i2i",
+      "nodes": [
+        {
+          "id": "node_fbjh0i2i",
+          "npcText": "Наблюдатель при исполнении. Пункт первый исполнен. Пункт второй: сборный пункт «Огонёк» — поставить на учёт. Здание, ворота, книгу. Приступайте.",
+          "replies": [
+            {
+              "id": "reply_bsqseieo",
+              "label": "Что в книге?",
+              "nextId": "node_ss8i67db"
+            },
+            {
+              "id": "reply_q2s6seal",
+              "label": "Закрыть книгу",
+              "nextId": "node_tpv9952j",
+              "gate": {
+                "stepDoneId": "q2-s5-bridge",
+                "stepNotDoneId": "q2-s6-camp",
+                "visibility": "hidden"
+              },
+              "effects": {
+                "setFlag": "q2-camp-self"
+              }
+            },
+            {
+              "id": "reply_q2s6refuse",
+              "label": "Отказаться",
+              "nextId": "node_7yi06n33",
+              "gate": {
+                "stepDoneId": "q2-s5-bridge",
+                "stepNotDoneId": "q2-s6-camp",
+                "visibility": "hidden"
+              },
+              "effects": {
+                "setFlag": "q2-camp-refused"
+              }
+            },
+            {
+              "id": "reply_ewnnebyc",
+              "label": "Прочие ведомства",
+              "nextId": "node_7uifwg3x"
+            }
+          ]
+        },
+        {
+          "id": "node_ss8i67db",
+          "npcText": "Книга места. Пока писана именами — место живое. По учёту подлежит закрытию. Порядок такой: бирка на ворота, номер в журнал, книга — сшить и в архив.",
+          "replies": [
+            {
+              "id": "reply_q2s6page",
+              "label": "Вырвать лист, пока не видят",
+              "nextId": "node_2490sf6f",
+              "gate": {
+                "stepDoneId": "q2-s5-bridge",
+                "stepNotDoneId": "q2-s6-camp",
+                "visibility": "hidden"
+              },
+              "effects": {
+                "giveItemId": "item-name-page",
+                "setFlag": "q2-camp-page"
+              },
+              "repeat": "once"
+            },
+            {
+              "id": "reply_9agvsyqj",
+              "label": "К пункту",
+              "nextId": "node_fbjh0i2i"
+            }
+          ]
+        },
+        {
+          "id": "node_2490sf6f",
+          "npcText": "Лист ложится в рукав. Наблюдатель не оборачивается — он записывает. Если видел, то запишет и это.",
+          "replies": [
+            {
+              "id": "reply_wsl94crt",
+              "label": "К пункту",
+              "nextId": "node_fbjh0i2i"
+            }
+          ]
+        },
+        {
+          "id": "node_tpv9952j",
+          "npcText": "(проверяет бирку на воротах, заносит номер, ровно зашивает книгу) Принято. Лагерь — пункт сборный. С этого часу здесь склад. Имена не числятся.",
+          "replies": [
+            {
+              "id": "reply_695p3os3",
+              "label": "Уйти",
+              "effects": {
+                "completeStepId": "q2-s6-camp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "node_7yi06n33",
+          "npcText": "Возражение занесено. На исполнение не влияет. (закрывает книгу сам, ровно, как крышку) Впредь — без свидетелей.",
+          "replies": [
+            {
+              "id": "reply_6ip18opa",
+              "label": "Уйти",
+              "effects": {
+                "completeStepId": "q2-s6-camp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "node_7uifwg3x",
+          "npcText": "Назовите ведомство. Без номера дела ответ является слухом. Слух в справку не кладётся.",
+          "replies": [
+            {
+              "id": "reply_9z9u2hgy",
+              "label": "Про Хозяев",
+              "nextId": "node_0yo6uqyg",
+              "gate": {
+                "knownFactionId": "hosts"
+              }
+            },
+            {
+              "id": "reply_dmtg04a9",
+              "label": "Про Шептунов",
+              "nextId": "node_mln3fw3b",
+              "gate": {
+                "knownFactionId": "whisperers"
+              }
+            },
+            {
+              "id": "reply_jvpogtcq",
+              "label": "Про Чернокнижников",
+              "nextId": "node_azt3ksh9",
+              "gate": {
+                "knownFactionId": "bookworms"
+              }
+            },
+            {
+              "id": "reply_2lxym5b7",
+              "label": "Про Менял",
+              "nextId": "node_w112z90f",
+              "gate": {
+                "knownFactionId": "changers"
+              }
+            },
+            {
+              "id": "reply_nizth4xu",
+              "label": "К пункту",
+              "nextId": "node_fbjh0i2i"
+            }
+          ]
+        },
+        {
+          "id": "node_0yo6uqyg",
+          "npcText": "Заявляют притязания на место без документов. Притязания не зарегистрированы. Место подлежит описанию. Возражения вносятся, но не отменяют.",
+          "replies": [
+            {
+              "id": "reply_jilwqisl",
+              "label": "К пункту",
+              "nextId": "node_fbjh0i2i"
+            }
+          ]
+        },
+        {
+          "id": "node_mln3fw3b",
+          "npcText": "Хранят имена вне установленной формы. Форма значения не имеет. Носитель описывается и передаётся по наряду.",
+          "replies": [
+            {
+              "id": "reply_80cvlnov",
+              "label": "К пункту",
+              "nextId": "node_fbjh0i2i"
+            }
+          ]
+        },
+        {
+          "id": "node_azt3ksh9",
+          "npcText": "Выбыли из графы. Их формуляры недействительны. Обращение к формуляру расценивается как самовольное возобновление дела.",
+          "replies": [
+            {
+              "id": "reply_p4s0rtnw",
+              "label": "К пункту",
+              "nextId": "node_fbjh0i2i"
+            }
+          ]
+        },
+        {
+          "id": "node_w112z90f",
+          "npcText": "Осуществляют оборот без лицензии. Оборот без лицензии является нарушением. Нарушение устраняется штрафом, изъятием либо обоими действиями очерёдно.",
+          "replies": [
+            {
+              "id": "reply_sotte2kr",
+              "label": "К пункту",
+              "nextId": "node_fbjh0i2i"
+            }
+          ]
+        }
+      ],
+      "updatedAt": 0
+    },
+    {
+      "objectId": "gravedigger-npc",
+      "startId": "node_x37u2gcf",
+      "nodes": [
+        {
+          "id": "node_x37u2gcf",
+          "npcText": "(не поднимает головы от лопаты; глина на руках, кепка мокрая) Работа тут не для глаз. Раз пришла — стой в стороне, дыши тише. Говори, коли пришла.",
+          "replies": [
+            {
+              "id": "reply_q2s7end",
+              "label": "Спросить о могилах",
+              "nextId": "node_391dqshy",
+              "gate": {
+                "stepDoneId": "q2-s6-camp",
+                "stepNotDoneId": "q2-s7-cemetery",
+                "visibility": "hidden"
+              }
+            },
+            {
+              "id": "reply_wlsigb06",
+              "label": "Кто вы?",
+              "nextId": "node_w7yroot3"
+            },
+            {
+              "id": "reply_7kmllzqe",
+              "label": "Про чужие силы",
+              "nextId": "node_z2ztre4u"
+            }
+          ]
+        },
+        {
+          "id": "node_391dqshy",
+          "npcText": "Комитет и сюда дошёл. Бесхозные, говорит, захоронения. Где родни не осталось — имя сняли, номер поставили. Никто не возразил: некому. А место и осиротело. Вишь, как оно: имя сотрёшь — место осиротеет.",
+          "replies": [
+            {
+              "id": "reply_xuoy8kwk",
+              "label": "А если имя чужое?",
+              "nextId": "node_61wbsiry"
+            },
+            {
+              "id": "reply_nwkru03h",
+              "label": "Постоять",
+              "nextId": "node_x37u2gcf"
+            }
+          ]
+        },
+        {
+          "id": "node_61wbsiry",
+          "npcText": "Чужое ещё тяжелее. За имя иные дорого дают. Менялы скупят. Только после такой монеты либо крест снится, либо имя. Выбирай, покуда есть что выбирать.",
+          "replies": [
+            {
+              "id": "reply_egfhv7pb",
+              "label": "Постоять",
+              "nextId": "node_x37u2gcf"
+            }
+          ]
+        },
+        {
+          "id": "node_w7yroot3",
+          "npcText": "Копаю. Считаю года. Помню, кого как звали. Это работа, а не чужой учёт. Учёт по мне пусть дома сидит.",
+          "replies": [
+            {
+              "id": "reply_1fwe8mb2",
+              "label": "Постоять",
+              "nextId": "node_x37u2gcf"
+            }
+          ]
+        },
+        {
+          "id": "node_z2ztre4u",
+          "npcText": "Про них? У каждого свой погост, у каждого свой учёт. Говори, да не громко: тут слушают землю, а не слова.",
+          "replies": [
+            {
+              "id": "reply_s4v04zni",
+              "label": "Про Комитет",
+              "nextId": "node_pseb26vb",
+              "gate": {
+                "knownFactionId": "committee"
+              }
+            },
+            {
+              "id": "reply_lt1s33xd",
+              "label": "Про Шептунов",
+              "nextId": "node_bz1wywzd",
+              "gate": {
+                "knownFactionId": "whisperers"
+              }
+            },
+            {
+              "id": "reply_pc9i1e8d",
+              "label": "Про Чернокнижников",
+              "nextId": "node_g8y6x9m8",
+              "gate": {
+                "knownFactionId": "bookworms"
+              }
+            },
+            {
+              "id": "reply_60jxukdx",
+              "label": "Про Менял",
+              "nextId": "node_ru2jtg8f",
+              "gate": {
+                "knownFactionId": "changers"
+              }
+            },
+            {
+              "id": "reply_t7pm2h1s",
+              "label": "Постоять",
+              "nextId": "node_x37u2gcf"
+            }
+          ]
+        },
+        {
+          "id": "node_pseb26vb",
+          "npcText": "Приходили с журналом. Бесхозные, говорят, захоронения. Где родни нет — имя сняли, номер поставили. Им что. У них графа.",
+          "replies": [
+            {
+              "id": "reply_ti7en2tc",
+              "label": "Постоять",
+              "nextId": "node_x37u2gcf"
+            }
+          ]
+        },
+        {
+          "id": "node_bz1wywzd",
+          "npcText": "Заходили тихие, у старых крестов стояли. Имена читали шёпотом. Добрые, стало быть. Пусть читают, покуда есть что.",
+          "replies": [
+            {
+              "id": "reply_5w8fjni4",
+              "label": "Постоять",
+              "nextId": "node_x37u2gcf"
+            }
+          ]
+        },
+        {
+          "id": "node_g8y6x9m8",
+          "npcText": "Один такой копался в церковных книгах, цифры из имён выводил. Ушёл — не попрощался. Больше не видел.",
+          "replies": [
+            {
+              "id": "reply_80ewq0wb",
+              "label": "Постоять",
+              "nextId": "node_x37u2gcf"
+            }
+          ]
+        },
+        {
+          "id": "node_ru2jtg8f",
+          "npcText": "Менялы на погост не ходят. Боятся, стало быть. Правильно боятся: тут торг не торг, тут имя.",
+          "replies": [
+            {
+              "id": "reply_kkyk2ply",
+              "label": "Постоять",
+              "nextId": "node_x37u2gcf"
+            }
+          ]
+        }
+      ],
+      "updatedAt": 0
+    },
+    {
+      "objectId": "line-watchman-npc",
+      "startId": "node_9are4vly",
+      "nodes": [
+        {
+          "id": "node_9are4vly",
+          "npcText": "(в дежурке темно; фонарь стоит на столе, чайник остыл, на гвозде — пустая петля от ключа) Стало быть, нашли. Я думал — никто не дойдёт. Садись, коли не гонишь. Чай холодный, да живой.",
+          "replies": [
+            {
+              "id": "reply_q2s3open",
+              "label": "Открыть дежурку ключом",
+              "nextId": "node_2lqqsugs",
+              "gate": {
+                "itemId": "item-switch-key",
+                "stepDoneId": "q2-s1-naryad",
+                "stepNotDoneId": "q2-s3-booth",
+                "visibility": "hidden"
+              },
+              "effects": {
+                "setFlag": "q2-putya-found"
+              }
+            },
+            {
+              "id": "reply_7c1ok4fe",
+              "label": "Что ты здесь делаешь?",
+              "nextId": "node_2lqqsugs"
+            },
+            {
+              "id": "reply_6tope3rt",
+              "label": "Что за линия?",
+              "nextId": "node_ykou4owq"
+            },
+            {
+              "id": "reply_3m6lr0mt",
+              "label": "Что будет с мостом?",
+              "nextId": "node_3cbcj2qk"
+            },
+            {
+              "id": "reply_kfqum58n",
+              "label": "Про лагерь",
+              "nextId": "node_u31fvtvk"
+            },
+            {
+              "id": "reply_7s8al6pb",
+              "label": "Про чужие дворы",
+              "nextId": "node_up3aeol5"
+            }
+          ]
+        },
+        {
+          "id": "node_2lqqsugs",
+          "npcText": "(подвигает кружку) С весны тут. А как было? Мост лёг — они бумагу привезли: «объект утрачен, подпиши». Я сорок лет по этой колее, я по ней детей возил. Он живой лежит, на сваях держится, а его хоронить. Не подписал. Меня в графу: сторож, не вернулся. Ну, я и не вернулся — сюда, на станцию, где колея начиналась. Ключ менялам оставил, закладкой. Думал: вернусь, открою.",
+          "replies": [
+            {
+              "id": "reply_oca7g9lh",
+              "label": "Посидеть молча",
+              "nextId": "node_9are4vly"
+            }
+          ]
+        },
+        {
+          "id": "node_ykou4owq",
+          "npcText": "Дорога первая. Детская. По ней ребят возили — от города до Волмы, до лагеря. Вагончики маленькие, стрелки настоящие, свистки. Смех стоял до Пущи. А после линию укоротили. Кольцо в парке оставили — от детей. Восточный хвост — под лес. Рельсы те же. Это у них не ломать, это у них переписывать.",
+          "replies": [
+            {
+              "id": "reply_6as89shk",
+              "label": "Посидеть молча",
+              "nextId": "node_9are4vly"
+            }
+          ]
+        },
+        {
+          "id": "node_3cbcj2qk",
+          "npcText": "Мост не пал — лёг. Хозяин его, Мостовой, имя держит: имя у него во рту, покуда сваи под ним. Номер ему сказали — он и лёг: место с номером не держит. Лес, что по нумерации гнали, встал у свай — реку забило, воды не слыхать. Расчистишь затор — он тебя услышит. А новая переправа — это имя из него вынуть. (смотрит на печать) Печать-то жжётся? То-то. В кармане держи, а в голову не пускай.",
+          "replies": [
+            {
+              "id": "reply_jbj6gq2r",
+              "label": "Посидеть молча",
+              "nextId": "node_9are4vly"
+            }
+          ]
+        },
+        {
+          "id": "node_u31fvtvk",
+          "npcText": "Лагерь стоит. Ворота целы, столовая цела, статуя у площади — читающий, с книгой. Там имена: кто приезжал, тот в книге. Пока книга открыта — лагерь живой, слышишь? Фонарики по вечерам, песни. Я туда хожу. Не для Комитета — для себя. Просьба будет: не дай книгу закрыть. Сам не могу — я списанный.",
+          "replies": [
+            {
+              "id": "reply_4a8d3j97",
+              "label": "Посидеть молча",
+              "nextId": "node_9are4vly"
+            }
+          ]
+        },
+        {
+          "id": "node_up3aeol5",
+          "npcText": "Сказывай, кого видала. Только негромко: они на слова липкие. А я послушаю — мне тут всё равно делать нечего.",
+          "replies": [
+            {
+              "id": "reply_hx2whr4k",
+              "label": "Про Комитет",
+              "nextId": "node_a9zodp1x",
+              "gate": {
+                "knownFactionId": "committee"
+              }
+            },
+            {
+              "id": "reply_gl43zx43",
+              "label": "Про Шептунов",
+              "nextId": "node_et539s22",
+              "gate": {
+                "knownFactionId": "whisperers"
+              }
+            },
+            {
+              "id": "reply_9bgnhjo0",
+              "label": "Про Чернокнижников",
+              "nextId": "node_tpqf2odz",
+              "gate": {
+                "knownFactionId": "bookworms"
+              }
+            },
+            {
+              "id": "reply_m125q45j",
+              "label": "Про Менял",
+              "nextId": "node_dg5apjgo",
+              "gate": {
+                "knownFactionId": "changers"
+              }
+            },
+            {
+              "id": "reply_l15tr4kh",
+              "label": "Посидеть молча",
+              "nextId": "node_9are4vly"
+            }
+          ]
+        },
+        {
+          "id": "node_a9zodp1x",
+          "npcText": "Комитет? У них путь — строка в журнале. Я тридцать лет по шпалам, а им — строка. Не злись на них, девка. Бойся. Они ровно пишут.",
+          "replies": [
+            {
+              "id": "reply_fquvcecm",
+              "label": "Посидеть молча",
+              "nextId": "node_9are4vly"
+            }
+          ]
+        },
+        {
+          "id": "node_et539s22",
+          "npcText": "Эти тихие. Имя в нитку зашьют, в песню положат. Стало быть, живые покуда. Только я в песни не верю. Я в рельсы верю.",
+          "replies": [
+            {
+              "id": "reply_irvitcro",
+              "label": "Посидеть молча",
+              "nextId": "node_9are4vly"
+            }
+          ]
+        },
+        {
+          "id": "node_tpqf2odz",
+          "npcText": "Клерк один тут ходил, цифры во сне считал. Нет его. Штабель посчитал — себя не посчитал. Не вспоминай их вслух.",
+          "replies": [
+            {
+              "id": "reply_uw0e47t3",
+              "label": "Посидеть молча",
+              "nextId": "node_9are4vly"
+            }
+          ]
+        },
+        {
+          "id": "node_dg5apjgo",
+          "npcText": "Менялы ключ мой держали. Отдали — тебе, стало быть. Считай, я в расчёте. А с ними не торгуйся: они цену знают, а ты — нет.",
+          "replies": [
+            {
+              "id": "reply_wy831859",
+              "label": "Посидеть молча",
+              "nextId": "node_9are4vly"
+            }
+          ]
+        }
+      ],
+      "updatedAt": 0
+    },
+    {
+      "objectId": "mostovoy-npc",
+      "startId": "node_pxdgtqpt",
+      "nodes": [
+        {
+          "id": "node_pxdgtqpt",
+          "npcText": "(из-под воды поднимается мокрое дерево; голос — как вода в коряге) С номером пришла. Вижу. Бумагу брось — тогда говори. Я не помер — лёг. Сваи мои, вода моя. Лес за мной встал, вода не идёт — и меня не слышно. Имя у меня. Во рту. Держу, покуда сваи подо мной.",
+          "replies": [
+            {
+              "id": "reply_q2s5self",
+              "label": "Назвать имя вслух",
+              "nextId": "node_0y1bfv0x",
+              "gate": {
+                "stepDoneId": "q2-s4-jam",
+                "stepNotDoneId": "q2-s5-bridge",
+                "visibility": "hidden"
+              },
+              "effects": {
+                "giveItemId": "item-name-plate",
+                "setFlag": "q2-bridge-self"
+              }
+            },
+            {
+              "id": "reply_q2s5refuse",
+              "label": "Промолчать",
+              "nextId": "node_vpfpabxp",
+              "gate": {
+                "stepDoneId": "q2-s4-jam",
+                "stepNotDoneId": "q2-s5-bridge",
+                "visibility": "hidden"
+              },
+              "effects": {
+                "setFlag": "q2-bridge-refused"
+              }
+            },
+            {
+              "id": "reply_qnjv73nz",
+              "label": "Кто ты?",
+              "nextId": "node_ovd3ce8p"
+            },
+            {
+              "id": "reply_e41xwsbj",
+              "label": "Почему пал мост?",
+              "nextId": "node_d2kd9svp"
+            },
+            {
+              "id": "reply_wuubmbfs",
+              "label": "Про чужие силы",
+              "nextId": "node_ux3702p4"
+            }
+          ]
+        },
+        {
+          "id": "node_ovd3ce8p",
+          "npcText": "Хозяин переправы. Имя было — да сплыло. Кто по мне ходил, тот меня не звал. Я не сержусь. Я стою.",
+          "replies": [
+            {
+              "id": "reply_e96dpi79",
+              "label": "Отойти",
+              "nextId": "node_pxdgtqpt"
+            }
+          ]
+        },
+        {
+          "id": "node_d2kd9svp",
+          "npcText": "Стоял сто лет. Имя держало. Пришли учётчики: бирку навесили, номер сказали. Я лёг: место с номером не держит. Счёт чужой погнал лес — тот и встал за мной. Не вода меня взяла. Номер.",
+          "replies": [
+            {
+              "id": "reply_577s09nw",
+              "label": "Отойти",
+              "nextId": "node_pxdgtqpt"
+            }
+          ]
+        },
+        {
+          "id": "node_0y1bfv0x",
+          "npcText": "(раскрывает корни; железная плашка падает в мокрый песок; из воды встают ровные новые фермы) Сказала. Тихо сказала, а услышали все. Теперь я — железо. Стою ровно. Стою пусто. Бери имя, покуда тёплое. До канцелярии донесёшь — а там уж как.",
+          "replies": [
+            {
+              "id": "reply_mutwwjoq",
+              "label": "Уйти",
+              "effects": {
+                "completeStepId": "q2-s5-bridge"
+              }
+            }
+          ]
+        },
+        {
+          "id": "node_vpfpabxp",
+          "npcText": "(наблюдатель отстраняет тебя плечом и читает номер — ровно, без запинки; вода замирает; мост встаёт по бумаге, прямо и пусто) Молчишь. Умно. Только бумага не молчит. Я — по бумаге. До первой воды. Иди, у тебя конверт.",
+          "replies": [
+            {
+              "id": "reply_w90qjg8k",
+              "label": "Уйти",
+              "effects": {
+                "completeStepId": "q2-s5-bridge"
+              }
+            }
+          ]
+        },
+        {
+          "id": "node_ux3702p4",
+          "npcText": "(вода стоит; он слушает, не перебивая) Говори. Мне выдавать нечем — ни имени, ни бумаги. Не бойся.",
+          "replies": [
+            {
+              "id": "reply_898ttv8e",
+              "label": "Про Комитет",
+              "nextId": "node_7oiukrap",
+              "gate": {
+                "knownFactionId": "committee"
+              }
+            },
+            {
+              "id": "reply_j9hcwebb",
+              "label": "Про Хозяев",
+              "nextId": "node_gkpu81ro",
+              "gate": {
+                "knownFactionId": "hosts"
+              }
+            },
+            {
+              "id": "reply_ripybkg1",
+              "label": "Про Шептунов",
+              "nextId": "node_k91sl1t4",
+              "gate": {
+                "knownFactionId": "whisperers"
+              }
+            },
+            {
+              "id": "reply_qlb7glp8",
+              "label": "Про Чернокнижников",
+              "nextId": "node_15d5tfv4",
+              "gate": {
+                "knownFactionId": "bookworms"
+              }
+            },
+            {
+              "id": "reply_8mo4zaql",
+              "label": "Про Менял",
+              "nextId": "node_ofvje09r",
+              "gate": {
+                "knownFactionId": "changers"
+              }
+            },
+            {
+              "id": "reply_kc9w3gh0",
+              "label": "Отойти",
+              "nextId": "node_pxdgtqpt"
+            }
+          ]
+        },
+        {
+          "id": "node_7oiukrap",
+          "npcText": "Учёт. Номер. Бирка. Они думают: имя — это запись. Имя — это я. Запишут чужое — стану чужим. Уже почти.",
+          "replies": [
+            {
+              "id": "reply_xl0ydasa",
+              "label": "Отойти",
+              "nextId": "node_pxdgtqpt"
+            }
+          ]
+        },
+        {
+          "id": "node_gkpu81ro",
+          "npcText": "Свои. Молчат больше. Мужик с топором приходил, имя моё знал — да не сказал. Умный. Ты тоже умная. Или нет.",
+          "replies": [
+            {
+              "id": "reply_kvtzc4jz",
+              "label": "Отойти",
+              "nextId": "node_pxdgtqpt"
+            }
+          ]
+        },
+        {
+          "id": "node_k91sl1t4",
+          "npcText": "Прячут имена. Хорошо прячут — я их не чую. Пусть прячут. Авось и моё спрячут, когда сказано будет.",
+          "replies": [
+            {
+              "id": "reply_xx3a1wlm",
+              "label": "Отойти",
+              "nextId": "node_pxdgtqpt"
+            }
+          ]
+        },
+        {
+          "id": "node_15d5tfv4",
+          "npcText": "Кормят цифры. Цифра цифру ест, а после за меня примется. Не подпускай их к своей бумаге. И к чужой не подпускай.",
+          "replies": [
+            {
+              "id": "reply_3an3aqda",
+              "label": "Отойти",
+              "nextId": "node_pxdgtqpt"
+            }
+          ]
+        },
+        {
+          "id": "node_ofvje09r",
+          "npcText": "Торгуют именами. Моё не купили: дорого. А чужое купят. Кто имя продал — тот уже не стоит, тот висит.",
+          "replies": [
+            {
+              "id": "reply_sxspurz4",
+              "label": "Отойти",
+              "nextId": "node_pxdgtqpt"
+            }
+          ]
+        }
+      ],
+      "updatedAt": 0
+    },
+    {
+      "objectId": "bookworm-npc",
+      "startId": "node_1f6os3v8",
+      "nodes": [
+        {
+          "id": "node_1f6os3v8",
+          "npcText": "Добрый день. Дело… дело, к сожалению, без номера. Это поправимо. Позвольте начать с пустого поля. Скажите любую цифру — и мы посмотрим, что откроется. Не торопитесь. Я никуда не спешу.",
+          "replies": [
+            {
+              "id": "reply_vynzphap",
+              "label": "Дать цифру",
+              "nextId": "node_rezjevx4"
+            },
+            {
+              "id": "reply_6n3r5een",
+              "label": "Кто я в деле?",
+              "nextId": "node_t2khqu45"
+            },
+            {
+              "id": "reply_h7wveo8a",
+              "label": "О смежных фондах",
+              "nextId": "node_azdnizgg"
+            },
+            {
+              "id": "reply_0abgbqlj",
+              "label": "Спросить, чем вы заняты",
+              "nextId": "node_h6z8j4ou"
+            }
+          ]
+        },
+        {
+          "id": "node_t2khqu45",
+          "npcText": "В деле вы — чистый бланк. Это редкость, и я прошу отнестись к ней бережно. Никому не позволяйте поставить вам номер первым. Первый номер имеет свойство дописывать себя сам. Спокойно. Просто не позволяйте.",
+          "replies": [
+            {
+              "id": "reply_kh2vgupb",
+              "label": "Хорошо",
+              "nextId": "node_1f6os3v8"
+            }
+          ]
+        },
+        {
+          "id": "node_h6z8j4ou",
+          "npcText": "Я служу учёту. Учёт — вещь живая, если кормить его вниманием. Повторение — тоже своего рода подпись. Ничего страшного. Обычная канцелярская работа. Продолжим.",
+          "replies": [
+            {
+              "id": "reply_hd73f1eh",
+              "label": "Продолжим",
+              "nextId": "node_1f6os3v8"
+            }
+          ]
+        },
+        {
+          "id": "node_rezjevx4",
+          "npcText": "Хорошо. Цифру я записал. Теперь повторите её ещё раз, вслух. Не бойтесь. Мы просто убедимся, что она держится.",
+          "replies": [
+            {
+              "id": "reply_dgwvdxec",
+              "label": "Ещё раз",
+              "nextId": "node_aba1ow6z"
+            },
+            {
+              "id": "reply_7tgis3ae",
+              "label": "Достаточно",
+              "nextId": "node_1f6os3v8"
+            }
+          ]
+        },
+        {
+          "id": "node_aba1ow6z",
+          "npcText": "Держится. Прекрасно. Ещё раз — и, пожалуй, довольно. На сегодня. Благодарю. Вы очень… удобный респондент. Приходите ещё. Я запомню цифру.",
+          "replies": [
+            {
+              "id": "reply_7mjl9ax7",
+              "label": "До свидания",
+              "nextId": "node_1f6os3v8"
+            }
+          ]
+        },
+        {
+          "id": "node_azdnizgg",
+          "npcText": "Смежные фонды. Назовите номер дела. Нет номера? Тогда хотя бы слух. Слух держится хуже. Цифра держится лучше.",
+          "replies": [
+            {
+              "id": "reply_qwkrnd3s",
+              "label": "Про Комитет",
+              "nextId": "node_dlb9mlxp",
+              "gate": {
+                "knownFactionId": "committee"
+              }
+            },
+            {
+              "id": "reply_ozammjto",
+              "label": "Про Хозяев",
+              "nextId": "node_9l5apo91",
+              "gate": {
+                "knownFactionId": "hosts"
+              }
+            },
+            {
+              "id": "reply_r4de2u5c",
+              "label": "Про Шептунов",
+              "nextId": "node_mvy6xsqc",
+              "gate": {
+                "knownFactionId": "whisperers"
+              }
+            },
+            {
+              "id": "reply_ojm0k09e",
+              "label": "Про Менял",
+              "nextId": "node_zzfymjkc",
+              "gate": {
+                "knownFactionId": "changers"
+              }
+            },
+            {
+              "id": "reply_55wmhexk",
+              "label": "К формуляру",
+              "nextId": "node_1f6os3v8"
+            }
+          ]
+        },
+        {
+          "id": "node_dlb9mlxp",
+          "npcText": "Наши бывшие. Они учат считать — я учу вслушиваться. Разница невелика. Ведомства обмениваются формулярами. Это нормально.",
+          "replies": [
+            {
+              "id": "reply_ljppfplv",
+              "label": "К формуляру",
+              "nextId": "node_1f6os3v8"
+            }
+          ]
+        },
+        {
+          "id": "node_9l5apo91",
+          "npcText": "Живое имя отталкивает чернила. Мёртвый инвентарь соглашается быстрее. Я предпочитаю согласие. Оно надёжнее.",
+          "replies": [
+            {
+              "id": "reply_h7ql1b0k",
+              "label": "К формуляру",
+              "nextId": "node_1f6os3v8"
+            }
+          ]
+        },
+        {
+          "id": "node_mvy6xsqc",
+          "npcText": "Прячут. Спрятанное — неуничтоженное. Работает, но скучно. Признаю: скучно.",
+          "replies": [
+            {
+              "id": "reply_2ns4akku",
+              "label": "К формуляру",
+              "nextId": "node_1f6os3v8"
+            }
+          ]
+        },
+        {
+          "id": "node_zzfymjkc",
+          "npcText": "Сосуды и обрывки. Полезны как тара. Внутрь тары ставят цифры. Начинается всё с дна. С дна, я говорю.",
+          "replies": [
+            {
+              "id": "reply_wkrdt5lr",
+              "label": "К формуляру",
+              "nextId": "node_1f6os3v8"
+            }
+          ]
+        }
+      ],
+      "updatedAt": 0
+    },
+    {
+      "objectId": "changer-npc",
+      "startId": "node_5b3p0ov3",
+      "nodes": [
+        {
+          "id": "node_5b3p0ov3",
+          "npcText": "(хлопает по прилавку) О, живая. Пропуск есть? Нет пропуска. Не беда — у меня и без пропуска торгуют, на то и рынок. Слушаю. Сколько за разговор? Шучу. Или нет. Начинай.",
+          "replies": [
+            {
+              "id": "reply_q1s6key0",
+              "label": "Про сторожа и ключ",
+              "nextId": "node_q1s6brdg",
+              "gate": {
+                "stepDoneId": "q1-s5-yard",
+                "stepNotDoneId": "q1-s6-gauge",
+                "visibility": "hidden"
+              }
+            },
+            {
+              "id": "reply_q2sell0",
+              "label": "Продать имя",
+              "nextId": "node_3kwtjx0h",
+              "gate": {
+                "itemId": "item-name-plate",
+                "stepDoneId": "q2-s5-bridge",
+                "stepNotDoneId": "q2-s8-report",
+                "notFlag": "q2-plate-sold",
+                "visibility": "hidden"
+              },
+              "effects": {
+                "giveItemId": "item-luck-coin",
+                "takeItemId": "item-name-plate",
+                "setFlag": "q2-plate-sold",
+                "adjustRep": {
+                  "factionId": "changers",
+                  "delta": 15
+                }
+              },
+              "repeat": "once"
+            },
+            {
+              "id": "reply_wed9py2k",
+              "label": "Сколько?",
+              "nextId": "node_f2o0zemv"
+            },
+            {
+              "id": "reply_9gk2kdhs",
+              "label": "Кто я вам?",
+              "nextId": "node_knqm65tv"
+            },
+            {
+              "id": "reply_6upac73n",
+              "label": "Про другие лавки",
+              "nextId": "node_gr0gbsiy"
+            },
+            {
+              "id": "reply_q4s3chg0",
+              "label": "Сдать заклад из дома",
+              "nextId": "node_q4s3done",
+              "gate": {
+                "stepDoneId": "q4-s2-house",
+                "stepNotDoneId": "q4-s3-report",
+                "visibility": "hidden"
+              },
+              "effects": {
+                "adjustRep": {
+                  "factionId": "changers",
+                  "delta": 15
+                }
+              }
+            },
+            {
+              "id": "reply_x41ldjes",
+              "label": "Спросить про Фигуру",
+              "nextId": "node_41jdafhv"
+            },
+            {
+              "id": "reply_27e1uqiv",
+              "label": "Уйти"
+            }
+          ]
+        },
+        {
+          "id": "node_q4s3done",
+          "npcText": "(вертит ключ, нюхает) Свечой пахнет. Живой был дом, а хозяина нет. Значит, товар мой, а учёт — ваш. Канцелярия пусть сама разбирается, я туда не ходок. Коли взялся — держи монету за находку.",
+          "replies": [
+            {
+              "id": "reply_q4s3back",
+              "label": "К прилавку",
+              "nextId": "node_5b3p0ov3"
+            }
+          ]
+        },
+        {
+          "id": "node_f2o0zemv",
+          "npcText": "За просто так — молчу. За мелочь — скажу, где вода близко. За хорошие деньги — скажу, где имя лежит. По рукам? Не ломай цену, я торгуюсь с утра и потому злой.",
+          "replies": [
+            {
+              "id": "reply_dkbajv6k",
+              "label": "Дорого",
+              "nextId": "node_5b3p0ov3"
+            }
+          ]
+        },
+        {
+          "id": "node_knqm65tv",
+          "npcText": "Клиент. Платёжеспособный, надеюсь. Ревизию не таскаешь? Молодец, уважаю. Печать сюда не суй — пока не купила. Купишь — тогда можно. Немного. И не в долг.",
+          "replies": [
+            {
+              "id": "reply_0dwih81u",
+              "label": "Ладно",
+              "nextId": "node_5b3p0ov3"
+            }
+          ]
+        },
+        {
+          "id": "node_41jdafhv",
+          "npcText": "(смотрит мимо) Фигура? Не знаю такую. Не покупала у меня ничего и не продавала. Первый раз слышу. (Считает что-то на пальцах.) А что надо-то?",
+          "replies": [
+            {
+              "id": "reply_q4s1ask0",
+              "label": "Ключи не приносили?",
+              "nextId": "node_scxu809n",
+              "gate": {
+                "stepDoneId": "q1-s6-gauge",
+                "stepNotDoneId": "q4-s1-ask",
+                "visibility": "hidden"
+              },
+              "effects": {
+                "startQuestId": "quest-postoyanny-pokupatel"
+              }
+            },
+            {
+              "id": "reply_czwq25iy",
+              "label": "Забудь",
+              "nextId": "node_5b3p0ov3"
+            }
+          ]
+        },
+        {
+          "id": "node_scxu809n",
+          "npcText": "(щурится, качает головой) Ключами не торгуют: их не продают, их теряют. Не приносили и не спрашивали — я бы запомнил, у меня память на товар. (Пауза. Ниже.) А вот покупатель был — в сумерки ходит, лица не кажет, торг не принимает: за мёртвый номер платит вдвое. «Кто у вас на дне лежит», спрашивал. Может, твоя Фигура, а может — кто другой: лица-то у обоих нет. Дом его: в городе, на отшибе, окнами в пустырь. Товар я придержал, а он третий месяц нейдёт. Сходи глянь, жив ли. Коли найдёшь — в канцелярию занеси: я туда не ходок, а им такие дома интересны.",
+          "replies": [
+            {
+              "id": "reply_ic1p4l9u",
+              "label": "Ещё про Фигуру",
+              "nextId": "node_41jdafhv"
+            },
+            {
+              "id": "reply_9qispo2d",
+              "label": "К прилавку",
+              "nextId": "node_5b3p0ov3"
+            }
+          ]
+        },
+        {
+          "id": "node_8e2ivozg",
+          "npcText": "Погуляй, приценись. Я никуда не убегаю — мне за прилавком платят.",
+          "replies": [
+            {
+              "id": "reply_wnf9f9t8",
+              "label": "Вернуться",
+              "nextId": "node_5b3p0ov3"
+            }
+          ]
+        },
+        {
+          "id": "node_gr0gbsiy",
+          "npcText": "Конкуренты, клиенты, менты. Кого вешаем на весы? Почём спрашиваем?",
+          "replies": [
+            {
+              "id": "reply_lhf4fjve",
+              "label": "Про Комитет",
+              "nextId": "node_ut7ymcx6",
+              "gate": {
+                "knownFactionId": "committee"
+              }
+            },
+            {
+              "id": "reply_2p37cjbi",
+              "label": "Про Хозяев",
+              "nextId": "node_xxtpuiar",
+              "gate": {
+                "knownFactionId": "hosts"
+              }
+            },
+            {
+              "id": "reply_5bbjns5w",
+              "label": "Про Шептунов",
+              "nextId": "node_5mv4dsoq",
+              "gate": {
+                "knownFactionId": "whisperers"
+              }
+            },
+            {
+              "id": "reply_6lswbze0",
+              "label": "Про Чернокнижников",
+              "nextId": "node_2ig0jfrx",
+              "gate": {
+                "knownFactionId": "bookworms"
+              }
+            },
+            {
+              "id": "reply_85r3q1ey",
+              "label": "К прилавку",
+              "nextId": "node_5b3p0ov3"
+            }
+          ]
+        },
+        {
+          "id": "node_q1s6brdg",
+          "npcText": "(щурится) Сторож? Был сторож. Ходил тут, ключом позвякивал. А по весне пришли с участка с бумагой: мост, мол, утрачен, подпиши. Он не подписал. Сказал: «он живой лежит, а вы его хороните». После того оставил заклад — ключ, — и ушёл по колее на восток, к своей станции. Не вернулся. Заклад мой, по-честному: не вернулся — вещь осталась. Меняю: ключ за жестянку. Мёртвый номер — ходовой товар. Комитет такие выкупает, а не они — чернокнижники возьмут.",
+          "replies": [
+            {
+              "id": "reply_q1s6paid",
+              "label": "Отдать бирку за ключ",
+              "nextId": "node_q1s6done",
+              "gate": {
+                "itemId": "item-bridge-tag",
+                "stepNotDoneId": "q1-s6-gauge",
+                "visibility": "hidden"
+              },
+              "effects": {
+                "giveItemId": "item-switch-key",
+                "takeItemId": "item-bridge-tag",
+                "setFlag": "q1-tag-sold"
+              }
+            },
+            {
+              "id": "reply_p0vp6tvh",
+              "label": "Дорого",
+              "nextId": "node_5b3p0ov3"
+            }
+          ]
+        },
+        {
+          "id": "node_q1s6done",
+          "npcText": "(вертит жестянку) Девятнадцать. У них один номер на всё. Ладно, держи ключ, он твой. Слушай дальше: сторож шёл по колее до самой воды. Путь под ним был цел — я смотрел, мне за это платят. Дальше не знаю, не моё дело. Иди, рапортуй: линия ходит.",
+          "replies": [
+            {
+              "id": "reply_0xhb6gbp",
+              "label": "Бывай",
+              "nextId": "node_5b3p0ov3"
+            }
+          ]
+        },
+        {
+          "id": "node_3kwtjx0h",
+          "npcText": "(катает плашку по прилавку, читает по складам) Имя. Ещё тёплое. Пять за него не дам, а монету дам. На удачу. Паспорта на имя не выдаю: потеряешь — моё не вернёшь. И не свети, покуда канцелярия не спросит.",
+          "replies": [
+            {
+              "id": "reply_lnrzq6xj",
+              "label": "К прилавку",
+              "nextId": "node_5b3p0ov3"
+            }
+          ]
+        },
+        {
+          "id": "node_ut7ymcx6",
+          "npcText": "Пропуска дорогие, копии дешевле. Закон — это что сегодня покупают. Завтра купят другое. Я торгую сегодняшним. Налом.",
+          "replies": [
+            {
+              "id": "reply_qhynwpqy",
+              "label": "К прилавку",
+              "nextId": "node_5b3p0ov3"
+            }
+          ]
+        },
+        {
+          "id": "node_xxtpuiar",
+          "npcText": "Не торгуют. Потому вещи у них редкие и злые. Беру, ежели само не кусается. Кусается — наценка. Иногда не беру: зубы дороже товара.",
+          "replies": [
+            {
+              "id": "reply_6vhuu065",
+              "label": "К прилавку",
+              "nextId": "node_5b3p0ov3"
+            }
+          ]
+        },
+        {
+          "id": "node_5mv4dsoq",
+          "npcText": "Слова красивые, цена дырявая. Сказку на весы не положишь. Лоскут с историей — иногда, если история короткая и на ночь не кусается. Оптом такие не беру.",
+          "replies": [
+            {
+              "id": "reply_hv1z3162",
+              "label": "К прилавку",
+              "nextId": "node_5b3p0ov3"
+            }
+          ]
+        },
+        {
+          "id": "node_2ig0jfrx",
+          "npcText": "«Счастливые номера» не бери. Долг из такой цифры сам приходит и садится на шею. Шея потом не продаётся. Почти. Почти — это наценка, не товар.",
+          "replies": [
+            {
+              "id": "reply_qlxmh2ze",
+              "label": "К прилавку",
+              "nextId": "node_5b3p0ov3"
+            }
+          ]
+        }
+      ],
+      "updatedAt": 0
+    },
+    {
+      "objectId": "hosts-nester",
+      "startId": "node_8rt2q4e8",
+      "nodes": [
+        {
+          "id": "node_8rt2q4e8",
+          "npcText": "(отставляет топор, сплёвывает) Стой где стоишь. Бумагой от тебя несёт, ажно нос воротит. Хвоей не пахнешь. Ну? Говори, да по делу — у меня штабель непочатый, твою мать.",
+          "replies": [
+            {
+              "id": "reply_q1s2ask0",
+              "label": "О мосте и лесе",
+              "nextId": "node_q1s2brd0",
+              "gate": {
+                "stepDoneId": "q1-s1-chancery",
+                "stepNotDoneId": "q1-s2-lumberyard",
+                "visibility": "hidden"
+              }
+            },
+            {
+              "id": "reply_q1mill50",
+              "label": "Хранитель мельницы",
+              "nextId": "node_q1miln00",
+              "gate": {
+                "reputationMin": 500
+              }
+            },
+            {
+              "id": "reply_qe4r8mpu",
+              "label": "Кто я тебе?",
+              "nextId": "node_rhifkwdk"
+            },
+            {
+              "id": "reply_lyg0ic5f",
+              "label": "Помочь с дровами?",
+              "nextId": "node_pch7j5ep"
+            },
+            {
+              "id": "reply_9vx599ya",
+              "label": "Что за лес кругом?",
+              "nextId": "node_dwtg283e"
+            },
+            {
+              "id": "reply_q3s1ask0",
+              "label": "Про залом на реке",
+              "nextId": "node_xqj3ducq",
+              "gate": {
+                "levelMin": 2
+              },
+              "repeat": "once"
+            },
+            {
+              "id": "reply_axtd07nt",
+              "label": "Про чужие дворы",
+              "nextId": "node_uix9rpt5"
+            }
+          ]
+        },
+        {
+          "id": "node_rhifkwdk",
+          "npcText": "Моя? Да нет, с чего. Комитетская? Тоже нет — у них на тебе ни номера, ни бирки. Пока дворы не нумеруешь, проходи. Начнёшь — вот этой вот рукой и выгоню. Слышишь? Не грожусь, дело говорю.",
+          "replies": [
+            {
+              "id": "reply_36gnhk9d",
+              "label": "Ладно",
+              "nextId": "node_8rt2q4e8"
+            }
+          ]
+        },
+        {
+          "id": "node_pch7j5ep",
+          "npcText": "Дров наколешь — пущу к печи, обогреешься. Не наколешь — у порога стой, мне тут не постоялый двор. По-честному, без обману. По рукам?",
+          "replies": [
+            {
+              "id": "reply_t7ti0usz",
+              "label": "Молча взять топор",
+              "nextId": "node_8rt2q4e8"
+            },
+            {
+              "id": "reply_7q80xn03",
+              "label": "В другой раз",
+              "nextId": "node_8rt2q4e8"
+            }
+          ]
+        },
+        {
+          "id": "node_dwtg283e",
+          "npcText": "Лес был. Хозяин был. Потом пришли, сложили лес в штабеля, на каждый сучок бирку навесили. Бирка не дерево, запомни. Дерево — оно дерево и есть, куды его ни пиши. И дорогу эту не под лес клали, слышь. Под ребятню: вагончики, свистки, смех до самой Волмы. Ныне лесовоз — а лес молчит.",
+          "replies": [
+            {
+              "id": "reply_bzn6eetp",
+              "label": "Понятно",
+              "nextId": "node_8rt2q4e8"
+            }
+          ]
+        },
+        {
+          "id": "node_uix9rpt5",
+          "npcText": "Чужие дворы. Кого видала — того и сказывай. Не видала — не болтай, трепачей не жалую.",
+          "replies": [
+            {
+              "id": "reply_kwxqs8yz",
+              "label": "Про Комитет",
+              "nextId": "node_1km1wuj1",
+              "gate": {
+                "knownFactionId": "committee"
+              }
+            },
+            {
+              "id": "reply_wr47wjsy",
+              "label": "Про Шептунов",
+              "nextId": "node_86ywh2bj",
+              "gate": {
+                "knownFactionId": "whisperers"
+              }
+            },
+            {
+              "id": "reply_nzmphf0n",
+              "label": "Про Чернокнижников",
+              "nextId": "node_6f07zhkm",
+              "gate": {
+                "knownFactionId": "bookworms"
+              }
+            },
+            {
+              "id": "reply_atyyz2w2",
+              "label": "Про Менял",
+              "nextId": "node_t2bdsjna",
+              "gate": {
+                "knownFactionId": "changers"
+              }
+            },
+            {
+              "id": "reply_wcb399n1",
+              "label": "Ладно, будет",
+              "nextId": "node_8rt2q4e8"
+            }
+          ]
+        },
+        {
+          "id": "node_xqj3ducq",
+          "npcText": "(вытирает руки) Ещё дело есть, коли не боишься. По воде ниже старой залом стоит: кости рыбы через русло, и в тех костях топляк. Мёртвое дерево, плотное — железо его не берёт, а свае оно родня. Принеси кусок. Да глянь, что поверх застряло: сказывали, лес с бирками там встал. Нумерованного не трогай, оно чужое. С дорогой к русалочьему крыльцу не промахнёшься: там перевозчик жил, он место знал.",
+          "replies": [
+            {
+              "id": "reply_vd4018h0",
+              "label": "Ладно, будет",
+              "nextId": "node_8rt2q4e8"
+            }
+          ]
+        },
+        {
+          "id": "node_q1s2brd0",
+          "npcText": "(отставляет топор) Мост-то? Не пал он. Лёг. Это у них в бумаге «утрата», а по реке — пролёт на сваи сдался, настил в воду ушёл. Обломков мне полный двор свели — настил разобранный, — и велят новый ладить из них же. Слушай сюда. Мост стоял сто лет, потому что имя было. Приехали с участка: бирку навесили, номер сказали вслух. Место с номером не держит, слышишь. Погнали лес по нумерации — сваи и просели. Не вода взяла. Номер.",
+          "replies": [
+            {
+              "id": "reply_q1s2need",
+              "label": "Что нужно для леса?",
+              "nextId": "node_q1s2nnd0"
+            },
+            {
+              "id": "reply_vjdc3l04",
+              "label": "Ладно, будет",
+              "nextId": "node_8rt2q4e8"
+            }
+          ]
+        },
+        {
+          "id": "node_q1s2nnd0",
+          "npcText": "Два дела. Инструмент в готовность — это по вашей бумаге, да? То-то топор тупой. Железо по топляку не идёт: топляк мёртвый, в нём песок да каменья. Кремень нужен с порога. Не с любого: с водяного, что под порогом лежит. Вода его катала, он и гладит. Принеси. И бумага: лес нужен живой, с дальней лесосеки, где имена целы. А пока старый мост у них в бумаге, нового леса мне не дадут.",
+          "replies": [
+            {
+              "id": "reply_djytjzy3",
+              "label": "Понял",
+              "nextId": "node_8rt2q4e8"
+            }
+          ]
+        },
+        {
+          "id": "node_q1miln00",
+          "npcText": "Мельница? Рано тебе про мельницу. Слово хозяев надо. Наработаешь — сведу. Камень тот я признал: жёрнов. Хранитель ещё жив. Всё, некогда.",
+          "replies": [
+            {
+              "id": "reply_dztojvsg",
+              "label": "Ладно",
+              "nextId": "node_8rt2q4e8"
+            }
+          ]
+        },
+        {
+          "id": "node_1km1wuj1",
+          "npcText": "Крепость на чужом дворе стоит и врёт, что так и было. Врёт ровно, как по писаному. Душа у них, окромя бумаги, не ночевала. Тьфу. Хуже топора.",
+          "replies": [
+            {
+              "id": "reply_jdjw9y21",
+              "label": "Ладно, будет",
+              "nextId": "node_8rt2q4e8"
+            }
+          ]
+        },
+        {
+          "id": "node_86ywh2bj",
+          "npcText": "Прячут. В нитке, в песне, в рукаве. Молчат складно, тихонько. Эти покуда живые. Пока молчат — живые, слышь.",
+          "replies": [
+            {
+              "id": "reply_2uqbx295",
+              "label": "Ладно, будет",
+              "nextId": "node_8rt2q4e8"
+            }
+          ]
+        },
+        {
+          "id": "node_6f07zhkm",
+          "npcText": "Номера жрут, покуда из листа тварь не вылезет. Гниль гнилью. И тихие ведь, как мыши в ларце. Не трожь их, поняла.",
+          "replies": [
+            {
+              "id": "reply_5psq7m2e",
+              "label": "Ладно, будет",
+              "nextId": "node_8rt2q4e8"
+            }
+          ]
+        },
+        {
+          "id": "node_t2bdsjna",
+          "npcText": "Горшки пустые, обрывки, цена. Имя — не грош, слышь. Кто имя торгует — тот уж не хозяин. Хозяин только работу меняет, а не имя.",
+          "replies": [
+            {
+              "id": "reply_uggj07ed",
+              "label": "Ладно, будет",
+              "nextId": "node_8rt2q4e8"
+            }
+          ]
+        }
+      ],
+      "updatedAt": 0
+    },
+    {
+      "objectId": "whisperer-npc",
+      "startId": "node_s1gfpsqi",
+      "nodes": [
+        {
+          "id": "node_s1gfpsqi",
+          "npcText": "Тише. Ближе, вот так… Вас в колыбельной нет — и ладно. Не называйтесь вслух. Даже мне. Особенно мне…",
+          "replies": [
+            {
+              "id": "reply_gcx5kn9q",
+              "label": "Кто я?",
+              "nextId": "node_xvqtmwr6"
+            },
+            {
+              "id": "reply_73km5251",
+              "label": "Что стало с миром?",
+              "nextId": "node_ump5y2i3"
+            },
+            {
+              "id": "reply_6cjlp02n",
+              "label": "Про чужие имена",
+              "nextId": "node_vkr7nfsm"
+            },
+            {
+              "id": "reply_bxm2ga4q",
+              "label": "Помолчать с вами",
+              "nextId": "node_pki7abhc"
+            },
+            {
+              "id": "reply_ys7vqk7v",
+              "label": "Спросить моё имя",
+              "nextId": "node_87s7so5k",
+              "repeat": "once"
+            }
+          ]
+        },
+        {
+          "id": "node_xvqtmwr6",
+          "npcText": "Пока вы — пустое поле… Пустое поле никто не изымает. Позовёте себя вслух — и всё. Нет вас. Была бумага — не стало бумаги…",
+          "replies": [
+            {
+              "id": "reply_4dlnv4o7",
+              "label": "Тише",
+              "nextId": "node_s1gfpsqi"
+            }
+          ]
+        },
+        {
+          "id": "node_ump5y2i3",
+          "npcText": "Мир не умер… Его недопели. Есть сказка без последней строки. Пока строки нет — мир дышит. Допоют — перестанет… Тише. Слышите? Это он. Дышит.",
+          "replies": [
+            {
+              "id": "reply_w30nmmim",
+              "label": "Слышу",
+              "nextId": "node_s1gfpsqi"
+            }
+          ]
+        },
+        {
+          "id": "node_87s7so5k",
+          "npcText": "Имя?.. Нет. Не просите. Одно названное имя тянет за собой второе… Мы потеряем и вас, и меня. Поберегите дыхание.",
+          "replies": [
+            {
+              "id": "reply_z49uhz17",
+              "label": "Молчу",
+              "nextId": "node_s1gfpsqi"
+            }
+          ]
+        },
+        {
+          "id": "node_pki7abhc",
+          "npcText": "…",
+          "replies": [
+            {
+              "id": "reply_dyf0mgdf",
+              "label": "Кивнуть",
+              "nextId": "node_s1gfpsqi"
+            }
+          ]
+        },
+        {
+          "id": "node_vkr7nfsm",
+          "npcText": "Чужие имена лучше не звать. Раз уж спросили — шёпотом. И сразу забыть, как звали…",
+          "replies": [
+            {
+              "id": "reply_gr08u7cp",
+              "label": "Про Комитет",
+              "nextId": "node_3128gdr1",
+              "gate": {
+                "knownFactionId": "committee"
+              }
+            },
+            {
+              "id": "reply_k9qg1avr",
+              "label": "Про Хозяев",
+              "nextId": "node_8j8lc32t",
+              "gate": {
+                "knownFactionId": "hosts"
+              }
+            },
+            {
+              "id": "reply_q9x0015k",
+              "label": "Про Чернокнижников",
+              "nextId": "node_yrl51z8c",
+              "gate": {
+                "knownFactionId": "bookworms"
+              }
+            },
+            {
+              "id": "reply_eci8yj2m",
+              "label": "Про Менял",
+              "nextId": "node_5c1iweoa",
+              "gate": {
+                "knownFactionId": "changers"
+              }
+            },
+            {
+              "id": "reply_bsvybe91",
+              "label": "Довольно",
+              "nextId": "node_s1gfpsqi"
+            }
+          ]
+        },
+        {
+          "id": "node_3128gdr1",
+          "npcText": "Кладут печать на сказку и зовут это порядком… После печати сказку не спеть. Недопетую ещё можно спрятать. Допетую — уже нет…",
+          "replies": [
+            {
+              "id": "reply_7b4mrjky",
+              "label": "Довольно",
+              "nextId": "node_s1gfpsqi"
+            }
+          ]
+        },
+        {
+          "id": "node_8j8lc32t",
+          "npcText": "Их имена ещё растут. Корнем… Мы прячем концы — в песне, в нитке, в шве. Чтобы топор учёта шёл мимо. Идёт, а не достаёт…",
+          "replies": [
+            {
+              "id": "reply_qzi1ujgj",
+              "label": "Довольно",
+              "nextId": "node_s1gfpsqi"
+            }
+          ]
+        },
+        {
+          "id": "node_yrl51z8c",
+          "npcText": "Они не прячут. Кормят букву, покуда не укусит… Нашу не кормят. Нашу прячут в рукаве. И потому она живая…",
+          "replies": [
+            {
+              "id": "reply_gsx8islx",
+              "label": "Довольно",
+              "nextId": "node_s1gfpsqi"
+            }
+          ]
+        },
+        {
+          "id": "node_5c1iweoa",
+          "npcText": "Продают лоскут без колыбельной. Дешёвый… Приманка. Сказку на вес не отдают. Кто отдал — уже не наш…",
+          "replies": [
+            {
+              "id": "reply_an4q00gi",
+              "label": "Довольно",
+              "nextId": "node_s1gfpsqi"
+            }
+          ]
+        }
+      ],
+      "updatedAt": 0
+    },
+    {
+      "objectId": "committee-npc",
+      "startId": "node_73f29ylk",
+      "nodes": [
+        {
+          "id": "node_73f29ylk",
+          "npcText": "Канцелярия. Обращение зарегистрировано по факту конверта. Номер вам не присвоен и без открытого дела присвоен не будет. Отвечаю в пределах регламента. Формулируйте.",
+          "variants": [
+            {
+              "when": [
+                {
+                  "kind": "step-done",
+                  "stepId": "q1-s7-report"
+                },
+                {
+                  "kind": "letter",
+                  "letterId": "trigger-letter:zhmenya-rise:naryad19-report"
+                },
+                {
+                  "kind": "step-not-done",
+                  "stepId": "q2-s1-naryad"
+                }
+              ],
+              "text": "Канцелярия. Наряд № 19 закрыт. Наряд № 20 зарегистрирован: переправа через Волму и бывший лагерь «Огонёк». Выдача — при репутации Комитета не ниже 200. Наработайте и явитесь."
+            }
+          ],
+          "replies": [
+            {
+              "id": "reply_q1s1ask0",
+              "label": "По наряду № 19",
+              "nextId": "node_q1s1brf0",
+              "gate": {
+                "stepNotDoneId": "q1-s1-chancery",
+                "reveal": [
+                  {
+                    "kind": "letter",
+                    "stepId": "q1-s1-chancery"
+                  }
+                ],
+                "visibility": "hidden"
+              }
+            },
+            {
+              "id": "reply_q1s7rep0",
+              "label": "Доложить о линии",
+              "nextId": "node_q1s7lini",
+              "gate": {
+                "stepDoneId": "q1-s6-gauge",
+                "stepNotDoneId": "q1-s7-report",
+                "visibility": "hidden"
+              },
+              "effects": {
+                "takeItemId": "item-felling-order"
+              }
+            },
+            {
+              "id": "reply_q2s1take",
+              "label": "Наряд № 20",
+              "nextId": "node_q2s1brf0",
+              "gate": {
+                "reputationMin": 200,
+                "factionId": "committee",
+                "stepDoneId": "q1-s7-report",
+                "stepNotDoneId": "q2-s1-naryad",
+                "reveal": [
+                  {
+                    "kind": "letter",
+                    "letterId": "trigger-letter:zhmenya-rise:naryad19-report"
+                  }
+                ]
+              },
+              "effects": {
+                "giveItemId": "item-committee-seal",
+                "grantLetter": {
+                  "title": "Наряд № 20",
+                  "body": "Волма. Переправа и бывший лагерь «Огонёк» — поставить на учёт. Печать при вас. При исполнении состоит наблюдатель. Срок — до распутицы."
+                },
+                "setFlag": "q2-naryad-taken"
+              }
+            },
+            {
+              "id": "reply_q2s8plate",
+              "label": "Сдать плашку и доложить",
+              "nextId": "node_5xcwem6a",
+              "gate": {
+                "itemId": "item-name-plate",
+                "stepDoneId": "q2-s7-cemetery",
+                "stepNotDoneId": "q2-s8-report",
+                "visibility": "hidden"
+              },
+              "effects": {
+                "takeItemId": "item-name-plate"
+              }
+            },
+            {
+              "id": "reply_q2s8sold",
+              "label": "Доложить о Волме",
+              "nextId": "node_5xcwem6a",
+              "gate": {
+                "stepDoneId": "q2-s7-cemetery",
+                "stepNotDoneId": "q2-s8-report",
+                "flag": "q2-plate-sold",
+                "visibility": "hidden"
+              },
+              "check": {
+                "stat": "luck",
+                "dc": 14,
+                "retry": "never",
+                "onFail": {
+                  "completeStepId": "q2-s8-report",
+                  "grantLetter": {
+                    "title": "Канцелярия",
+                    "body": "Доклад принят без имущества. Имя не числится. Репутация удержана на пятьдесят."
+                  },
+                  "adjustRep": {
+                    "factionId": "committee",
+                    "delta": -50
+                  }
+                }
+              }
+            },
+            {
+              "id": "reply_q5s1take0",
+              "label": "Опись жидкости",
+              "nextId": "node_0fogh4is",
+              "gate": {
+                "stepDoneId": "q1-s7-report",
+                "stepNotDoneId": "q5-s1-naryad",
+                "visibility": "hidden"
+              },
+              "effects": {
+                "giveItemId": "item-sample-bottle",
+                "grantLetter": {
+                  "title": "Опись жидкости",
+                  "body": "Наряд: опись жидкости. Под учёт идут все воды: в границах и за границей. Порядок отметок произвольный. Тара выдана. Пробы доставить и сдать с докладом. Уклонение не предусмотрено."
+                },
+                "setFlag": "q5-naryad-taken"
+              }
+            },
+            {
+              "id": "reply_q5s4rpt0",
+              "label": "Сдать пробы",
+              "nextId": "node_htp6g5hy",
+              "gate": {
+                "stepDoneId": "q5-s3-sort",
+                "stepNotDoneId": "q5-s4-report",
+                "visibility": "hidden"
+              },
+              "effects": {
+                "takeItemId": "item-sample-bottle"
+              }
+            },
+            {
+              "id": "reply_q4s3rpt0",
+              "label": "Доложить о доме на отшибе",
+              "nextId": "node_io23ub92",
+              "gate": {
+                "reputationMin": 500,
+                "factionId": "committee",
+                "stepDoneId": "q4-s3-report",
+                "stepNotDoneId": "q6-s1-report",
+                "visibility": "hidden"
+              },
+              "effects": {
+                "adjustRep": {
+                  "factionId": "committee",
+                  "delta": 30
+                },
+                "setFlag": "q6-chain-taken",
+                "grantLetter": {
+                  "title": "Графа «чернокнижник»",
+                  "body": "Дом на отшибе принят к сведению. Хозяин в розыске не значится. Графа «чернокнижник» открыта. Первое уведомление оставлено за вами. Продолжение цепочки — в разработке."
+                }
+              }
+            },
+            {
+              "id": "reply_ea4gt46r",
+              "label": "Доложить о себе",
+              "nextId": "node_bicmrkyu"
+            },
+            {
+              "id": "reply_k5i33t97",
+              "label": "Спросить о регламенте",
+              "nextId": "node_g63d39x2"
+            },
+            {
+              "id": "reply_5sf95bgv",
+              "label": "Прочие ведомства",
+              "nextId": "node_yds7fji7"
+            },
+            {
+              "id": "reply_365lgv8s",
+              "label": "Принять к сведению",
+              "nextId": "node_saasl5le"
+            }
+          ]
+        },
+        {
+          "id": "node_bicmrkyu",
+          "npcText": "В графе «лицо» — прочерк. В графе «имущество» — прочерк. Промежуточный статус уставом не предусмотрен. Основание для разговора — конверт. Утратите конверт — разговор прекратится без предупреждения.",
+          "replies": [
+            {
+              "id": "reply_c163gu8n",
+              "label": "К регламенту",
+              "nextId": "node_73f29ylk"
+            }
+          ]
+        },
+        {
+          "id": "node_g63d39x2",
+          "npcText": "Тенебра — территория, не подлежащая самостоятельному наименованию. Безымянные места ставятся на учёт. Номер вместо имени не является наказанием. Номер является способом прекратить беспорядок. Согласие беспорядка на прекращение не требуется.",
+          "replies": [
+            {
+              "id": "reply_xj2z7009",
+              "label": "К регламенту",
+              "nextId": "node_73f29ylk"
+            }
+          ]
+        },
+        {
+          "id": "node_saasl5le",
+          "npcText": "Разговор закрыт. Копия вам не выдаётся. Следующий.",
+          "replies": []
+        },
+        {
+          "id": "node_yds7fji7",
+          "npcText": "Назовите ведомство. Без бумаги ответ является слухом. Слух в справку не кладётся.",
+          "replies": [
+            {
+              "id": "reply_afprl1vg",
+              "label": "Про Хозяев",
+              "nextId": "node_pdvfhkpk",
+              "gate": {
+                "knownFactionId": "hosts"
+              }
+            },
+            {
+              "id": "reply_5hex8o3s",
+              "label": "Про Шептунов",
+              "nextId": "node_6cvfwxz8",
+              "gate": {
+                "knownFactionId": "whisperers"
+              }
+            },
+            {
+              "id": "reply_aj5f5v3l",
+              "label": "Про Чернокнижников",
+              "nextId": "node_umheat2y",
+              "gate": {
+                "knownFactionId": "bookworms"
+              }
+            },
+            {
+              "id": "reply_82nd9pfi",
+              "label": "Про Менял",
+              "nextId": "node_2q0tcvla",
+              "gate": {
+                "knownFactionId": "changers"
+              }
+            },
+            {
+              "id": "reply_jcnv2xsa",
+              "label": "К регламенту",
+              "nextId": "node_73f29ylk"
+            }
+          ]
+        },
+        {
+          "id": "node_q1s1brf0",
+          "npcText": "Канцелярия. Наряд № 19 зарегистрирован. Слушаю.",
+          "replies": [
+            {
+              "id": "reply_q1s1rpt0",
+              "label": "Доложить о погоне",
+              "nextId": "node_q1s1rptn"
+            },
+            {
+              "id": "reply_q1s1why0",
+              "label": "Почему я?",
+              "nextId": "node_q1s1whyn"
+            },
+            {
+              "id": "reply_q1s1les0",
+              "label": "Зачем лес?",
+              "nextId": "node_q1s1lesn"
+            },
+            {
+              "id": "reply_q1s1acc0",
+              "label": "Принять наряд",
+              "nextId": "node_q1s1acc0",
+              "effects": {
+                "setFlag": "q1-naryad-taken"
+              }
+            }
+          ]
+        },
+        {
+          "id": "node_q1s1acc0",
+          "npcText": "Принято. Пункт первый: конверт не терять. Пункт второй: Дровяной двор. Спросите Нестера — по имени, не по номеру. Он не любит бумагу.",
+          "replies": [
+            {
+              "id": "reply_q1s1acc9",
+              "label": "К регламенту",
+              "nextId": "node_q1s1brf0"
+            }
+          ]
+        },
+        {
+          "id": "node_q1s1rptn",
+          "npcText": "Принято. Фигура ушла на север, ключи при ней. Сведений о задержании не имеется. Дело остаётся открытым. Основание для разговора — конверт.",
+          "replies": [
+            {
+              "id": "reply_9itdqnxg",
+              "label": "К наряду",
+              "nextId": "node_q1s1brf0"
+            }
+          ]
+        },
+        {
+          "id": "node_q1s1whyn",
+          "npcText": "Вы проживаете в границах двора. Двор значится за канцелярией. Номерного инспектора Хозяева во двор не пустят: поставят в графу и закроют. У вас номера нет. Отказ регламентом не предусмотрен.",
+          "replies": [
+            {
+              "id": "reply_0nko8q0m",
+              "label": "К наряду",
+              "nextId": "node_q1s1brf0"
+            }
+          ]
+        },
+        {
+          "id": "node_q1s1lesn",
+          "npcText": "Работы на вверенном объекте остановлены. Поручение: проверить исполнение. Причины в наряд не входят. Канцелярия направляет, не разъясняет.",
+          "replies": [
+            {
+              "id": "reply_00xwjffi",
+              "label": "К наряду",
+              "nextId": "node_q1s1brf0"
+            }
+          ]
+        },
+        {
+          "id": "node_q1s7lini",
+          "npcText": "Канцелярия. Доклад принят. Свидетельские показания приняты к делу. Путь освидетельствован. Ключ от стрелки числится за вами. Линия подлежит открытию. Ожидайте наряд № 20.",
+          "replies": [
+            {
+              "id": "reply_nxjaiy2x",
+              "label": "К регламенту",
+              "nextId": "node_73f29ylk"
+            }
+          ]
+        },
+        {
+          "id": "node_q2s1brf0",
+          "npcText": "Канцелярия. Репутация ваша учтена. Наряд № 20: переправа через Волму и бывший лагерь «Огонёк» — поставить на учёт. Печать получите при выдаче. При исполнении будет состоять наблюдатель. Возражения регламентом не предусмотрены.",
+          "replies": [
+            {
+              "id": "reply_su8c1tsk",
+              "label": "Зачем лагерь?",
+              "nextId": "node_e9ebjwfd"
+            },
+            {
+              "id": "reply_rc51v5fg",
+              "label": "Кто наблюдатель?",
+              "nextId": "node_h975kxxu"
+            },
+            {
+              "id": "reply_hl0c1d7q",
+              "label": "К регламенту",
+              "nextId": "node_73f29ylk"
+            }
+          ]
+        },
+        {
+          "id": "node_e9ebjwfd",
+          "npcText": "Сборный пункт для западной партии. Помещения, вода, готовая колея. Лагерь значится детским. Детей нет.",
+          "replies": [
+            {
+              "id": "reply_yq6rbq9g",
+              "label": "К наряду",
+              "nextId": "node_q2s1brf0"
+            }
+          ]
+        },
+        {
+          "id": "node_h975kxxu",
+          "npcText": "Сотрудник канцелярии. Не мешает. Присутствует. Разговоры с ним в наряд не входят.",
+          "replies": [
+            {
+              "id": "reply_zdnvkqaw",
+              "label": "К наряду",
+              "nextId": "node_q2s1brf0"
+            }
+          ]
+        },
+        {
+          "id": "node_5xcwem6a",
+          "npcText": "Канцелярия. Доклад к делу. Переправа учтена. Сборный пункт учтён. Имена не числятся. Линия готова к работам.",
+          "replies": [
+            {
+              "id": "reply_q2s8done",
+              "label": "Принять к сведению",
+              "effects": {
+                "setFlag": "q2-report-done"
+              }
+            },
+            {
+              "id": "reply_1l3o8vp6",
+              "label": "К регламенту",
+              "nextId": "node_73f29ylk"
+            }
+          ]
+        },
+        {
+          "id": "node_0fogh4is",
+          "npcText": "Канцелярия. Наряд: опись жидкости. Под учёт идут все воды: в границах и за границей. Порядок отметок произвольный. Тара выдана. Пробы доставить и сдать с докладом. Уклонение не предусмотрено.",
+          "replies": [
+            {
+              "id": "reply_re7ycpn4",
+              "label": "К регламенту",
+              "nextId": "node_73f29ylk"
+            }
+          ]
+        },
+        {
+          "id": "node_htp6g5hy",
+          "npcText": "Канцелярия. Тара и опись приняты. Воды учтены, пробы разлиты. В графе «жидкость» — ноль подозрений. Возражений не поступало.",
+          "replies": [
+            {
+              "id": "reply_nmm1fao4",
+              "label": "К регламенту",
+              "nextId": "node_73f29ylk"
+            }
+          ]
+        },
+        {
+          "id": "node_io23ub92",
+          "npcText": "Канцелярия. Дом на отшибе — не Фигура, но по графе «чернокнижник» проходит. Скупщик вернул заклад: принято к сведению. Графа открыта, первое уведомление оставлено за вами. Продолжение — по отдельному распоряжению.",
+          "replies": [
+            {
+              "id": "reply_t0h1gikh",
+              "label": "К регламенту",
+              "nextId": "node_73f29ylk"
+            }
+          ]
+        },
+        {
+          "id": "node_pdvfhkpk",
+          "npcText": "Заявляют притязания на лес без инвентарного номера. Притязания не зарегистрированы. Следовательно, лес является бесхозным имуществом и подлежит описанию. Изъятие производится в порядке очерёдности.",
+          "replies": [
+            {
+              "id": "reply_0td9ov4u",
+              "label": "Вернуться к регламенту",
+              "nextId": "node_73f29ylk"
+            }
+          ]
+        },
+        {
+          "id": "node_6cvfwxz8",
+          "npcText": "Изменяют форму хранения имён. Изменение формы не является основанием для права владения. Подлежат проверке. При обнаружении носителя он описывается и передаётся по наряду.",
+          "replies": [
+            {
+              "id": "reply_4tvcflha",
+              "label": "Вернуться к регламенту",
+              "nextId": "node_73f29ylk"
+            }
+          ]
+        },
+        {
+          "id": "node_umheat2y",
+          "npcText": "Выбыли из графы. Использование их формуляров не допускается: формуляр без носителя учёту не подлежит. Обращение к формуляру расценивается как самовольное возобновление дела.",
+          "replies": [
+            {
+              "id": "reply_e8ucai00",
+              "label": "Вернуться к регламенту",
+              "nextId": "node_73f29ylk"
+            }
+          ]
+        },
+        {
+          "id": "node_2q0tcvla",
+          "npcText": "Осуществляют оборот без лицензии. Оборот без лицензии является нарушением. Нарушение устраняется штрафом, изъятием либо обоими действиями очерёдно.",
+          "replies": [
+            {
+              "id": "reply_2be98hvx",
+              "label": "Вернуться к регламенту",
+              "nextId": "node_73f29ylk"
+            }
+          ]
+        }
+      ],
+      "updatedAt": 0
+    },
+    {
+      "objectId": "committee-yard-npc",
+      "startId": "node_q1s5strt",
+      "nodes": [
+        {
+          "id": "node_q1s5strt",
+          "npcText": "Участок. Выдача нарядов. Назовите номер.",
+          "replies": [
+            {
+              "id": "reply_q1s5tag0",
+              "label": "Показать бирку",
+              "nextId": "node_q1s5spis",
+              "gate": {
+                "itemId": "item-bridge-tag",
+                "stepNotDoneId": "q1-s5-yard",
+                "visibility": "hidden"
+              },
+              "effects": {
+                "giveItemId": "item-felling-order",
+                "setFlag": "q1-order-taken"
+              }
+            },
+            {
+              "id": "reply_oauop31v",
+              "label": "Прочие ведомства",
+              "nextId": "node_mvqnawwg"
+            },
+            {
+              "id": "reply_2tvufc4b",
+              "label": "Уйти"
+            }
+          ]
+        },
+        {
+          "id": "node_q1s5spis",
+          "npcText": "Бирка инвентарная. Объект: мост через Волму, инвентарный номер девятнадцать. Утрата по факту разрушения. Производится списание. Бирку оставьте себе: списанное не храним. По вашему наряду: лес под сваи — дальняя лесосека, за рекой.",
+          "replies": [
+            {
+              "id": "reply_q1s5far0",
+              "label": "Почему только дальняя?",
+              "nextId": "node_q1s5farn"
+            },
+            {
+              "id": "reply_q1s5line",
+              "label": "Как вывозить?",
+              "nextId": "node_q1s5lin0"
+            },
+            {
+              "id": "reply_vkknqkzj",
+              "label": "Понятно",
+              "nextId": "node_q1s5strt"
+            }
+          ]
+        },
+        {
+          "id": "node_q1s5farn",
+          "npcText": "Ближний лес посчитан. Дальний не посчитан. Иного не имеется.",
+          "replies": [
+            {
+              "id": "reply_1rqhjdoa",
+              "label": "Понятно",
+              "nextId": "node_q1s5strt"
+            }
+          ]
+        },
+        {
+          "id": "node_q1s5lin0",
+          "npcText": "Вывоз — по старой узкоколейке. Линия историческая: ставилась под детскую дорогу. Пассажирское сообщение прекращено, допуск грузовой. Конечная — бывший лагерь «Огонёк», ныне площадка Комитета. Линия стоит с весны: путь не освидетельствован. Сторож ходил по ней и не вернулся, ключ ушёл с ним. Последним его видели у кольца, на базаре. Спросите у менял: они всё видят, за что им платят. Осмотр без отметки не закроется, а строка в срок висит на мне. Предписание получите.",
+          "replies": [
+            {
+              "id": "reply_ekb5srno",
+              "label": "Принято",
+              "nextId": "node_q1s5strt"
+            }
+          ]
+        },
+        {
+          "id": "node_mvqnawwg",
+          "npcText": "Назовите ведомство. Без номера дела ответ является слухом. Слух в справку не кладётся.",
+          "replies": [
+            {
+              "id": "reply_e3bub3cp",
+              "label": "Про Хозяев",
+              "nextId": "node_9wme4g2q",
+              "gate": {
+                "knownFactionId": "hosts"
+              }
+            },
+            {
+              "id": "reply_lxdqxz57",
+              "label": "Про Шептунов",
+              "nextId": "node_5sfaqmhr",
+              "gate": {
+                "knownFactionId": "whisperers"
+              }
+            },
+            {
+              "id": "reply_r8dvuax2",
+              "label": "Про Чернокнижников",
+              "nextId": "node_893ck16t",
+              "gate": {
+                "knownFactionId": "bookworms"
+              }
+            },
+            {
+              "id": "reply_lc1dgn9l",
+              "label": "Про Менял",
+              "nextId": "node_rxtk4g0n",
+              "gate": {
+                "knownFactionId": "changers"
+              }
+            },
+            {
+              "id": "reply_td3m6oyu",
+              "label": "К окну",
+              "nextId": "node_q1s5strt"
+            }
+          ]
+        },
+        {
+          "id": "node_9wme4g2q",
+          "npcText": "Заявляют притязания на лес без подтверждающих документов. Права не зарегистрированы. Лес подлежит учёту в порядке общей очереди.",
+          "replies": [
+            {
+              "id": "reply_1f3aw49r",
+              "label": "К окну",
+              "nextId": "node_q1s5strt"
+            }
+          ]
+        },
+        {
+          "id": "node_5sfaqmhr",
+          "npcText": "Хранят имена вне установленной формы. Форма хранения значения не имеет. При обнаружении носитель описывается и передаётся по наряду.",
+          "replies": [
+            {
+              "id": "reply_a598mjra",
+              "label": "К окну",
+              "nextId": "node_q1s5strt"
+            }
+          ]
+        },
+        {
+          "id": "node_893ck16t",
+          "npcText": "Выбыли из графы. Их формуляры недействительны. Обращение к формуляру расценивается как самовольное возобновление дела.",
+          "replies": [
+            {
+              "id": "reply_coyl7c6f",
+              "label": "К окну",
+              "nextId": "node_q1s5strt"
+            }
+          ]
+        },
+        {
+          "id": "node_rxtk4g0n",
+          "npcText": "Осуществляют оборот без лицензии. Нарушение устраняется штрафом или изъятием. Порядок определяется очерёдно.",
+          "replies": [
+            {
+              "id": "reply_x2au1bmt",
+              "label": "К окну",
+              "nextId": "node_q1s5strt"
+            }
+          ]
+        }
+      ],
+      "updatedAt": 0
+    },
+    {
+      "objectId": "diretkiny-npc",
+      "startId": "node_dir00001",
+      "nodes": [
+        {
+          "id": "node_dir00001",
+          "npcText": "(в темноте под карнизом шорох, потом тихое шшш. Что-то перелетает с места на место, не касаясь пола; одна тень задевает волосы и тут же уходит вверх) Ближе… Свет не зажигай. На свет не летят — на слово летят…",
+          "replies": [
+            {
+              "id": "reply_rdir0001",
+              "label": "Прислушаться",
+              "nextId": "node_dir00002",
+              "gate": {
+                "levelMin": 4
+              }
+            }
+          ]
+        },
+        {
+          "id": "node_dir00002",
+          "npcText": "(тени повисают под потолком, вниз головой; шерсть дыбится, крылья сложены, как мокрые листья) Сказывай, что услышать хочешь? Всё равно не уснёшь, покуда висим…",
+          "replies": [
+            {
+              "id": "reply_rdir0002",
+              "label": "Кто вы?",
+              "nextId": "node_dir00003"
+            },
+            {
+              "id": "reply_rdir0003",
+              "label": "Что слышно?",
+              "nextId": "node_dir00004"
+            },
+            {
+              "id": "reply_rdir0004",
+              "label": "Вы меня пугаете",
+              "nextId": "node_dir00005"
+            },
+            {
+              "id": "reply_rdir0005",
+              "label": "Прочие голоса",
+              "nextId": "node_dir00006"
+            },
+            {
+              "id": "reply_rdir0006",
+              "label": "Посидеть молча",
+              "nextId": "node_dir00007"
+            }
+          ]
+        },
+        {
+          "id": "node_dir00003",
+          "npcText": "Крылья, шерсть, две лапки в подол… Ночные. В колыбельной нас нет — вот и ладно. Кто в песне не спет, того не изымают…",
+          "replies": [
+            {
+              "id": "reply_rdir0007",
+              "label": "Назовите имя",
+              "nextId": "node_dir00008",
+              "repeat": "once"
+            },
+            {
+              "id": "reply_rdir0008",
+              "label": "Ясно",
+              "nextId": "node_dir00002"
+            }
+          ]
+        },
+        {
+          "id": "node_dir00008",
+          "npcText": "Не назовём. Названное — изымают. Наше — в шве, в шуме, в шшш… Кто хочет прочесть, пусть слушает ветер.",
+          "replies": [
+            {
+              "id": "reply_rdir0009",
+              "label": "Молчу",
+              "nextId": "node_dir00002"
+            }
+          ]
+        },
+        {
+          "id": "node_dir00004",
+          "npcText": "Роща за стеной. Дуб над водой помнит твои ладони, хоть ты и забыла… В архиве поют недопетое. Мост назвали номером — он и лёг…",
+          "replies": [
+            {
+              "id": "reply_rdir0010",
+              "label": "Кто это сказал?",
+              "nextId": "node_dir00009"
+            }
+          ]
+        },
+        {
+          "id": "node_dir00009",
+          "npcText": "Река сказала. Река говорит всегда — слушать надо не ухом… Ты слушать умеешь. Потому под крышей у тебя и сидим. Шшш…",
+          "replies": [
+            {
+              "id": "reply_rdir0011",
+              "label": "Запомню",
+              "nextId": "node_dir00002"
+            }
+          ]
+        },
+        {
+          "id": "node_dir00005",
+          "npcText": "(шшш выравнивается, тени сидят неподвижно) Страх — когда не считают. Нас вот не считали… Летим туда, где помнят. Пугать — не обидеть.",
+          "replies": [
+            {
+              "id": "reply_rdir0012",
+              "label": "Ладно",
+              "nextId": "node_dir00002"
+            }
+          ]
+        },
+        {
+          "id": "node_dir00006",
+          "npcText": "Про кого шшшептать? Слышим всех…",
+          "replies": [
+            {
+              "id": "reply_rdir0013",
+              "label": "Про Комитет",
+              "nextId": "node_dir00010",
+              "gate": {
+                "knownFactionId": "committee"
+              }
+            },
+            {
+              "id": "reply_rdir0014",
+              "label": "Про Хозяев",
+              "nextId": "node_dir00011",
+              "gate": {
+                "knownFactionId": "hosts"
+              }
+            },
+            {
+              "id": "reply_rdir0015",
+              "label": "Про Чернокнижников",
+              "nextId": "node_dir00012",
+              "gate": {
+                "knownFactionId": "bookworms"
+              }
+            },
+            {
+              "id": "reply_rdir0016",
+              "label": "Про Менял",
+              "nextId": "node_dir00013",
+              "gate": {
+                "knownFactionId": "changers"
+              }
+            },
+            {
+              "id": "reply_rdir0017",
+              "label": "Довольно",
+              "nextId": "node_dir00002"
+            }
+          ]
+        },
+        {
+          "id": "node_dir00010",
+          "npcText": "Пишут ровно — оттого не поёт. Ровное — мёртвое… Их номера шшшипят у нас в шерсти. Не бери номер: ни свой, ни чужой…",
+          "replies": [
+            {
+              "id": "reply_rdir0018",
+              "label": "Довольно",
+              "nextId": "node_dir00006"
+            }
+          ]
+        },
+        {
+          "id": "node_dir00011",
+          "npcText": "Дворовые не гонят. Лесной крошкой делятся, водяной ворчит, да не трогает… Свои. Дикие, а свои…",
+          "replies": [
+            {
+              "id": "reply_rdir0019",
+              "label": "Довольно",
+              "nextId": "node_dir00006"
+            }
+          ]
+        },
+        {
+          "id": "node_dir00012",
+          "npcText": "Кормят букву. Буква растёт, а после кусает. Цифру мы не кормим — и вам не советуем…",
+          "replies": [
+            {
+              "id": "reply_rdir0020",
+              "label": "Довольно",
+              "nextId": "node_dir00006"
+            }
+          ]
+        },
+        {
+          "id": "node_dir00013",
+          "npcText": "У них имя — товар. У нас имя — шёпот под крышей. Кто продал — тот больше не летает…",
+          "replies": [
+            {
+              "id": "reply_rdir0021",
+              "label": "Довольно",
+              "nextId": "node_dir00006"
+            }
+          ]
+        },
+        {
+          "id": "node_dir00007",
+          "npcText": "(тени висят под потолком; дышат в такт; река за окном стоит ровно. Одна мышь спускается ниже и сидит рядом, не касаясь)…",
+          "replies": [
+            {
+              "id": "reply_rdir0022",
+              "label": "Уйти"
+            }
+          ]
+        }
+      ],
+      "updatedAt": 0
+    },
+    {
+      "objectId": "dopevshaya-npc",
+      "startId": "node_dop00001",
+      "nodes": [
+        {
+          "id": "node_dop00001",
+          "npcText": "(не поворачивается; поёт вполголоса и обрывает на середине) Тише… Я слышу, где строка обрывается. Не мешайте. Допою — и место замолчит навсегда…",
+          "replies": [
+            {
+              "id": "reply_rdop0001",
+              "label": "Кто вы?",
+              "nextId": "node_dop00002"
+            },
+            {
+              "id": "reply_rdop0002",
+              "label": "Что вы допеваете?",
+              "nextId": "node_dop00003"
+            },
+            {
+              "id": "reply_rdop0003",
+              "label": "Допойте мою",
+              "nextId": "node_dop00004"
+            },
+            {
+              "id": "reply_rdop0004",
+              "label": "Про чужие голоса",
+              "nextId": "node_dop00005"
+            },
+            {
+              "id": "reply_rdop0005",
+              "label": "Помолчать с вами",
+              "nextId": "node_dop00006"
+            }
+          ]
+        },
+        {
+          "id": "node_dop00002",
+          "npcText": "Допевшая. Архив хранит недопетое… Мне выпало допевать. Пока пою — оно живо. Допою — станет ровно, как по бумаге…",
+          "replies": [
+            {
+              "id": "reply_rdop0006",
+              "label": "И тогда?",
+              "nextId": "node_dop00007"
+            }
+          ]
+        },
+        {
+          "id": "node_dop00007",
+          "npcText": "Тогда — номер. Номер не поёт, он считает… Я не спешу. Слышите? И вы не спешите…",
+          "replies": [
+            {
+              "id": "reply_rdop0007",
+              "label": "Поняла",
+              "nextId": "node_dop00001"
+            }
+          ]
+        },
+        {
+          "id": "node_dop00003",
+          "npcText": "Колыбельные без последней строки. Считалки без счёта. Сказки, брошенные на полуслове… В них прячут имена. Пока строка жива — живо и имя…",
+          "replies": [
+            {
+              "id": "reply_rdop0008",
+              "label": "А если допеть чужую?",
+              "nextId": "node_dop00008",
+              "repeat": "once"
+            },
+            {
+              "id": "reply_rdop0009",
+              "label": "Тише",
+              "nextId": "node_dop00001"
+            }
+          ]
+        },
+        {
+          "id": "node_dop00008",
+          "npcText": "Нельзя. Допетая песня гаснет, а с ней — спрятанное… Спросите Архивариуса, сколько мы так потеряли. Он помнит. Он всё помнит…",
+          "replies": [
+            {
+              "id": "reply_rdop0010",
+              "label": "Молчу",
+              "nextId": "node_dop00001"
+            }
+          ]
+        },
+        {
+          "id": "node_dop00004",
+          "npcText": "Вашей нет… Вас в колыбельной нет — и хорошо. Держитесь этой пустоты крепче: пустое поле никто не изымает…",
+          "replies": [
+            {
+              "id": "reply_rdop0011",
+              "label": "Тише",
+              "nextId": "node_dop00001"
+            }
+          ]
+        },
+        {
+          "id": "node_dop00005",
+          "npcText": "Чей голос вам нужен?..",
+          "replies": [
+            {
+              "id": "reply_rdop0012",
+              "label": "Про Комитет",
+              "nextId": "node_dop00009",
+              "gate": {
+                "knownFactionId": "committee"
+              }
+            },
+            {
+              "id": "reply_rdop0013",
+              "label": "Про Хозяев",
+              "nextId": "node_dop00010",
+              "gate": {
+                "knownFactionId": "hosts"
+              }
+            },
+            {
+              "id": "reply_rdop0014",
+              "label": "Про Чернокнижников",
+              "nextId": "node_dop00011",
+              "gate": {
+                "knownFactionId": "bookworms"
+              }
+            },
+            {
+              "id": "reply_rdop0015",
+              "label": "Про Менял",
+              "nextId": "node_dop00012",
+              "gate": {
+                "knownFactionId": "changers"
+              }
+            },
+            {
+              "id": "reply_rdop0016",
+              "label": "Довольно",
+              "nextId": "node_dop00001"
+            }
+          ]
+        },
+        {
+          "id": "node_dop00009",
+          "npcText": "Кладут печать и зовут это порядком… После печати песню не спеть. Недопетое ещё можно спрятать. Допетое — уже нет…",
+          "replies": [
+            {
+              "id": "reply_rdop0017",
+              "label": "Довольно",
+              "nextId": "node_dop00005"
+            }
+          ]
+        },
+        {
+          "id": "node_dop00010",
+          "npcText": "У них имена ещё растут. Корнем… Мы прячем концы — в песне, в нитке, в шве. Чтобы топор учёта шёл мимо…",
+          "replies": [
+            {
+              "id": "reply_rdop0018",
+              "label": "Довольно",
+              "nextId": "node_dop00005"
+            }
+          ]
+        },
+        {
+          "id": "node_dop00011",
+          "npcText": "Они не прячут — кормят букву, покуда не укусит… Нашу не кормят. Нашу прячут. Потому она живая…",
+          "replies": [
+            {
+              "id": "reply_rdop0019",
+              "label": "Довольно",
+              "nextId": "node_dop00005"
+            }
+          ]
+        },
+        {
+          "id": "node_dop00012",
+          "npcText": "Продают лоскут без колыбельной. Дешёвый… Приманка. Песню на вес не отдают. Кто отдал — уже не наш…",
+          "replies": [
+            {
+              "id": "reply_rdop0020",
+              "label": "Довольно",
+              "nextId": "node_dop00005"
+            }
+          ]
+        },
+        {
+          "id": "node_dop00006",
+          "npcText": "(качает головой в такт; на языке — обрывок песни, которого нет ни в одной описи)…",
+          "replies": [
+            {
+              "id": "reply_rdop0021",
+              "label": "Уйти"
+            }
+          ]
+        }
+      ],
+      "updatedAt": 0
+    },
+    {
+      "objectId": "tara-npc",
+      "startId": "node_tar00001",
+      "nodes": [
+        {
+          "id": "node_tar00001",
+          "npcText": "(вытирает склянку, ставит в ряд, считает) Ты. Смотрю. Пустые неси, полные не бери: полные кусаются. Склянка — тара честная, без пропуска торгую…",
+          "replies": [
+            {
+              "id": "reply_rtar0001",
+              "label": "Почём склянка?",
+              "nextId": "node_tar00002"
+            },
+            {
+              "id": "reply_rtar0002",
+              "label": "Зачем пустые?",
+              "nextId": "node_tar00003"
+            },
+            {
+              "id": "reply_rtar0003",
+              "label": "Возьмёшь имя?",
+              "nextId": "node_tar00004"
+            },
+            {
+              "id": "reply_rtar0004",
+              "label": "Про прочие лавки",
+              "nextId": "node_tar00005"
+            },
+            {
+              "id": "reply_rtar0005",
+              "label": "Осмотреться",
+              "nextId": "node_tar00006"
+            }
+          ]
+        },
+        {
+          "id": "node_tar00002",
+          "npcText": "Почём-почём. Много не прошу, торг не люблю. Оптом — дешевле. Налом — ещё дешевле. Не ломай цену: я тихая, а цена — нет…",
+          "replies": [
+            {
+              "id": "reply_rtar0006",
+              "label": "Ладно",
+              "nextId": "node_tar00001"
+            }
+          ]
+        },
+        {
+          "id": "node_tar00003",
+          "npcText": "В пустое вливают. Воду разлить по слоям, учёт — по графе. Тара — дело честное: взял склянку, вернул склянку…",
+          "replies": [
+            {
+              "id": "reply_rtar0007",
+              "label": "Понятно",
+              "nextId": "node_tar00001"
+            }
+          ]
+        },
+        {
+          "id": "node_tar00004",
+          "npcText": "Имена не мои. Имя — Скупщик, у него прилавок громкий. Ко мне — со склянкой. И лучше пустой…",
+          "replies": [
+            {
+              "id": "reply_rtar0008",
+              "label": "Ясно",
+              "nextId": "node_tar00001"
+            }
+          ]
+        },
+        {
+          "id": "node_tar00005",
+          "npcText": "Про кого шепнуть? Только негромко: товар слушает…",
+          "replies": [
+            {
+              "id": "reply_rtar0009",
+              "label": "Про Комитет",
+              "nextId": "node_tar00007",
+              "gate": {
+                "knownFactionId": "committee"
+              }
+            },
+            {
+              "id": "reply_rtar0010",
+              "label": "Про Хозяев",
+              "nextId": "node_tar00008",
+              "gate": {
+                "knownFactionId": "hosts"
+              }
+            },
+            {
+              "id": "reply_rtar0011",
+              "label": "Про Шептунов",
+              "nextId": "node_tar00009",
+              "gate": {
+                "knownFactionId": "whisperers"
+              }
+            },
+            {
+              "id": "reply_rtar0012",
+              "label": "Про Чернокнижников",
+              "nextId": "node_tar00010",
+              "gate": {
+                "knownFactionId": "bookworms"
+              }
+            },
+            {
+              "id": "reply_rtar0013",
+              "label": "Довольно",
+              "nextId": "node_tar00001"
+            }
+          ]
+        },
+        {
+          "id": "node_tar00007",
+          "npcText": "Приходят с описью, спрашивают тару. Тара учёту не подлежит. Тара — тара. Я так и сказала. Они записали…",
+          "replies": [
+            {
+              "id": "reply_rtar0014",
+              "label": "Довольно",
+              "nextId": "node_tar00005"
+            }
+          ]
+        },
+        {
+          "id": "node_tar00008",
+          "npcText": "Дворовые берут молча. Склянка им — вода к воде. Деньги оставляют старые; я не считаю — считалка не моя…",
+          "replies": [
+            {
+              "id": "reply_rtar0015",
+              "label": "Довольно",
+              "nextId": "node_tar00005"
+            }
+          ]
+        },
+        {
+          "id": "node_tar00009",
+          "npcText": "Прячут. Не покупают — прячут. В бутылочку — слово, в слово — имя. Пустые им нужнее полных…",
+          "replies": [
+            {
+              "id": "reply_rtar0016",
+              "label": "Довольно",
+              "nextId": "node_tar00005"
+            }
+          ]
+        },
+        {
+          "id": "node_tar00010",
+          "npcText": "Эти берут полные. Кормят букву. Им не отказываю, а склянки после них злые — приходится мыть дольше…",
+          "replies": [
+            {
+              "id": "reply_rtar0017",
+              "label": "Довольно",
+              "nextId": "node_tar00005"
+            }
+          ]
+        },
+        {
+          "id": "node_tar00006",
+          "npcText": "(стоит у полки; кругом бутылочки, каждая подписана мелом; молчит, пока ты смотришь)…",
+          "replies": [
+            {
+              "id": "reply_rtar0018",
+              "label": "Уйти"
+            }
+          ]
+        }
+      ],
+      "updatedAt": 0
+    },
+    {
+      "objectId": "vodyanoy-npc",
+      "startId": "node_vod00001",
+      "nodes": [
+        {
+          "id": "node_vod00001",
+          "npcText": "(из-под крыльца ворочается вода, тянет тиной) Куды без спросу? Слышишь, девка: крыльцо моё, русалки мои, дорога — Мостового. Сказывай, куды идёшь…",
+          "replies": [
+            {
+              "id": "reply_rvod0001",
+              "label": "Кто ты?",
+              "nextId": "node_vod00002"
+            },
+            {
+              "id": "reply_rvod0002",
+              "label": "Пропусти к русалкам",
+              "nextId": "node_vod00003"
+            },
+            {
+              "id": "reply_rvod0003",
+              "label": "Про Мостового",
+              "nextId": "node_vod00004"
+            },
+            {
+              "id": "reply_rvod0004",
+              "label": "Про прочие дворы",
+              "nextId": "node_vod00005"
+            },
+            {
+              "id": "reply_rvod0005",
+              "label": "Посидеть молча",
+              "nextId": "node_vod00006"
+            }
+          ]
+        },
+        {
+          "id": "node_vod00002",
+          "npcText": "Водяной. Дом держу, покуда реку помнят по имени. Комитет опись три раза приносил — все три в воде остались. Тьфу…",
+          "replies": [
+            {
+              "id": "reply_rvod0006",
+              "label": "Понял",
+              "nextId": "node_vod00001"
+            }
+          ]
+        },
+        {
+          "id": "node_vod00003",
+          "npcText": "Накорми сперва: рыбкой, хлебом, словом ласковым. Ласковое слово дороже бумаги. Тогда и пройдёшь, куды надо…",
+          "replies": [
+            {
+              "id": "reply_rvod0007",
+              "label": "А если не накормлю?",
+              "nextId": "node_vod00007",
+              "repeat": "once"
+            },
+            {
+              "id": "reply_rvod0008",
+              "label": "Понял",
+              "nextId": "node_vod00001"
+            }
+          ]
+        },
+        {
+          "id": "node_vod00007",
+          "npcText": "Тогда вода счёт выставит. Вода терпеливая — ждёт, покуда долг сам придёт…",
+          "replies": [
+            {
+              "id": "reply_rvod0009",
+              "label": "Понял",
+              "nextId": "node_vod00001"
+            }
+          ]
+        },
+        {
+          "id": "node_vod00004",
+          "npcText": "Родня по воде. Имя своё отдал — я не отдам. Слышишь: не отдам. Пусть стоит, как лёг… Сам поднимется, когда имя вернут…",
+          "replies": [
+            {
+              "id": "reply_rvod0010",
+              "label": "Понял",
+              "nextId": "node_vod00001"
+            }
+          ]
+        },
+        {
+          "id": "node_vod00005",
+          "npcText": "Про кого? Сказывай не громко: русалки спят…",
+          "replies": [
+            {
+              "id": "reply_rvod0011",
+              "label": "Про Комитет",
+              "nextId": "node_vod00008",
+              "gate": {
+                "knownFactionId": "committee"
+              }
+            },
+            {
+              "id": "reply_rvod0012",
+              "label": "Про Шептунов",
+              "nextId": "node_vod00009",
+              "gate": {
+                "knownFactionId": "whisperers"
+              }
+            },
+            {
+              "id": "reply_rvod0013",
+              "label": "Про Чернокнижников",
+              "nextId": "node_vod00010",
+              "gate": {
+                "knownFactionId": "bookworms"
+              }
+            },
+            {
+              "id": "reply_rvod0014",
+              "label": "Про Менял",
+              "nextId": "node_vod00011",
+              "gate": {
+                "knownFactionId": "changers"
+              }
+            },
+            {
+              "id": "reply_rvod0015",
+              "label": "Довольно",
+              "nextId": "node_vod00001"
+            }
+          ]
+        },
+        {
+          "id": "node_vod00008",
+          "npcText": "Учётчики. Сваи, описи, номера. По воде их не пройдёт: вода — не графа, её не подшить…",
+          "replies": [
+            {
+              "id": "reply_rvod0016",
+              "label": "Довольно",
+              "nextId": "node_vod00005"
+            }
+          ]
+        },
+        {
+          "id": "node_vod00009",
+          "npcText": "Тихие. Прячут в песнях. Хорошо прячут — я их не чую. Пусть прячут, авось и реку спрячут, когда надо…",
+          "replies": [
+            {
+              "id": "reply_rvod0017",
+              "label": "Довольно",
+              "nextId": "node_vod00005"
+            }
+          ]
+        },
+        {
+          "id": "node_vod00010",
+          "npcText": "Кормят цифру. Цифра цифру ест, после за реку примется. Не подпускай их к воде…",
+          "replies": [
+            {
+              "id": "reply_rvod0018",
+              "label": "Довольно",
+              "nextId": "node_vod00005"
+            }
+          ]
+        },
+        {
+          "id": "node_vod00011",
+          "npcText": "Торгуют. Кто имя продал — тот висит. Я не вишу. Я стою…",
+          "replies": [
+            {
+              "id": "reply_rvod0019",
+              "label": "Довольно",
+              "nextId": "node_vod00005"
+            }
+          ]
+        },
+        {
+          "id": "node_vod00006",
+          "npcText": "(молчит; вода стоит ровно, слушает; где-то под крыльцом ворочаются русалки)…",
+          "replies": [
+            {
+              "id": "reply_rvod0020",
+              "label": "Уйти"
+            }
+          ]
+        }
+      ],
+      "updatedAt": 0
+    },
+    {
+      "objectId": "miller-npc",
+      "startId": "node_mol00001",
+      "nodes": [
+        {
+          "id": "node_mol00001",
+          "npcText": "(жёрнов поворачивается сам; мука сыплется как пепел) Рано. Кто тебя звал — того и слушай. Слово хозяев услышу — тогда говорим…",
+          "replies": [
+            {
+              "id": "reply_rmol0001",
+              "label": "Кто вы?",
+              "nextId": "node_mol00002"
+            },
+            {
+              "id": "reply_rmol0002",
+              "label": "Вернуть камень",
+              "nextId": "node_mol00003"
+            },
+            {
+              "id": "reply_rmol0003",
+              "label": "Про хозяев",
+              "nextId": "node_mol00004"
+            },
+            {
+              "id": "reply_rmol0004",
+              "label": "Уйти"
+            }
+          ]
+        },
+        {
+          "id": "node_mol00002",
+          "npcText": "Мельник. Хранитель жёрнова. Камень помнит воду, покуда мелю. Не мешай считать круги…",
+          "replies": [
+            {
+              "id": "reply_rmol0005",
+              "label": "Понял",
+              "nextId": "node_mol00001"
+            }
+          ]
+        },
+        {
+          "id": "node_mol00003",
+          "npcText": "Осколок? Это жёрнов и есть. Кусок вернёшь — мельницу вспомнишь. Только рано тебе. Рано…",
+          "replies": [
+            {
+              "id": "reply_rmol0006",
+              "label": "Понял",
+              "nextId": "node_mol00001"
+            }
+          ]
+        },
+        {
+          "id": "node_mol00004",
+          "npcText": "Про кого? Тихо спрашивай: мука слушает…",
+          "replies": [
+            {
+              "id": "reply_rmol0007",
+              "label": "Про Комитет",
+              "nextId": "node_mol00005",
+              "gate": {
+                "knownFactionId": "committee"
+              }
+            },
+            {
+              "id": "reply_rmol0008",
+              "label": "Про Шептунов",
+              "nextId": "node_mol00006",
+              "gate": {
+                "knownFactionId": "whisperers"
+              }
+            },
+            {
+              "id": "reply_rmol0009",
+              "label": "Про Чернокнижников",
+              "nextId": "node_mol00007",
+              "gate": {
+                "knownFactionId": "bookworms"
+              }
+            },
+            {
+              "id": "reply_rmol0010",
+              "label": "Про Менял",
+              "nextId": "node_mol00008",
+              "gate": {
+                "knownFactionId": "changers"
+              }
+            },
+            {
+              "id": "reply_rmol0011",
+              "label": "Довольно",
+              "nextId": "node_mol00001"
+            }
+          ]
+        },
+        {
+          "id": "node_mol00005",
+          "npcText": "Описи возят, мельницу в графу кладут. Мели-мели — не смелют: камень их не слушает…",
+          "replies": [
+            {
+              "id": "reply_rmol0012",
+              "label": "Довольно",
+              "nextId": "node_mol00004"
+            }
+          ]
+        },
+        {
+          "id": "node_mol00006",
+          "npcText": "Прячут в песнях. У мельницы своя песня: жёрнов, вода, ветер. Ихняя — тише…",
+          "replies": [
+            {
+              "id": "reply_rmol0013",
+              "label": "Довольно",
+              "nextId": "node_mol00004"
+            }
+          ]
+        },
+        {
+          "id": "node_mol00007",
+          "npcText": "Цифру кормят. Цифра на мельнице — мука. Мука у них серая. Не бери их муку…",
+          "replies": [
+            {
+              "id": "reply_rmol0014",
+              "label": "Довольно",
+              "nextId": "node_mol00004"
+            }
+          ]
+        },
+        {
+          "id": "node_mol00008",
+          "npcText": "Цену знают. Мельница не товар — работа. Кто работу в цену мерит, тот не мелет…",
+          "replies": [
+            {
+              "id": "reply_rmol0015",
+              "label": "Довольно",
+              "nextId": "node_mol00004"
+            }
+          ]
+        }
+      ],
+      "updatedAt": 0
+    }
+  ],
+  "items": [
+    {
+      "id": "committee-envelope",
+      "name": "Конверт",
+      "description": "Комитет Удачи И Предотвращения Неудачи прислал письмо и велел конверт сохранить. Новые письма появятся внутри.",
+      "updatedAt": 0,
+      "portraitId": "asset:committee-envelope",
+      "startsInBag": true,
+      "imageFromPrequel": true
+    },
+    {
+      "id": "item-bridge-tag",
+      "name": "Бирка с моста",
+      "description": "Жестяная бирка старого моста через Волму. Номер 19 пробит насквозь. Списанная, но в дело годится: ходовой товар.",
+      "updatedAt": 0,
+      "portraitId": "asset:item-bridge-tag"
+    },
+    {
+      "id": "item-committee-seal",
+      "name": "Печать Комитета",
+      "description": "Тяжёлая печать учёта с точёной ручкой. Пока при вас — слово весит больше: +1 сила.",
+      "updatedAt": 0,
+      "portraitId": "asset:item-committee-seal",
+      "might": 1
+    },
+    {
+      "id": "item-drowned-charm",
+      "name": "Морёный оберег",
+      "description": "Щепа из костей переправы, обтёртая до гладкого. Мёртвое дерево, а дорогу чует: +1 опыт за каждый разведанный гекс.",
+      "updatedAt": 0,
+      "portraitId": "asset:item-drowned-charm",
+      "revealHexXp": 1
+    },
+    {
+      "id": "item-drowned-log",
+      "name": "Кусок морёного топляка",
+      "description": "Образец мёртвого дерева из костей старой переправы. Плотный, с песком в волокнах — Нестеру на пробу: годится ли на сваи.",
+      "updatedAt": 0,
+      "portraitId": "asset:item-pile-timber"
+    },
+    {
+      "id": "item-felling-order",
+      "name": "Предписание: осмотр линии",
+      "description": "Бумага с Лесного участка: осмотреть путь и доложить. Сдаётся обратно в канцелярию.",
+      "updatedAt": 0,
+      "portraitId": "asset:item-felling-order"
+    },
+    {
+      "id": "item-line-pass",
+      "name": "Открытый лист",
+      "description": "Бумага с печатью: линия открыта для работ. Предъявителю в Тенебре не чинить препятствий.",
+      "updatedAt": 0,
+      "portraitId": "asset:item-line-pass"
+    },
+    {
+      "id": "item-luck-coin",
+      "name": "Монета удачи",
+      "description": "Тёртая монета с дыркой на вощёном шнуре. Куплена за чужое имя: +1 удача.",
+      "updatedAt": 0,
+      "portraitId": "asset:item-luck-coin",
+      "luck": 1
+    },
+    {
+      "id": "item-name-page",
+      "name": "Лист из книги имён",
+      "description": "Страница из книги у лагерной статуи. Строки детских имён выцвели, но держатся. Такое ищут и Комитет, и Шептуны.",
+      "updatedAt": 0,
+      "portraitId": "asset:item-name-page"
+    },
+    {
+      "id": "item-name-plate",
+      "name": "Плашка с именем",
+      "description": "Железная плашка, сорванная с ферм старого моста. Имя на ней ещё читается. Услышанное имя можно изъять.",
+      "updatedAt": 0,
+      "portraitId": "asset:item-name-plate"
+    },
+    {
+      "id": "item-number-token",
+      "name": "Номерной жетон",
+      "description": "Инвентарный жетон с выбитым номером. Холодный и ровный. Мост встал по бумаге, а не по имени.",
+      "updatedAt": 0,
+      "portraitId": "asset:item-number-token"
+    },
+    {
+      "id": "item-sample-bottle",
+      "name": "Казённая склянка",
+      "description": "Казённая тара под пробы: стекло, притёртая пробка, пустая графа под номер. Пока при вас — воды берутся на учёт.",
+      "updatedAt": 0,
+      "portraitId": "asset:item-sample-bottle"
+    },
+    {
+      "id": "item-switch-key",
+      "name": "Путевой ключ",
+      "description": "Ключ от стрелки старой узкоколейки. Один на всю линию. Кто держит стрелку — держит дорогу.",
+      "updatedAt": 0,
+      "portraitId": "asset:item-switch-key"
+    },
+    {
+      "id": "item-weir-flint",
+      "name": "Кремень со Слепого порога",
+      "description": "Водяной камень с порога. Вода его катала; таким правят железо по мёртвому топляку.",
+      "updatedAt": 0,
+      "portraitId": "asset:item-weir-flint"
+    }
+  ],
+  "codex": [
+    {
+      "id": "codex-board",
+      "section": "notes",
+      "title": "Доска",
+      "body": "Поручения берутся с доски у дома, в Тенебре. На нижнем листе — «Доска»: три объявления, взять можно одно. Вуаль работу не выдаёт.",
+      "sort": 20,
+      "unlock": {
+        "kind": "always"
+      },
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-dweller-bookworm",
+      "section": "dwellers",
+      "title": "Списанный клерк",
+      "body": "Бывший бланк Комитета. Сошёл с графы и вызывает чернил из Номеров.",
+      "mark": "слухи",
+      "sort": 24,
+      "unlock": {
+        "kind": "npc",
+        "refId": "bookworm-npc"
+      },
+      "factionId": "bookworms",
+      "npcId": "bookworm-npc",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-dweller-changer",
+      "section": "dwellers",
+      "title": "Скупщик",
+      "body": "Чёрный прилавок. Берёт пустые сосуды и чужие пропуска, бумаг не спрашивает.",
+      "mark": "слухи",
+      "sort": 26,
+      "unlock": {
+        "kind": "npc",
+        "refId": "changer-npc"
+      },
+      "factionId": "changers",
+      "npcId": "changer-npc",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-dweller-clerk",
+      "section": "dwellers",
+      "title": "Канцелярия",
+      "body": "Стол, печати, срочность срочная. Выдаёт наряды и забирает Имена.",
+      "mark": "известна",
+      "sort": 10,
+      "unlock": {
+        "kind": "npc",
+        "refId": "committee-npc"
+      },
+      "factionId": "committee",
+      "npcId": "committee-npc",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-dweller-figure",
+      "section": "dwellers",
+      "title": "Фигура",
+      "body": "Тень, мелькающая на границе слоёв. О ней говорят шёпотом, но никто точно не знает, кто она и чего ищет в Тенебре.",
+      "mark": "слухи",
+      "sort": 30,
+      "unlock": {
+        "kind": "always"
+      },
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-dweller-gravedigger",
+      "section": "dwellers",
+      "title": "Могильщик",
+      "body": "Старик с погоста у Колодищ. Копает, считает года, помнит имена. Про учёт говорит коротко: имя сотрёшь — место осиротеет.",
+      "mark": "слухи",
+      "sort": 38,
+      "unlock": {
+        "kind": "npc",
+        "refId": "gravedigger-npc"
+      },
+      "factionId": "hosts",
+      "npcId": "gravedigger-npc",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-dweller-mostovoy",
+      "section": "dwellers",
+      "title": "Мостовой",
+      "body": "Хозяин переправы без имени. Держит имя моста во рту, покуда сваи лежат. Говорит медленно, как вода в коряге. Не моб: с ним договариваются.",
+      "mark": "слухи",
+      "sort": 34,
+      "unlock": {
+        "kind": "npc",
+        "refId": "mostovoy-npc"
+      },
+      "npcId": "mostovoy-npc",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-dweller-nester",
+      "section": "dwellers",
+      "title": "Нестер",
+      "body": "Бывший лесник, сосланный в город. Сторожит чужие дрова. Помнит тропы в Пущу.",
+      "mark": "слухи",
+      "sort": 20,
+      "unlock": {
+        "kind": "npc",
+        "refId": "hosts-nester"
+      },
+      "factionId": "hosts",
+      "npcId": "hosts-nester",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-dweller-watcher",
+      "section": "dwellers",
+      "title": "Наблюдатель",
+      "body": "Клерк канцелярии при исполнении. Не мешает. Присутствует. Спорить с ним бесполезно: он не решает — он записывает.",
+      "mark": "слухи",
+      "sort": 36,
+      "unlock": {
+        "kind": "npc",
+        "refId": "committee-watcher"
+      },
+      "factionId": "committee",
+      "npcId": "committee-watcher",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-dweller-watchman",
+      "section": "dwellers",
+      "title": "Путей",
+      "body": "Путевой сторож старой линии. Пропал по наряду № 19, нашёлся на вокзале Колодищи, в запертой дежурке. Помнит, когда по колее возили смены, а не лес.",
+      "mark": "слухи",
+      "sort": 32,
+      "unlock": {
+        "kind": "npc",
+        "refId": "line-watchman-npc"
+      },
+      "factionId": "hosts",
+      "npcId": "line-watchman-npc",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-dweller-whisperer",
+      "section": "dwellers",
+      "title": "Архивариус",
+      "body": "Прячет Имена на полях и в узоре. Говорит тихо: записанное легче изъять.",
+      "mark": "слухи",
+      "sort": 22,
+      "unlock": {
+        "kind": "npc",
+        "refId": "whisperer-npc"
+      },
+      "factionId": "whisperers",
+      "npcId": "whisperer-npc",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-dweller-yard",
+      "section": "dwellers",
+      "title": "Нарядчик",
+      "body": "Окно выдачи нарядов на Лесном участке. Считает штабеля и ведёт журнал: списанное — мёртвое, а живому лесу нужен номер.",
+      "mark": "слухи",
+      "sort": 28,
+      "unlock": {
+        "kind": "npc",
+        "refId": "committee-yard-npc"
+      },
+      "factionId": "committee",
+      "npcId": "committee-yard-npc",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-dweller-zhmenya",
+      "section": "dwellers",
+      "title": "Жменя",
+      "body": "Мечтательница: для неё мир и есть сказка, потому вуаль расступается сама. «Воровка порогов» — чужое слово. Для Комитета — примечание без номера.",
+      "mark": "герой",
+      "sort": 0,
+      "unlock": {
+        "kind": "always"
+      },
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-envelope",
+      "section": "notes",
+      "title": "Конверт",
+      "body": "Конверт Жмени — артефакт Комитета, выданный в «Следе фигуры». Письма материализуются в нём: могут открыть шаг задания — или просто сказать что-то и замолчать. Поручения конверт не выдаёт.",
+      "sort": 30,
+      "unlock": {
+        "kind": "always"
+      },
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-land-bazaar",
+      "section": "lands",
+      "title": "Лесной базар",
+      "body": "Менялы скупают хабар и продают пустые сосуды.",
+      "mark": "посещено",
+      "sort": 57,
+      "unlock": {
+        "kind": "land",
+        "refId": "land_2qw7rgze"
+      },
+      "landId": "land_2qw7rgze",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-land-camp-ogonyok",
+      "section": "lands",
+      "title": "Лагерь «Огонёк»",
+      "body": "Бывший детский лагерь в соснах на берегу Волмы. Пусто, но место живое: у статуи читающего лежит книга имён. Комитет ставит лагерь на учёт под сборный пункт.",
+      "mark": "слухи",
+      "sort": 60,
+      "unlock": {
+        "kind": "land",
+        "refId": "camp-ogonyok"
+      },
+      "landId": "camp-ogonyok",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-land-dom-chernoknignika",
+      "section": "lands",
+      "title": "Дом чернокнижника",
+      "body": "Неприметный городской дом на отшибе: днём ставни закрыты, к ночи в окне огонь. Соседи имени хозяина не знают, в описях дом есть, а хозяин в них не значится. По ночам из-за стены слышно перо.",
+      "mark": "посещено",
+      "sort": 64,
+      "unlock": {
+        "kind": "land",
+        "refId": "dom-chernoknignika"
+      },
+      "landId": "dom-chernoknignika",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-land-fish-land",
+      "section": "lands",
+      "title": "Рыбий скелет",
+      "body": "Каменные рёбра лежат через русло — скелет огромной рыбы. Вода идёт сквозь кости, и переправа старше моста. Комитет её не нумерует: не мост это, скелет.",
+      "mark": "посещено",
+      "sort": 63,
+      "unlock": {
+        "kind": "land",
+        "refId": "fish-land"
+      },
+      "landId": "fish-land",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-land-forest-yard",
+      "section": "lands",
+      "title": "Лесной участок",
+      "body": "Приёмный участок Комитета: штабеля, журнал, окно выдачи нарядов.",
+      "mark": "слухи",
+      "sort": 55,
+      "unlock": {
+        "kind": "land",
+        "refId": "committee-forest-yard"
+      },
+      "landId": "committee-forest-yard",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-land-fortress",
+      "section": "lands",
+      "title": "Крепость Комитета Удачи",
+      "body": "Штаб канцелярии. Мирная зона. Дом лежит внутри.",
+      "mark": "посещено",
+      "sort": 10,
+      "unlock": {
+        "kind": "land",
+        "refId": "committee-fortress"
+      },
+      "landId": "committee-fortress",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-land-home",
+      "section": "lands",
+      "title": "Дом Жмени",
+      "body": "Квартира. В Тенебре это двор крепости. Здесь дом и отдых.",
+      "mark": "посещено",
+      "sort": 0,
+      "unlock": {
+        "kind": "land",
+        "refId": "zhmenya-home"
+      },
+      "landId": "zhmenya-home",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-land-kolodishchi-cemetery",
+      "section": "lands",
+      "title": "Кладбище у Колодищ",
+      "body": "Старый погост на краю Колодищ: кресты, ограды, железнодорожные могилы. Где родни не осталось, Комитет снял имя и поставил номер.",
+      "mark": "слухи",
+      "sort": 62,
+      "unlock": {
+        "kind": "land",
+        "refId": "kolodishchi-cemetery"
+      },
+      "landId": "kolodishchi-cemetery",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-land-kolodishchi-station",
+      "section": "lands",
+      "title": "Вокзал Колодищи",
+      "body": "Станция на линии Минск — Борисов. Отсюда когда-то уходила детская ветка на Волму. В запертой дежурке живёт сторож, что пропал по наряду № 19.",
+      "mark": "слухи",
+      "sort": 58,
+      "unlock": {
+        "kind": "land",
+        "refId": "kolodishchi-station"
+      },
+      "landId": "kolodishchi-station",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-land-lumberyard",
+      "section": "lands",
+      "title": "Дровяной двор",
+      "body": "Склад Комитета, где работает Нестер. Здесь помнят лес.",
+      "mark": "слухи",
+      "sort": 20,
+      "unlock": {
+        "kind": "land",
+        "refId": "hosts-lumberyard"
+      },
+      "landId": "hosts-lumberyard",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-land-malaya-koleya",
+      "section": "lands",
+      "title": "Малая колея",
+      "body": "Кольцо первой дороги. Она была детской: отсюда вагончики шли до Волмы, до лагеря «Огонёк». Теперь — обрывок: стрелка, будка, ржавые рельсы.",
+      "mark": "посещено",
+      "sort": 56,
+      "unlock": {
+        "kind": "land",
+        "refId": "malaya-koleya"
+      },
+      "landId": "malaya-koleya",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-land-rusalochiy-dom",
+      "section": "lands",
+      "title": "Дом с русалками",
+      "body": "Старый городской дом у северного конца переправы: по обе стороны входа — русалки, окна светятся, хотя хозяев нет. Дома нет ни в одной описи: он старше моста и помнит реку по имени.",
+      "mark": "посещено",
+      "sort": 63,
+      "unlock": {
+        "kind": "land",
+        "refId": "rusalochiy-dom"
+      },
+      "landId": "rusalochiy-dom",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-land-volma-bridge",
+      "section": "lands",
+      "title": "Переправа через Волму",
+      "body": "Старый мост через Волму. Фермы лежат в чёрной воде, сваи торчат как сломанные зубы. Хозяин места держит имя во рту — покуда сваи не встанут.",
+      "mark": "слухи",
+      "sort": 59,
+      "unlock": {
+        "kind": "land",
+        "refId": "volma-bridge"
+      },
+      "landId": "volma-bridge",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-land-wild",
+      "section": "lands",
+      "title": "Ничья земля",
+      "body": "Туман снят, а двором никто не владеет. Улица без имени: спрашивать не у кого, отдыхать негде.",
+      "mark": "без хозяина",
+      "sort": 61,
+      "unlock": {
+        "kind": "always"
+      },
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-names",
+      "section": "notes",
+      "title": "Имена и Номера",
+      "body": "Имя — это душа места в старом мире. Номер — инвентарная метка Комитета. Комитет забирает Имена, чтобы навести свой порядок.",
+      "sort": 60,
+      "unlock": {
+        "kind": "always"
+      },
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-power-bookworms",
+      "section": "powers",
+      "title": "Чернокнижники",
+      "body": "Бюрократы, сошедшие с ума. Превращают Номера в темную магию, плодят архивную нечисть.",
+      "mark": "еретики",
+      "sort": 30,
+      "unlock": {
+        "kind": "faction",
+        "refId": "bookworms"
+      },
+      "factionId": "bookworms",
+      "npcId": "bookworm-npc",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-power-changers",
+      "section": "powers",
+      "title": "Менялы",
+      "body": "Чёрный рынок Тенебры. Торгуют пустыми сосудами, обрывками Имён и пропусками.",
+      "mark": "мародёры",
+      "sort": 40,
+      "unlock": {
+        "kind": "faction",
+        "refId": "changers"
+      },
+      "factionId": "changers",
+      "npcId": "changer-npc",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-power-committee",
+      "section": "powers",
+      "title": "Комитет",
+      "body": "Забирают Имена, заменяют их инвентарными Номерами. Хотят превратить Тенебру в обычный мир.",
+      "mark": "оккупанты",
+      "sort": 0,
+      "unlock": {
+        "kind": "faction",
+        "refId": "committee"
+      },
+      "factionId": "committee",
+      "npcId": "committee-npc",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-power-hosts",
+      "section": "powers",
+      "title": "Хозяева",
+      "body": "Духи, лешие, водяные и люди старой крови. Защищают свои угодья от нумерации. Их Имена — это их жизнь.",
+      "mark": "старый мир",
+      "sort": 10,
+      "unlock": {
+        "kind": "faction",
+        "refId": "hosts"
+      },
+      "factionId": "hosts",
+      "npcId": "hosts-nester",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-power-whisperers",
+      "section": "powers",
+      "title": "Шептуны",
+      "body": "Прячут Имена в сказках, песнях, узорах и случайных вещах, чтобы Комитет не смог их стереть.",
+      "mark": "саботажники",
+      "sort": 20,
+      "unlock": {
+        "kind": "faction",
+        "refId": "whisperers"
+      },
+      "factionId": "whisperers",
+      "npcId": "whisperer-npc",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-skip",
+      "section": "notes",
+      "title": "Невыполнимо",
+      "body": "Крестик на карточке поручения: это дело снимется, на его место придёт другое того же дня. Слот недели остаётся.",
+      "sort": 50,
+      "unlock": {
+        "kind": "always"
+      },
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-car",
+      "section": "notes",
+      "title": "Машина",
+      "body": "В Тенебру машины не заходят: слой держится на шаге. Разогнался — выпал; встал — входи снова.",
+      "sort": 10,
+      "unlock": {
+        "kind": "always"
+      },
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-threshold",
+      "section": "notes",
+      "title": "Порог",
+      "body": "Редкое именное место: дверь в Тенебру даже с закрытой клетки.",
+      "sort": 40,
+      "unlock": {
+        "kind": "always"
+      },
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-veil",
+      "section": "notes",
+      "title": "Вуаль",
+      "body": "Кнопка вуали на пластине слева сверху. Открывает Тенебру, если вы стоите на открытой клетке или на пороге. Той же кнопкой выходят, когда пора просто ехать.",
+      "sort": 0,
+      "unlock": {
+        "kind": "always"
+      },
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-dweller-diretkiny",
+      "section": "dwellers",
+      "title": "Диреткины",
+      "body": "Стая летучих мышей под карнизом Жмени: шорох крыльев, шёпот, слухи и пророчества. Прячут чужие имена в шуме, пугают — но добры к тем, кто выбрал сказку.",
+      "mark": "слухи",
+      "sort": 40,
+      "unlock": {
+        "kind": "npc",
+        "refId": "diretkiny-npc"
+      },
+      "factionId": "whisperers",
+      "npcId": "diretkiny-npc",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-dweller-dopevshaya",
+      "section": "dwellers",
+      "title": "Допевшая",
+      "body": "Шептунка при Старом архиве. Допевает песни, брошенные на полуслове: пока строка не допета — спрятанное в ней имя живо. Допетая песня гаснет, и место молчит.",
+      "mark": "слухи",
+      "sort": 42,
+      "unlock": {
+        "kind": "npc",
+        "refId": "dopevshaya-npc"
+      },
+      "factionId": "whisperers",
+      "npcId": "dopevshaya-npc",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-dweller-tara",
+      "section": "dwellers",
+      "title": "Тара",
+      "body": "Тихая меняла с Лесного базара: пустые сосуды, склянки, тара. Торгует без пропуска и без лишних слов — цена у неё говорит сама. Учёту тара не подлежит.",
+      "mark": "слухи",
+      "sort": 44,
+      "unlock": {
+        "kind": "npc",
+        "refId": "tara-npc"
+      },
+      "factionId": "changers",
+      "npcId": "tara-npc",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-dweller-vodyanoy",
+      "section": "dwellers",
+      "title": "Водяной",
+      "body": "Дух воды в Доме с русалками. Держит крыльцо и переправу, пока реку помнят по имени. Комитетские описи трижды пробовал на вкус — все три остались в воде.",
+      "mark": "слухи",
+      "sort": 46,
+      "unlock": {
+        "kind": "npc",
+        "refId": "vodyanoy-npc"
+      },
+      "factionId": "hosts",
+      "npcId": "vodyanoy-npc",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-dweller-miller",
+      "section": "dwellers",
+      "title": "Мельник",
+      "body": "Хозяин старой мельницы на Слепянке: жёрнов мелет сам, мука сыплется как пепел. Говорит редко и только со словом хозяев. Камень со Слепого порога — осколок его жёрнова.",
+      "mark": "слухи",
+      "sort": 48,
+      "unlock": {
+        "kind": "npc",
+        "refId": "miller-npc"
+      },
+      "factionId": "hosts",
+      "npcId": "miller-npc",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-land-staraya-roshcha",
+      "section": "lands",
+      "title": "Старая роща",
+      "body": "Роща за стенами крепости, у воды. На старом дубе Жменя сидела ещё до первого наряда — и уже тогда ходила сквозь вуаль, не зная об этом. Место держит свою дверь.",
+      "mark": "посещено",
+      "sort": 65,
+      "unlock": {
+        "kind": "land",
+        "refId": "staraya-roshcha"
+      },
+      "landId": "staraya-roshcha",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-land-old-archive",
+      "section": "lands",
+      "title": "Старый архив",
+      "body": "Национальный исторический архив. Полки стоят рядами, в читальном зале пахнет пылью и недопетым. Здесь Шептуны прячут имена в описях, переплётах и обрывках песен — там, где ищут только номера.",
+      "mark": "посещено",
+      "sort": 66,
+      "unlock": {
+        "kind": "land",
+        "refId": "old-archive"
+      },
+      "landId": "old-archive",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-origin",
+      "section": "notes",
+      "title": "Откуда Тенебра",
+      "body": "Версий пять, и правды нет ни в одной.\n\nКомитет: Тенебра — незарегистрированный остаток старого мира. Перепись идёт, номеров на всех не хватает.\n\nХозяева: старый мир никуда не уходил. Он дышит под асфальтом, а крепости и описи — болезнь на живом.\n\nШептуны: мир недопели. Тенебра — недопетая строка; допоют — и её не станет.\n\nЧернокнижники: вычеркнутое не исчезает, а копится. Цифра кормится вычеркнутым и растёт.\n\nМенялы: место это было торгом всегда. Просто раньше продавали вещи, а теперь — и имена.",
+      "sort": 70,
+      "unlock": {
+        "kind": "always"
+      },
+      "updatedAt": 0
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "zhmenya-rise",
+      "title": "Восхождение Рыжей Жмени",
+      "blurb": "",
+      "factionId": "committee",
+      "order": 0,
+      "quests": [
+        {
+          "id": "quest-naryad-19",
+          "order": 0,
+          "title": "Наряд № 19",
+          "blurb": "",
+          "main": true,
+          "factionId": "committee",
+          "steps": [
+            {
+              "id": "q1-s1-chancery",
+              "order": 0,
+              "title": "Явиться в канцелярию",
+              "body": "Конверт тёплый: Комитет вспомнил. Наряд № 19 — явиться лично.",
+              "media": [
+                {
+                  "id": "asset:committee-fortress"
+                }
+              ],
+              "lat": 53.93442,
+              "lng": 27.53265,
+              "radiusM": 120,
+              "inTenebra": true,
+              "verb": "talk",
+              "npcId": "committee-npc",
+              "replyId": "reply_q1s1acc0",
+              "letterBody": "Наряд № 19. Явиться лично. Пункт 1: доложить об исходе. Пункт 4: проверить ход работ на Дровяном дворе. Инструмент в готовность. Срок — до распутицы. Конверт при себе."
+            },
+            {
+              "id": "q1-s2-lumberyard",
+              "order": 1,
+              "title": "Дровяной двор",
+              "body": "Двор пахнет пылью: дерево без имени. Нестер работает молча и бумагу не жалует.",
+              "media": [
+                {
+                  "id": "asset:hosts-lumberyard"
+                }
+              ],
+              "lat": 53.930113,
+              "lng": 27.570089,
+              "radiusM": 200,
+              "inTenebra": true,
+              "verb": "talk",
+              "npcId": "hosts-nester",
+              "replyId": "reply_q1s2need",
+              "landId": "hosts-lumberyard"
+            },
+            {
+              "id": "q1-s3-weir",
+              "order": 2,
+              "title": "Слепой порог",
+              "body": "Под порогом вода не мёрзнет даже в мороз. Камень на дне тёплый, тяжёлый — взять и нести Нестеру.",
+              "media": [
+                {
+                  "id": "asset:slepoy-porog"
+                }
+              ],
+              "lat": 53.921531,
+              "lng": 27.641032,
+              "radiusM": 50,
+              "inTenebra": true,
+              "verb": "visit"
+            },
+            {
+              "id": "q1-s4-stone",
+              "order": 3,
+              "title": "Камень к топору",
+              "body": "Нестер ждёт кремень на дворе. Без водяного камня топор не возьмёт мёртвый топляк.",
+              "media": [
+                {
+                  "id": "asset:hosts-lumberyard"
+                }
+              ],
+              "lat": 53.930113,
+              "lng": 27.570089,
+              "radiusM": 200,
+              "inTenebra": true,
+              "verb": "item",
+              "itemId": "item-weir-flint",
+              "consume": true,
+              "landId": "hosts-lumberyard"
+            },
+            {
+              "id": "q1-s5-yard",
+              "order": 4,
+              "title": "Лесной участок",
+              "body": "Нестер признал в камне жёрнов и сунул бирку с моста: сдай на участок, пусть спишут покойника.",
+              "media": [
+                {
+                  "id": "asset:committee-forest-yard"
+                },
+                {
+                  "id": "asset:far-felling"
+                }
+              ],
+              "lat": 53.94045,
+              "lng": 27.62275,
+              "radiusM": 250,
+              "inTenebra": true,
+              "verb": "talk",
+              "npcId": "committee-yard-npc",
+              "replyId": "reply_q1s5tag0",
+              "landId": "committee-forest-yard"
+            },
+            {
+              "id": "q1-s6-gauge",
+              "order": 5,
+              "title": "Лесной базар",
+              "body": "У кольца детской дороги шумит Лесной базар. Скупщик последним видел сторожа — и держит его заклад.",
+              "media": [
+                {
+                  "id": "asset:changers-market"
+                }
+              ],
+              "lat": 53.915,
+              "lng": 27.6435,
+              "radiusM": 200,
+              "inTenebra": true,
+              "verb": "talk",
+              "npcId": "changer-npc",
+              "replyId": "reply_q1s6paid"
+            },
+            {
+              "id": "q1-s7-report",
+              "order": 6,
+              "title": "Рапорт в канцелярию",
+              "body": "Вернуться в крепость и доложить: свидетель видел сторожа на колее, путь был цел.",
+              "media": [
+                {
+                  "id": "asset:committee-fortress"
+                }
+              ],
+              "lat": 53.93442,
+              "lng": 27.53265,
+              "radiusM": 120,
+              "inTenebra": true,
+              "verb": "talk",
+              "npcId": "committee-npc",
+              "replyId": "reply_q1s7rep0"
+            }
+          ],
+          "reward": {
+            "giveItemId": "item-line-pass"
+          }
+        },
+        {
+          "id": "quest-naryad-20",
+          "order": 1,
+          "title": "Наряд № 20. Волма",
+          "blurb": "",
+          "main": true,
+          "factionId": "committee",
+          "steps": [
+            {
+              "id": "q2-s1-naryad",
+              "order": 0,
+              "title": "Явиться за нарядом",
+              "body": "Наряд № 20: Волма. Переправа и бывший лагерь «Огонёк» — поставить на учёт. Печать выдадут при вас.",
+              "media": [
+                {
+                  "id": "asset:committee-fortress"
+                }
+              ],
+              "lat": 53.93442,
+              "lng": 27.53265,
+              "radiusM": 120,
+              "inTenebra": true,
+              "verb": "talk",
+              "npcId": "committee-npc",
+              "replyId": "reply_q2s1take",
+              "requires": [
+                "q1-s7-report"
+              ]
+            },
+            {
+              "id": "q2-s3-booth",
+              "order": 1,
+              "title": "Вокзал Колодищи",
+              "body": "Станция, откуда уходила детская ветка. В запертой дежурке — сторож, что пропал по наряду № 19: путевой ключ подходит к её замку. На путях чёрный состав с номерами — западную партию грузят.",
+              "media": [
+                {
+                  "id": "asset:kolodishchi-station"
+                },
+                {
+                  "id": "asset:volma-booth"
+                }
+              ],
+              "lat": 53.945439,
+              "lng": 27.775573,
+              "radiusM": 180,
+              "inTenebra": true,
+              "verb": "talk",
+              "npcId": "line-watchman-npc",
+              "replyId": "reply_q2s3open",
+              "landId": "kolodishchi-station"
+            },
+            {
+              "id": "q2-s2-road",
+              "order": 2,
+              "title": "Дойти по колее до воды",
+              "body": "Колея уходит от станции на восток и тонет в Волме. Рельсы помнят вагончики: по ним возили не лес, а смены. Теперь по ним гнали лес — и лес встал: река забита.",
+              "media": [
+                {
+                  "id": "asset:rails-end"
+                },
+                {
+                  "id": "asset:volma"
+                }
+              ],
+              "lat": 53.9218,
+              "lng": 27.9168,
+              "radiusM": 120,
+              "inTenebra": true,
+              "verb": "visit"
+            },
+            {
+              "id": "q2-s4-jam",
+              "order": 3,
+              "title": "Затор",
+              "body": "Река забита нумерованным лесом: после того как мост лёг, сплав встал у свай. Пока затор стоит, воды не слышно и к сваям не пройти.",
+              "media": [
+                {
+                  "id": "asset:volma-jam"
+                }
+              ],
+              "lat": 53.919965,
+              "lng": 27.915096,
+              "radiusM": 90,
+              "inTenebra": true,
+              "verb": "rite",
+              "rite": {
+                "kind": "merge",
+                "rounds": 1,
+                "rarity": "D",
+                "seed": "volma-jam"
+              }
+            },
+            {
+              "id": "q2-s5-bridge",
+              "order": 4,
+              "title": "Мостовой",
+              "body": "Старый мост не упал — лёг: пролёт на сваях, настил в воде. Комитет списал его «утратой» и хочет поставить на том же месте новый, под номером. Имя держит хозяин переправы.",
+              "media": [
+                {
+                  "id": "asset:volma-bridge"
+                }
+              ],
+              "lat": 53.919965,
+              "lng": 27.915096,
+              "radiusM": 150,
+              "inTenebra": true,
+              "verb": "talk",
+              "npcId": "mostovoy-npc",
+              "landId": "volma-bridge"
+            },
+            {
+              "id": "q2-s6-camp",
+              "order": 5,
+              "title": "Лагерь «Огонёк»",
+              "body": "Конечная детской дороги. Комитет ставит лагерь на учёт: ворота, корпуса и книгу у статуи. Пока книга открыта — лагерь живой.",
+              "media": [
+                {
+                  "id": "asset:camp-ogonyok"
+                },
+                {
+                  "id": "asset:camp-statue"
+                },
+                {
+                  "id": "asset:camp-statue-detail"
+                }
+              ],
+              "lat": 53.908515,
+              "lng": 27.921199,
+              "radiusM": 250,
+              "inTenebra": true,
+              "verb": "talk",
+              "npcId": "committee-watcher",
+              "landId": "camp-ogonyok"
+            },
+            {
+              "id": "q2-s7-cemetery",
+              "order": 6,
+              "title": "Обратно — мимо кладбища",
+              "body": "Дорога назад идёт мимо погоста. Комитет ставит на учёт и бесхозные могилы: где родни нет — вместо имени номер.",
+              "media": [
+                {
+                  "id": "asset:east-road"
+                },
+                {
+                  "id": "asset:kolodishchi-cemetery"
+                },
+                {
+                  "id": "asset:kolodishchi-cemetery-dusk"
+                }
+              ],
+              "lat": 53.9064,
+              "lng": 27.8346,
+              "radiusM": 180,
+              "inTenebra": true,
+              "verb": "talk",
+              "npcId": "gravedigger-npc",
+              "replyId": "reply_q2s7end",
+              "landId": "kolodishchi-cemetery"
+            },
+            {
+              "id": "q2-s8-report",
+              "order": 7,
+              "title": "Рапорт в канцелярию",
+              "body": "Вернуться в крепость: переправа поставлена, лагерь поставлен. Плашку с именем — сдать.",
+              "media": [
+                {
+                  "id": "asset:volma-bridge-iron"
+                },
+                {
+                  "id": "asset:committee-fortress"
+                }
+              ],
+              "lat": 53.93442,
+              "lng": 27.53265,
+              "radiusM": 120,
+              "inTenebra": true,
+              "verb": "talk",
+              "npcId": "committee-npc",
+              "replyId": "reply_q2s8done"
+            }
+          ]
+        },
+        {
+          "id": "quest-po-vode",
+          "order": 2,
+          "title": "По воде",
+          "blurb": "",
+          "factionId": "hosts",
+          "steps": [
+            {
+              "id": "q3-s1-nester",
+              "order": 0,
+              "title": "Расспросить Нестера",
+              "body": "У Нестера ещё одно дело: мёртвое дерево с реки, что свае родня. Говорит — с ним, не с бумагой.",
+              "media": [
+                {
+                  "id": "asset:hosts-lumberyard"
+                }
+              ],
+              "lat": 53.930113,
+              "lng": 27.570089,
+              "radiusM": 200,
+              "inTenebra": true,
+              "verb": "talk",
+              "npcId": "hosts-nester",
+              "replyId": "reply_q3s1ask0",
+              "requires": [
+                "q1-s2-lumberyard"
+              ],
+              "landId": "hosts-lumberyard"
+            },
+            {
+              "id": "q3-s2-mermaids",
+              "order": 1,
+              "title": "Крыльцо с русалками",
+              "body": "Дом у северного конца переправы: на перилах — зарубки перевозчика. Одна ведёт вниз по воде, к костям; другая перечёркнута — там нумерованный лес.",
+              "media": [
+                {
+                  "id": "asset:rusalochiy-dom"
+                }
+              ],
+              "lat": 53.891497,
+              "lng": 27.607041,
+              "radiusM": 120,
+              "inTenebra": true,
+              "verb": "visit",
+              "landId": "rusalochiy-dom"
+            },
+            {
+              "id": "q3-s3-jam",
+              "order": 2,
+              "title": "Залом в костях",
+              "body": "В рёбрах встал залом: нумерованные брёвна сверху, топляк под ними. Выбрать своё, не обрушив кости.",
+              "media": [
+                {
+                  "id": "asset:fish-land"
+                }
+              ],
+              "lat": 53.887796,
+              "lng": 27.600062,
+              "radiusM": 120,
+              "inTenebra": true,
+              "verb": "rite",
+              "rite": {
+                "kind": "sudoku",
+                "rounds": 1,
+                "rarity": "D",
+                "seed": "po-vode-log"
+              },
+              "landId": "fish-land"
+            },
+            {
+              "id": "q3-s4-log",
+              "order": 3,
+              "title": "Топляк Нестеру",
+              "body": "Нестер ждёт кусок мёртвого дерева: на нём пробует, годится ли на сваи.",
+              "media": [
+                {
+                  "id": "asset:item-pile-timber"
+                }
+              ],
+              "lat": 53.930113,
+              "lng": 27.570089,
+              "radiusM": 200,
+              "inTenebra": true,
+              "verb": "item",
+              "itemId": "item-drowned-log",
+              "consume": true,
+              "landId": "hosts-lumberyard"
+            }
+          ],
+          "reward": {
+            "giveItemId": "item-drowned-charm"
+          }
+        },
+        {
+          "id": "quest-opis-zhidkosti",
+          "order": 3,
+          "title": "Опись жидкости",
+          "blurb": "Комитету нужны все воды: отметить каждую и сдать пробы. Порядок — любой.",
+          "factionId": "committee",
+          "steps": [
+            {
+              "id": "q5-s1-naryad",
+              "order": 0,
+              "title": "Явиться за нарядом",
+              "body": "Комитет ставит на учёт воду: все водоёмы в границах и за границей. Тара выдаётся при наряде.",
+              "media": [
+                {
+                  "id": "asset:committee-fortress"
+                }
+              ],
+              "lat": 53.93442,
+              "lng": 27.53265,
+              "radiusM": 120,
+              "inTenebra": true,
+              "verb": "talk",
+              "npcId": "committee-npc",
+              "replyId": "reply_q5s1take0",
+              "requires": [
+                "q1-s7-report"
+              ]
+            },
+            {
+              "id": "q5-s2-survey",
+              "order": 1,
+              "title": "Опись жидкости",
+              "body": "Пройти по водам и взять пробу в каждой. Порядок произвольный; в канцелярию — только с полной описью.",
+              "media": [
+                {
+                  "id": "asset:volma"
+                }
+              ],
+              "lat": 53.9244,
+              "lng": 27.5344,
+              "radiusM": 120,
+              "inTenebra": true,
+              "verb": "survey",
+              "itemId": "item-sample-bottle",
+              "spots": [
+                {
+                  "id": "chizhovskoe",
+                  "lat": 53.847084,
+                  "lng": 27.618062,
+                  "radiusM": 200,
+                  "label": "Чижовское вдхр."
+                },
+                {
+                  "id": "tsnyanskoe",
+                  "lat": 53.963395,
+                  "lng": 27.58255,
+                  "radiusM": 200,
+                  "label": "Цнянское вдхр."
+                },
+                {
+                  "id": "drozdy",
+                  "lat": 53.953384,
+                  "lng": 27.48333,
+                  "radiusM": 200,
+                  "label": "Дрозды"
+                },
+                {
+                  "id": "krynitsa",
+                  "lat": 53.955656,
+                  "lng": 27.417862,
+                  "radiusM": 200,
+                  "label": "Криница"
+                },
+                {
+                  "id": "zaslavskoe",
+                  "lat": 53.962398,
+                  "lng": 27.347116,
+                  "radiusM": 250,
+                  "label": "Заславское вдхр."
+                },
+                {
+                  "id": "komsomolskoe",
+                  "lat": 53.921995,
+                  "lng": 27.534356,
+                  "radiusM": 150,
+                  "label": "Комсомольское озеро"
+                },
+                {
+                  "id": "lebedinoe",
+                  "lat": 53.912485,
+                  "lng": 27.616153,
+                  "radiusM": 120,
+                  "label": "Лебединое озеро"
+                },
+                {
+                  "id": "lebyazhiy",
+                  "lat": 53.94599,
+                  "lng": 27.456733,
+                  "radiusM": 120,
+                  "label": "Лебяжий"
+                },
+                {
+                  "id": "dipgorodok",
+                  "lat": 53.958099,
+                  "lng": 27.603289,
+                  "radiusM": 120,
+                  "label": "Пруд"
+                },
+                {
+                  "id": "prityckogo-polockoy",
+                  "lat": 53.907776,
+                  "lng": 27.419279,
+                  "radiusM": 120,
+                  "label": "Пруд кунцевщина"
+                },
+                {
+                  "id": "prityckogo-glebki",
+                  "lat": 53.912355,
+                  "lng": 27.469237,
+                  "radiusM": 120,
+                  "label": "Пруд Тивали"
+                },
+                {
+                  "id": "prityckogo-briketa",
+                  "lat": 53.920323,
+                  "lng": 27.48724,
+                  "radiusM": 120,
+                  "label": "Пруд Октября"
+                },
+                {
+                  "id": "kizhevatova",
+                  "lat": 53.855178,
+                  "lng": 27.492503,
+                  "radiusM": 120,
+                  "label": "Пруд Студенческий"
+                },
+                {
+                  "id": "myshka-prudy",
+                  "lat": 53.873861,
+                  "lng": 27.486361,
+                  "radiusM": 150,
+                  "label": "Пруды на Мышке"
+                },
+                {
+                  "id": "esenina",
+                  "lat": 53.905959,
+                  "lng": 27.474334,
+                  "radiusM": 120,
+                  "label": "Пруд Ефросиньи"
+                },
+                {
+                  "id": "svislochskaya",
+                  "lat": 53.849704,
+                  "lng": 27.518134,
+                  "radiusM": 150,
+                  "label": "Лошыца"
+                },
+                {
+                  "id": "slepyanka-center",
+                  "lat": 53.904401,
+                  "lng": 27.609147,
+                  "radiusM": 150,
+                  "label": "Слепянка (центр)"
+                },
+                {
+                  "id": "slepyanka-bones",
+                  "lat": 53.8878,
+                  "lng": 27.6001,
+                  "radiusM": 150,
+                  "label": "Слепянка у костей"
+                },
+                {
+                  "id": "loshitskaya-system",
+                  "lat": 53.853406,
+                  "lng": 27.565598,
+                  "radiusM": 150,
+                  "label": "Лошицкая система"
+                },
+                {
+                  "id": "svisloch-center",
+                  "lat": 53.909679,
+                  "lng": 27.554312,
+                  "radiusM": 120,
+                  "label": "Свислочь (центр)"
+                },
+                {
+                  "id": "loshitsa-river",
+                  "lat": 53.854628,
+                  "lng": 27.529442,
+                  "radiusM": 150,
+                  "label": "Лошица (река)"
+                },
+                {
+                  "id": "myshka-river",
+                  "lat": 53.86355,
+                  "lng": 27.499831,
+                  "radiusM": 150,
+                  "label": "Мышка (река)"
+                },
+                {
+                  "id": "perespa",
+                  "lat": 53.893756,
+                  "lng": 27.600006,
+                  "radiusM": 120,
+                  "label": "Завод"
+                },
+                {
+                  "id": "tsna",
+                  "lat": 53.9735,
+                  "lng": 27.5587,
+                  "radiusM": 200,
+                  "label": "Цна"
+                },
+                {
+                  "id": "trostyanka",
+                  "lat": 53.968861,
+                  "lng": 27.686749,
+                  "radiusM": 200,
+                  "label": "Валерьяново"
+                },
+                {
+                  "id": "spot_ieku1rlp",
+                  "lat": 53.89681264380846,
+                  "lng": 27.515746951103214,
+                  "label": "Мухля"
+                },
+                {
+                  "id": "spot_6zm0diq9",
+                  "lat": 53.900074603132346,
+                  "lng": 27.51036643981934,
+                  "label": "Тучинский сквер"
+                },
+                {
+                  "id": "spot_5w7lwbe7",
+                  "lat": 53.89084120779472,
+                  "lng": 27.43423998355866,
+                  "label": "Семейный"
+                },
+                {
+                  "id": "spot_ntf9z1j1",
+                  "lat": 53.87450312171515,
+                  "lng": 27.46093332767487,
+                  "label": "Променад"
+                }
+              ]
+            },
+            {
+              "id": "q5-s3-sort",
+              "order": 2,
+              "title": "Разлить пробы",
+              "body": "В крепости пробы разбирают по слоям и нумеруют. Бутылочки — язык жидкости, не торг: тут вода становится графой.",
+              "media": [
+                {
+                  "id": "asset:committee-fortress"
+                }
+              ],
+              "lat": 53.93442,
+              "lng": 27.53265,
+              "radiusM": 120,
+              "inTenebra": true,
+              "verb": "rite",
+              "rite": {
+                "kind": "alchemy",
+                "rounds": 1,
+                "rarity": "D",
+                "seed": "opis-zhidkosti"
+              }
+            },
+            {
+              "id": "q5-s4-report",
+              "order": 3,
+              "title": "Рапорт в канцелярию",
+              "body": "Сдать тару и опись: все воды отмечены, пробы разлиты.",
+              "media": [
+                {
+                  "id": "asset:committee-fortress"
+                }
+              ],
+              "lat": 53.93442,
+              "lng": 27.53265,
+              "radiusM": 120,
+              "inTenebra": true,
+              "verb": "talk",
+              "npcId": "committee-npc",
+              "replyId": "reply_q5s4rpt0"
+            }
+          ]
+        },
+        {
+          "id": "quest-postoyanny-pokupatel",
+          "order": 2,
+          "title": "Постоянный покупатель",
+          "blurb": "Побочное: скупщик отрицает, что знает Фигуру; про ключи в торгу пусто, но вспоминается странный покупатель, чей дом он просит проведать.",
+          "factionId": "changers",
+          "steps": [
+            {
+              "id": "q4-s1-ask",
+              "order": 0,
+              "title": "Постоянный покупатель",
+              "body": "Скупщик говорит, что Фигуры не знает. Про ключи в торгу — пусто: не приносили и не спрашивали. Зато вспомнился покупатель: платит за мёртвые номера, торга не принимает, лица не кажет. Дом его — в городе, на отшибе.",
+              "media": [
+                {
+                  "id": "asset:changers-market"
+                }
+              ],
+              "lat": 53.915,
+              "lng": 27.6435,
+              "radiusM": 200,
+              "inTenebra": true,
+              "verb": "talk",
+              "npcId": "changer-npc",
+              "replyId": "reply_q4s1ask0",
+              "requires": [
+                "q1-s6-gauge"
+              ]
+            },
+            {
+              "id": "q4-s2-house",
+              "order": 1,
+              "title": "Дом на отшибе",
+              "body": "Дверь не заперта. Внутри пахнет воском и чернилами: свечей десяток, все оплыли, но горят. На столе — раскрытая чёрная книга: столбик имён, напротив — числа, процарапанные насквозь. На полу круг, обведённый мелом, у двери стёрт. Печь холодная, а свечи тёплые: хозяин приходит, когда его не ждут. Его самого нет.",
+              "media": [
+                {
+                  "id": "asset:dom-chernoknignika"
+                }
+              ],
+              "lat": 53.90786497737614,
+              "lng": 27.60246276855469,
+              "radiusM": 120,
+              "inTenebra": true,
+              "verb": "visit",
+              "landId": "dom-chernoknignika"
+            },
+            {
+              "id": "q4-s3-report",
+              "order": 2,
+              "title": "Сдать находку скупщику",
+              "body": "Вернуться к скупщику: дом на отшибе пуст, хозяин — чернокнижник. Менялы принимают такой товар. Канцелярию известить можно, но это уже ваша добрая воля.",
+              "media": [
+                {
+                  "id": "asset:changers-market"
+                }
+              ],
+              "lat": 53.915,
+              "lng": 27.6435,
+              "radiusM": 200,
+              "inTenebra": true,
+              "verb": "talk",
+              "npcId": "changer-npc",
+              "replyId": "reply_q4s3chg0"
+            }
+          ]
+        },
+        {
+          "id": "quest-chernoknig-chain",
+          "order": 9,
+          "title": "Графа чернокнижника",
+          "blurb": "Комитет открывает цепочку про чернокнижников. Продолжение — в разработке.",
+          "factionId": "committee",
+          "steps": [
+            {
+              "id": "q6-s1-report",
+              "order": 0,
+              "title": "Доложить в канцелярию",
+              "body": "Явиться в канцелярию и доложить о доме на отшибе: скупщик вернул заклад, а хозяин так и не объявился. Комитет откроет графу — при репутации не ниже 500.",
+              "media": [
+                {
+                  "id": "asset:committee-fortress"
+                }
+              ],
+              "lat": 53.93442,
+              "lng": 27.53265,
+              "radiusM": 120,
+              "inTenebra": true,
+              "verb": "talk",
+              "npcId": "committee-npc",
+              "replyId": "reply_q4s3rpt0",
+              "requires": [
+                "q4-s3-report"
+              ]
+            },
+            {
+              "id": "q6-s2-shadow",
+              "order": 1,
+              "title": "Тень на пустыре",
+              "body": "Продолжение цепочки ещё пишется. Пока — заглушка: вернуться к дому чернокнижника и убедиться, что он пуст.",
+              "media": [
+                {
+                  "id": "asset:dom-chernoknignika"
+                }
+              ],
+              "lat": 53.90786497737614,
+              "lng": 27.60246276855469,
+              "radiusM": 120,
+              "inTenebra": true,
+              "verb": "visit",
+              "landId": "dom-chernoknignika"
+            }
+          ]
+        }
+      ],
+      "triggers": [
+        {
+          "id": "naryad19-flint",
+          "when": [
+            {
+              "kind": "step-done",
+              "stepId": "q1-s3-weir"
+            }
+          ],
+          "effects": {
+            "giveItemId": "item-weir-flint"
+          }
+        },
+        {
+          "id": "naryad19-tag",
+          "when": [
+            {
+              "kind": "step-done",
+              "stepId": "q1-s4-stone"
+            }
+          ],
+          "effects": {
+            "giveItemId": "item-bridge-tag",
+            "rep": {
+              "factionId": "hosts",
+              "amount": 10
+            }
+          }
+        },
+        {
+          "id": "naryad19-report",
+          "when": [
+            {
+              "kind": "quest-done",
+              "questId": "quest-naryad-19"
+            }
+          ],
+          "effects": {
+            "letter": {
+              "title": "Наряд № 19",
+              "body": "Осмотр зачтён. Свидетельские показания приняты. Ключ от стрелки оставьте при себе. Линия подлежит открытию. Ожидайте наряд № 20. Выдача — при репутации Комитета не ниже 200."
+            }
+          }
+        },
+        {
+          "id": "naryad20-token",
+          "when": [
+            {
+              "kind": "flag",
+              "flag": "q2-bridge-self"
+            }
+          ],
+          "effects": {
+            "giveItemId": "item-number-token"
+          }
+        },
+        {
+          "id": "naryad20-refused",
+          "when": [
+            {
+              "kind": "flag",
+              "flag": "q2-bridge-refused"
+            }
+          ],
+          "effects": {
+            "rep": {
+              "factionId": "hosts",
+              "amount": 30
+            }
+          }
+        },
+        {
+          "id": "naryad20-camp-refused",
+          "when": [
+            {
+              "kind": "flag",
+              "flag": "q2-camp-refused"
+            }
+          ],
+          "effects": {
+            "rep": {
+              "factionId": "hosts",
+              "amount": 15
+            }
+          }
+        },
+        {
+          "id": "naryad20-report",
+          "when": [
+            {
+              "kind": "quest-done",
+              "questId": "quest-naryad-20"
+            }
+          ],
+          "effects": {
+            "setFlag": "q2-done",
+            "letter": {
+              "title": "Наряд № 20",
+              "body": "Переправа и сборный пункт приняты. Имена не числятся. Линия готова к работам. Следующий наряд — на запад. Конверт сохраните."
+            }
+          }
+        },
+        {
+          "id": "povode-log",
+          "when": [
+            {
+              "kind": "step-done",
+              "stepId": "q3-s3-jam"
+            }
+          ],
+          "effects": {
+            "giveItemId": "item-drowned-log"
+          }
+        },
+        {
+          "id": "povode-report",
+          "when": [
+            {
+              "kind": "quest-done",
+              "questId": "quest-po-vode"
+            }
+          ],
+          "effects": {
+            "rep": {
+              "factionId": "hosts",
+              "amount": 10
+            }
+          }
+        },
+        {
+          "id": "opis-report",
+          "when": [
+            {
+              "kind": "quest-done",
+              "questId": "quest-opis-zhidkosti"
+            }
+          ],
+          "effects": {
+            "letter": {
+              "title": "Опись жидкости",
+              "body": "Воды отмечены, пробы разлиты и пронумерованы. Учёт закрыт. Возражение воды не предусмотрено."
+            }
+          }
+        },
+        {
+          "id": "pokupatel-report",
+          "when": [
+            {
+              "kind": "quest-done",
+              "questId": "quest-postoyanny-pokupatel"
+            }
+          ],
+          "effects": {
+            "setFlag": "q4-reported",
+            "letter": {
+              "title": "Постоянный покупатель",
+              "body": "Скупщик принял заклад. Канцелярия просит доложить о доме лично: графа «чернокнижник» без вашего слова открыта не будет. Приём — при репутации Комитета не ниже 500."
+            }
+          }
+        }
+      ],
+      "updatedAt": 0
+    }
+  ],
+  "contentVersion": 1789467173747
+}

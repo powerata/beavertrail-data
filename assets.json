@@ -1,0 +1,290 @@
+{
+  "version": 1789467173747,
+  "assets": {
+    "beaver": {
+      "file": "beaver.jpg",
+      "sha256": "170cb553f394198c92a6a9e3ddc851b1da11591901c9d52a9745292c2085ecf6",
+      "bytes": 320620
+    },
+    "bookworm-npc": {
+      "file": "bookworm-npc.jpg",
+      "sha256": "90cbe33a7bb0446067f318ba1e0bf8ac40ec176250eba911b84edd36a435f8fa",
+      "bytes": 205766
+    },
+    "camp-ogonyok": {
+      "file": "camp-ogonyok.jpg",
+      "sha256": "a2cc995044e9922e26c6de3ca0820118e9bb3a70d9e06c11a19009292a6315f1",
+      "bytes": 607919
+    },
+    "camp-statue": {
+      "file": "camp-statue.jpg",
+      "sha256": "80108a9a7fee7efdc9ba095b7668294b16f59d38863b39c6f1e1728f85cd508d",
+      "bytes": 463119
+    },
+    "camp-statue-detail": {
+      "file": "camp-statue-detail.jpg",
+      "sha256": "1237979dd7787b7f5555d681aa74a1080181b298e81fe660bca6501397efde64",
+      "bytes": 358641
+    },
+    "changer-npc": {
+      "file": "changer-npc.jpg",
+      "sha256": "6a3b4540d114a844f89e5e70bf36d3f7b18ccedbe0befcaf6a9aa0424266fbce",
+      "bytes": 218098
+    },
+    "changers-market": {
+      "file": "changers-market.jpg",
+      "sha256": "4ffd3cfe307084fd0012a2fa25983fcef6afc8a03dee49403d2a9ef3f8a5e374",
+      "bytes": 345792
+    },
+    "committee-clerk-newcomer": {
+      "file": "committee-clerk-newcomer.jpg",
+      "sha256": "e4c2d5664d45274ae204ffec5124bba057be1005c784e01021d872a9fe6c6400",
+      "bytes": 141834
+    },
+    "committee-clerk-overworker": {
+      "file": "committee-clerk-overworker.jpg",
+      "sha256": "07df12b3474d66640c63eadc7d89bb3701c6b18861e495851c1209ed5e8a2baa",
+      "bytes": 163255
+    },
+    "committee-clerk-pedant": {
+      "file": "committee-clerk-pedant.jpg",
+      "sha256": "3f41148676aba53069d4b60a69570ab8fbe8001adbc9e4380aca94e117b4ea2a",
+      "bytes": 217739
+    },
+    "committee-envelope": {
+      "file": "committee-envelope.jpg",
+      "sha256": "ac3fc2e865f383d3944a545f267e56ac2a3abbeb409e016b9b73efed5abd2b58",
+      "bytes": 239127
+    },
+    "committee-forest-yard": {
+      "file": "committee-forest-yard.jpg",
+      "sha256": "9fcc8e4c6d985b06e4af28979edff4acb71122f0db31f6181fd21ac49b05c1d3",
+      "bytes": 324664
+    },
+    "committee-fortress": {
+      "file": "committee-fortress.jpg",
+      "sha256": "2b2851a40cee8df60052f3a62158f673315a9ef515b9122db3b4725e23ac3aca",
+      "bytes": 297210
+    },
+    "committee-npc": {
+      "file": "committee-npc.jpg",
+      "sha256": "cc92ac52dfe009552c29f178603f2371bcbc51f8ed5da77a7097db58bd466569",
+      "bytes": 204711
+    },
+    "committee-yard-npc": {
+      "file": "committee-yard-npc.jpg",
+      "sha256": "36a3ebbfcf0acfc19b65277974b954ccf738e1b9d7f3716628101f4cc98bcc12",
+      "bytes": 232333
+    },
+    "dom-chernoknignika": {
+      "file": "dom-chernoknignika.jpg",
+      "sha256": "dbeba75b308f102d0960c6ff97910265353cf7c1ed5de817fd3728a5dfab84c3",
+      "bytes": 183160
+    },
+    "east-road": {
+      "file": "east-road.jpg",
+      "sha256": "82f148077d06239f26c66281f6c33704c763a2d04ac3f69a05b4a819e78d8ce1",
+      "bytes": 369378
+    },
+    "far-felling": {
+      "file": "far-felling.jpg",
+      "sha256": "4d1fecff1a359ec242533f6385cdaf9daa0eaa43ede088bb51226db74c2c800c",
+      "bytes": 414067
+    },
+    "fish-land": {
+      "file": "fish-land.jpg",
+      "sha256": "cc814eeb1882d488caba85ba8c98fd223ef39135bec126d3bed9e90c5b6d29b1",
+      "bytes": 443213
+    },
+    "gravedigger-npc": {
+      "file": "gravedigger-npc.jpg",
+      "sha256": "466e59767243c89e5139895919183cca1a86097faaac66ea1af658c0296d19ff",
+      "bytes": 373672
+    },
+    "hosts-lumberyard": {
+      "file": "hosts-lumberyard.jpg",
+      "sha256": "c73e9e1b5f451f370a5e58a5c9cf6f4a6d2405e860d1404c658ffa6272cd1e0e",
+      "bytes": 367113
+    },
+    "hosts-nester": {
+      "file": "hosts-nester.jpg",
+      "sha256": "8013e5fba413d094c8de08a896fd4694eab91203cb07c5cf90235b0bf8f9bfdd",
+      "bytes": 261213
+    },
+    "iron-man-npc": {
+      "file": "iron-man-npc.jpg",
+      "sha256": "572fcd9cba4d554f14367ebafba863c5a0b0aa03a7cbb16d6272ebd43b3d3d45",
+      "bytes": 296348
+    },
+    "item-bridge-tag": {
+      "file": "item-bridge-tag.jpg",
+      "sha256": "475cd09566816a2aa3643aa42ebad0a9c3c5d9d8772447b7174a705b369a88dd",
+      "bytes": 223360
+    },
+    "item-committee-seal": {
+      "file": "item-committee-seal.jpg",
+      "sha256": "e598afd553c5522ab40457dcd4d30f28b55fbfab4e496f1b0d3191b22e69647d",
+      "bytes": 339086
+    },
+    "item-drowned-charm": {
+      "file": "item-drowned-charm.jpg",
+      "sha256": "7b16d2888a9977f1f45ee3816f9441f7216ce1700c8fe01aa8a3e3cfc95aa899",
+      "bytes": 330290
+    },
+    "item-felling-order": {
+      "file": "item-felling-order.jpg",
+      "sha256": "e3fa03d2181e9dfa468fe33d36dc0723988856080e941b207544db1a1a9644f4",
+      "bytes": 228088
+    },
+    "item-letter-volma": {
+      "file": "item-letter-volma.jpg",
+      "sha256": "90698d23df7e1180270fa9996b42e7f93728121d4332b27aa2c7a0185f1fc34b",
+      "bytes": 273932
+    },
+    "item-line-pass": {
+      "file": "item-line-pass.jpg",
+      "sha256": "f8b96da94bdc7d1a0660fcf50db84c5889dc1f9d25a1f78b97a4ad61cdff09ed",
+      "bytes": 219697
+    },
+    "item-luck-coin": {
+      "file": "item-luck-coin.jpg",
+      "sha256": "815898d2ee1958f87c847631a774e7d1fa6583b3d0fcb95cefb8f528d7f670af",
+      "bytes": 322957
+    },
+    "item-millstone": {
+      "file": "item-millstone.jpg",
+      "sha256": "024fdeef4a104ab11246b1074a44ef478698571502c48034176b7d2e6b2a62e3",
+      "bytes": 388783
+    },
+    "item-name-page": {
+      "file": "item-name-page.jpg",
+      "sha256": "d4f866fd374fffd954bf77e18ed877a25dedad1927948cc084ba3dccb77e5d16",
+      "bytes": 365435
+    },
+    "item-name-plate": {
+      "file": "item-name-plate.jpg",
+      "sha256": "ff1d3a1eba0bdcfa059e4948e5e77673294707d482561f41cec154280433cce9",
+      "bytes": 297155
+    },
+    "item-number-token": {
+      "file": "item-number-token.jpg",
+      "sha256": "40ef7eea2b15ef7441d040c72b72972973e4f9bb689bc1745c856d3856afadca",
+      "bytes": 220639
+    },
+    "item-pile-timber": {
+      "file": "item-pile-timber.jpg",
+      "sha256": "bca58529bd8eb60ecae0a71288d9630db462189d9f7843289c467e99f7bba262",
+      "bytes": 344786
+    },
+    "item-red-log": {
+      "file": "item-red-log.jpg",
+      "sha256": "7acac2fd66b55cf39cddcd3814c9646aa389e7b201e929c9c9a86b44eae9949c",
+      "bytes": 305787
+    },
+    "item-sample-bottle": {
+      "file": "item-sample-bottle.jpg",
+      "sha256": "c905105c9476a86805fdd2201231653fc32d7136a4df505fc45c50acde723aa3",
+      "bytes": 62969
+    },
+    "item-switch-key": {
+      "file": "item-switch-key.jpg",
+      "sha256": "90af1479f5043907401cc1799d26b75b0aa71aea2a078bc682bbf3004a9109b7",
+      "bytes": 247234
+    },
+    "item-weir-flint": {
+      "file": "item-weir-flint.jpg",
+      "sha256": "ce1b1ecac54ad051cd17add43ec8713d8691a8915851b25eccbef3feff6b20fe",
+      "bytes": 332082
+    },
+    "kolodishchi-cemetery": {
+      "file": "kolodishchi-cemetery.jpg",
+      "sha256": "760f4d6046033976de6177e36a7e1b2e6b55cf74bf6232aa128466d27765b1dd",
+      "bytes": 404774
+    },
+    "kolodishchi-cemetery-dusk": {
+      "file": "kolodishchi-cemetery-dusk.jpg",
+      "sha256": "11901dda46e22524e165d48cbed1ffea59e4a7cbb5aeca747e64613487495f1c",
+      "bytes": 381203
+    },
+    "kolodishchi-station": {
+      "file": "kolodishchi-station.jpg",
+      "sha256": "bc1ffe561c7f9fa6f6c3182f2de5de01f3c4f1e397ad8481d0afcd11ee7730b1",
+      "bytes": 433439
+    },
+    "line-watchman-npc": {
+      "file": "line-watchman-npc.jpg",
+      "sha256": "81f6028cd797de9d87cb3e32633b525f4e15a98ac13e39d41d9983f3edad2016",
+      "bytes": 260989
+    },
+    "malaya-koleya": {
+      "file": "malaya-koleya.jpg",
+      "sha256": "fa1d3cc5903d5178e744884b746b0a301fd923d13a226c2d378e6157ada99082",
+      "bytes": 346104
+    },
+    "mill-keeper-npc": {
+      "file": "mill-keeper-npc.jpg",
+      "sha256": "93a5b69674fd063cdd725442a9fcad0496b99aee2d4b562707b59b5ecb808a09",
+      "bytes": 313870
+    },
+    "mostovoy-npc": {
+      "file": "mostovoy-npc.jpg",
+      "sha256": "e6c8293a553145d5dd7a7eb6bac3523ad610a4b7f88935ba229d7d17002bc471",
+      "bytes": 324268
+    },
+    "old-mill": {
+      "file": "old-mill.jpg",
+      "sha256": "d3141b92add7644fc84282d6467b2cea8df4720623fb27aeb2a1da5e908e8ec2",
+      "bytes": 389618
+    },
+    "rails-end": {
+      "file": "rails-end.jpg",
+      "sha256": "69347dac74ee74138c10a854ab0c68a1f2462aa6b9843bb1d0eb8963322a1613",
+      "bytes": 385790
+    },
+    "rusalochiy-dom": {
+      "file": "rusalochiy-dom.jpg",
+      "sha256": "ee93c40d33563186a7c444cc92b6114e64ab0125a09361a0a860c942e646c926",
+      "bytes": 397017
+    },
+    "slepoy-porog": {
+      "file": "slepoy-porog.jpg",
+      "sha256": "2d0f67b3155d1f05741be5dcd035b61ceeb885805790113077547f40c53cf89d",
+      "bytes": 390616
+    },
+    "volma": {
+      "file": "volma.jpg",
+      "sha256": "cc7842158808296510c7836a35e4eb376574cedf65b4a326ca0aa72ab604f96b",
+      "bytes": 347539
+    },
+    "volma-booth": {
+      "file": "volma-booth.jpg",
+      "sha256": "0e5d1dcbb6f4597ce6439eac369da82f4b000cb65323c2505a41574af0736b98",
+      "bytes": 414114
+    },
+    "volma-bridge": {
+      "file": "volma-bridge.jpg",
+      "sha256": "e7215f31c8fcf98618ece18fc9c14a90ca4869b56697fcecb0baea77b84691f8",
+      "bytes": 427210
+    },
+    "volma-bridge-iron": {
+      "file": "volma-bridge-iron.jpg",
+      "sha256": "ba03ef23579a1e590f5a8dbdeed2f7aab9c95f452db68d749273368d91b1b537",
+      "bytes": 437598
+    },
+    "volma-jam": {
+      "file": "volma-jam.jpg",
+      "sha256": "866aa92c8ec72c75ce1284b7764e27076c390900920ff976923f09e7f117ee12",
+      "bytes": 390525
+    },
+    "whisperer-npc": {
+      "file": "whisperer-npc.jpg",
+      "sha256": "7e977d32c8b82ffe9ca9430ab27b7b61ea32d33b9e385f1440e34feb8d60d99a",
+      "bytes": 162949
+    },
+    "zhmenya-home": {
+      "file": "zhmenya-home.jpg",
+      "sha256": "e07cab761626e562225ab44204928ffe77bda9e724bcfa13c3eec1c92b1736de",
+      "bytes": 403732
+    }
+  }
+}
