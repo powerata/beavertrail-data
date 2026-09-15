@@ -1081,24 +1081,28 @@
       "id": "diretkiny-npc",
       "name": "Диреткины",
       "faction": "whisperers",
+      "portraitId": "asset:diretkiny-npc",
       "updatedAt": 0
     },
     {
       "id": "dopevshaya-npc",
       "name": "Допевшая",
       "faction": "whisperers",
+      "portraitId": "asset:dopevshaya-npc",
       "updatedAt": 0
     },
     {
       "id": "tara-npc",
       "name": "Тара",
       "faction": "changers",
+      "portraitId": "asset:tara-npc",
       "updatedAt": 0
     },
     {
       "id": "vodyanoy-npc",
       "name": "Водяной",
       "faction": "hosts",
+      "portraitId": "asset:vodyanoy-npc",
       "updatedAt": 0
     },
     {
@@ -4425,6 +4429,7 @@
       },
       "factionId": "bookworms",
       "npcId": "bookworm-npc",
+      "portraitId": "asset:bookworm-npc",
       "updatedAt": 0
     },
     {
@@ -4440,6 +4445,7 @@
       },
       "factionId": "changers",
       "npcId": "changer-npc",
+      "portraitId": "asset:changer-npc",
       "updatedAt": 0
     },
     {
@@ -4455,6 +4461,7 @@
       },
       "factionId": "committee",
       "npcId": "committee-npc",
+      "portraitId": "asset:committee-npc",
       "updatedAt": 0
     },
     {
@@ -4467,6 +4474,7 @@
       "unlock": {
         "kind": "always"
       },
+      "portraitId": "asset:figure-npc",
       "updatedAt": 0
     },
     {
@@ -4482,6 +4490,7 @@
       },
       "factionId": "hosts",
       "npcId": "gravedigger-npc",
+      "portraitId": "asset:gravedigger-npc",
       "updatedAt": 0
     },
     {
@@ -4496,6 +4505,7 @@
         "refId": "mostovoy-npc"
       },
       "npcId": "mostovoy-npc",
+      "portraitId": "asset:mostovoy-npc",
       "updatedAt": 0
     },
     {
@@ -4511,6 +4521,7 @@
       },
       "factionId": "hosts",
       "npcId": "hosts-nester",
+      "portraitId": "asset:hosts-nester",
       "updatedAt": 0
     },
     {
@@ -4526,6 +4537,7 @@
       },
       "factionId": "committee",
       "npcId": "committee-watcher",
+      "portraitId": "asset:committee-clerk-pedant",
       "updatedAt": 0
     },
     {
@@ -4541,6 +4553,7 @@
       },
       "factionId": "hosts",
       "npcId": "line-watchman-npc",
+      "portraitId": "asset:line-watchman-npc",
       "updatedAt": 0
     },
     {
@@ -4556,6 +4569,7 @@
       },
       "factionId": "whisperers",
       "npcId": "whisperer-npc",
+      "portraitId": "asset:whisperer-npc",
       "updatedAt": 0
     },
     {
@@ -4571,6 +4585,7 @@
       },
       "factionId": "committee",
       "npcId": "committee-yard-npc",
+      "portraitId": "asset:committee-yard-npc",
       "updatedAt": 0
     },
     {
@@ -4583,6 +4598,7 @@
       "unlock": {
         "kind": "always"
       },
+      "portraitId": "asset:zhmenya",
       "updatedAt": 0
     },
     {
@@ -4594,6 +4610,7 @@
       "unlock": {
         "kind": "always"
       },
+      "portraitId": "asset:committee-envelope",
       "updatedAt": 0
     },
     {
@@ -4608,6 +4625,7 @@
         "refId": "land_2qw7rgze"
       },
       "landId": "land_2qw7rgze",
+      "portraitId": "asset:land_2qw7rgze",
       "updatedAt": 0
     },
     {
@@ -4622,6 +4640,7 @@
         "refId": "camp-ogonyok"
       },
       "landId": "camp-ogonyok",
+      "portraitId": "asset:camp-ogonyok",
       "updatedAt": 0
     },
     {
@@ -4636,6 +4655,7 @@
         "refId": "dom-chernoknignika"
       },
       "landId": "dom-chernoknignika",
+      "portraitId": "asset:dom-chernoknignika",
       "updatedAt": 0
     },
     {
@@ -4650,6 +4670,7 @@
         "refId": "fish-land"
       },
       "landId": "fish-land",
+      "portraitId": "asset:fish-land",
       "updatedAt": 0
     },
     {
@@ -4664,6 +4685,7 @@
         "refId": "committee-forest-yard"
       },
       "landId": "committee-forest-yard",
+      "portraitId": "asset:committee-forest-yard",
       "updatedAt": 0
     },
     {
@@ -4678,6 +4700,7 @@
         "refId": "committee-fortress"
       },
       "landId": "committee-fortress",
+      "portraitId": "asset:committee-fortress",
       "updatedAt": 0
     },
     {
@@ -4692,6 +4715,7 @@
         "refId": "zhmenya-home"
       },
       "landId": "zhmenya-home",
+      "portraitId": "asset:zhmenya-home",
       "updatedAt": 0
     },
     {
@@ -4706,6 +4730,7 @@
         "refId": "kolodishchi-cemetery"
       },
       "landId": "kolodishchi-cemetery",
+      "portraitId": "asset:kolodishchi-cemetery",
       "updatedAt": 0
     },
     {
@@ -4720,6 +4745,7 @@
         "refId": "kolodishchi-station"
       },
       "landId": "kolodishchi-station",
+      "portraitId": "asset:kolodishchi-station",
       "updatedAt": 0
     },
     {
@@ -4734,6 +4760,7 @@
         "refId": "hosts-lumberyard"
       },
       "landId": "hosts-lumberyard",
+      "portraitId": "asset:hosts-lumberyard",
       "updatedAt": 0
     },
     {
@@ -4748,6 +4775,7 @@
         "refId": "malaya-koleya"
       },
       "landId": "malaya-koleya",
+      "portraitId": "asset:malaya-koleya",
       "updatedAt": 0
     },
     {
@@ -4762,6 +4790,7 @@
         "refId": "rusalochiy-dom"
       },
       "landId": "rusalochiy-dom",
+      "portraitId": "asset:rusalochiy-dom",
       "updatedAt": 0
     },
     {
@@ -4776,6 +4805,7 @@
         "refId": "volma-bridge"
       },
       "landId": "volma-bridge",
+      "portraitId": "asset:volma-bridge",
       "updatedAt": 0
     },
     {
@@ -4814,6 +4844,7 @@
       },
       "factionId": "bookworms",
       "npcId": "bookworm-npc",
+      "portraitId": "asset:bookworm-npc",
       "updatedAt": 0
     },
     {
@@ -4829,6 +4860,7 @@
       },
       "factionId": "changers",
       "npcId": "changer-npc",
+      "portraitId": "asset:changer-npc",
       "updatedAt": 0
     },
     {
@@ -4844,6 +4876,7 @@
       },
       "factionId": "committee",
       "npcId": "committee-npc",
+      "portraitId": "asset:committee-npc",
       "updatedAt": 0
     },
     {
@@ -4859,6 +4892,7 @@
       },
       "factionId": "hosts",
       "npcId": "hosts-nester",
+      "portraitId": "asset:hosts-nester",
       "updatedAt": 0
     },
     {
@@ -4874,6 +4908,7 @@
       },
       "factionId": "whisperers",
       "npcId": "whisperer-npc",
+      "portraitId": "asset:whisperer-npc",
       "updatedAt": 0
     },
     {
@@ -4933,6 +4968,7 @@
       },
       "factionId": "whisperers",
       "npcId": "diretkiny-npc",
+      "portraitId": "asset:diretkiny-npc",
       "updatedAt": 0
     },
     {
@@ -4948,6 +4984,7 @@
       },
       "factionId": "whisperers",
       "npcId": "dopevshaya-npc",
+      "portraitId": "asset:dopevshaya-npc",
       "updatedAt": 0
     },
     {
@@ -4963,6 +5000,7 @@
       },
       "factionId": "changers",
       "npcId": "tara-npc",
+      "portraitId": "asset:tara-npc",
       "updatedAt": 0
     },
     {
@@ -4978,6 +5016,7 @@
       },
       "factionId": "hosts",
       "npcId": "vodyanoy-npc",
+      "portraitId": "asset:vodyanoy-npc",
       "updatedAt": 0
     },
     {
@@ -4993,6 +5032,7 @@
       },
       "factionId": "hosts",
       "npcId": "miller-npc",
+      "portraitId": "asset:mill-keeper-npc",
       "updatedAt": 0
     },
     {
@@ -5007,6 +5047,7 @@
         "refId": "staraya-roshcha"
       },
       "landId": "staraya-roshcha",
+      "portraitId": "asset:staraya-roshcha",
       "updatedAt": 0
     },
     {
@@ -5021,6 +5062,7 @@
         "refId": "old-archive"
       },
       "landId": "old-archive",
+      "portraitId": "asset:old-archive",
       "updatedAt": 0
     },
     {
@@ -6027,5 +6069,5 @@
       "updatedAt": 0
     }
   ],
-  "contentVersion": 1789467173747
+  "contentVersion": 1789472132705
 }

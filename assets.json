@@ -1,5 +1,5 @@
 {
-  "version": 1789467173747,
+  "version": 1789472132705,
   "assets": {
     "beaver": {
       "file": "beaver.jpg",
@@ -76,10 +76,20 @@
       "sha256": "36a3ebbfcf0acfc19b65277974b954ccf738e1b9d7f3716628101f4cc98bcc12",
       "bytes": 232333
     },
+    "diretkiny-npc": {
+      "file": "diretkiny-npc.jpg",
+      "sha256": "4817f03c0ee94e1b27bf98672dbfdc717b1c2b0283060903a1740976c674ea23",
+      "bytes": 254083
+    },
     "dom-chernoknignika": {
       "file": "dom-chernoknignika.jpg",
       "sha256": "dbeba75b308f102d0960c6ff97910265353cf7c1ed5de817fd3728a5dfab84c3",
       "bytes": 183160
+    },
+    "dopevshaya-npc": {
+      "file": "dopevshaya-npc.jpg",
+      "sha256": "0e60482933eb822a75d89e2987355337ffadb9f7c5ef6d3150f1ab6d8499a675",
+      "bytes": 239010
     },
     "east-road": {
       "file": "east-road.jpg",
@@ -90,6 +100,11 @@
       "file": "far-felling.jpg",
       "sha256": "4d1fecff1a359ec242533f6385cdaf9daa0eaa43ede088bb51226db74c2c800c",
       "bytes": 414067
+    },
+    "figure-npc": {
+      "file": "figure-npc.jpg",
+      "sha256": "81f47a27b44dad55dd23c70a002069c1cbc8709332e858248ff1bbacfefc5c5d",
+      "bytes": 293764
     },
     "fish-land": {
       "file": "fish-land.jpg",
@@ -211,6 +226,11 @@
       "sha256": "bc1ffe561c7f9fa6f6c3182f2de5de01f3c4f1e397ad8481d0afcd11ee7730b1",
       "bytes": 433439
     },
+    "land_2qw7rgze": {
+      "file": "land_2qw7rgze.jpg",
+      "sha256": "368e4bbf8094f45b933c98ee817c80a2f22655052573c185f63e227c9a9e20c6",
+      "bytes": 496994
+    },
     "line-watchman-npc": {
       "file": "line-watchman-npc.jpg",
       "sha256": "81f6028cd797de9d87cb3e32633b525f4e15a98ac13e39d41d9983f3edad2016",
@@ -231,6 +251,11 @@
       "sha256": "e6c8293a553145d5dd7a7eb6bac3523ad610a4b7f88935ba229d7d17002bc471",
       "bytes": 324268
     },
+    "old-archive": {
+      "file": "old-archive.jpg",
+      "sha256": "d3d1c14274d47854aeb63cc68aff6e668bb4f2f26b28f349d18623fc21f1f27a",
+      "bytes": 294545
+    },
     "old-mill": {
       "file": "old-mill.jpg",
       "sha256": "d3141b92add7644fc84282d6467b2cea8df4720623fb27aeb2a1da5e908e8ec2",
@@ -250,6 +275,21 @@
       "file": "slepoy-porog.jpg",
       "sha256": "2d0f67b3155d1f05741be5dcd035b61ceeb885805790113077547f40c53cf89d",
       "bytes": 390616
+    },
+    "staraya-roshcha": {
+      "file": "staraya-roshcha.jpg",
+      "sha256": "42b5b848d90289b009ae64e329306eaf1dc68f48baa79a83a88d39e9bf57c407",
+      "bytes": 492885
+    },
+    "tara-npc": {
+      "file": "tara-npc.jpg",
+      "sha256": "a871f95371fc4b7936eb2d8332566aac4160de03af4ef58212386ccc39b79755",
+      "bytes": 253713
+    },
+    "vodyanoy-npc": {
+      "file": "vodyanoy-npc.jpg",
+      "sha256": "390f87d03ba87939dc831b92b8364281fb4a6bc8e916c9065bf5f74a700b6b64",
+      "bytes": 309369
     },
     "volma": {
       "file": "volma.jpg",
@@ -280,6 +320,11 @@
       "file": "whisperer-npc.jpg",
       "sha256": "7e977d32c8b82ffe9ca9430ab27b7b61ea32d33b9e385f1440e34feb8d60d99a",
       "bytes": 162949
+    },
+    "zhmenya": {
+      "file": "zhmenya.jpg",
+      "sha256": "7e29627c3533f429ddb98f81be8a5a41e4cf1b37bfc5844dc113c779d16d223d",
+      "bytes": 295054
     },
     "zhmenya-home": {
       "file": "zhmenya-home.jpg",
