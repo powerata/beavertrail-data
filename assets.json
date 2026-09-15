@@ -1,5 +1,5 @@
 {
-  "version": 1789472132705,
+  "version": 1789485849317,
   "assets": {
     "beaver": {
       "file": "beaver.jpg",
@@ -206,6 +206,31 @@
       "sha256": "90af1479f5043907401cc1799d26b75b0aa71aea2a078bc682bbf3004a9109b7",
       "bytes": 247234
     },
+    "item-war-axe-1": {
+      "file": "item-war-axe-1.jpg",
+      "sha256": "e6347300a3c61c449269ef7707af8e3415c58e4f2e28b1a83875ecf0c3734da2",
+      "bytes": 252232
+    },
+    "item-war-axe-2": {
+      "file": "item-war-axe-2.jpg",
+      "sha256": "6b1690add5506b467929a12b1403a63539e1975e7d4ad953e0b25cd84c4d8f14",
+      "bytes": 239348
+    },
+    "item-war-axe-3": {
+      "file": "item-war-axe-3.jpg",
+      "sha256": "30ab4f3dd444973083fd77b7d6c5c9574513baf72fce8afe1b176512f53a7f3f",
+      "bytes": 235003
+    },
+    "item-war-axe-4": {
+      "file": "item-war-axe-4.jpg",
+      "sha256": "9178a37f490492a6250a83cbf8cfe94bf0190d1ae49274deabfa6881cb5d4500",
+      "bytes": 247172
+    },
+    "item-war-axe-5": {
+      "file": "item-war-axe-5.jpg",
+      "sha256": "d936d189f62baade540a030d365d9b1593b4f46f90862574b8f64b1d90963480",
+      "bytes": 264740
+    },
     "item-weir-flint": {
       "file": "item-weir-flint.jpg",
       "sha256": "ce1b1ecac54ad051cd17add43ec8713d8691a8915851b25eccbef3feff6b20fe",
@@ -315,6 +340,11 @@
       "file": "volma-jam.jpg",
       "sha256": "866aa92c8ec72c75ce1284b7764e27076c390900920ff976923f09e7f117ee12",
       "bytes": 390525
+    },
+    "war-tree-npc": {
+      "file": "war-tree-npc.jpg",
+      "sha256": "4735e44dcde458c43dc145743a67c08fd6793507dd37c17825b902e7de749d1b",
+      "bytes": 345612
     },
     "whisperer-npc": {
       "file": "whisperer-npc.jpg",
