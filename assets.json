@@ -1,5 +1,5 @@
 {
-  "version": 1789553910909,
+  "version": 1789593830858,
   "assets": {
     "aspida-library": {
       "file": "aspida-library.jpg",
@@ -100,6 +100,11 @@
       "file": "committee-npc.jpg",
       "sha256": "cc92ac52dfe009552c29f178603f2371bcbc51f8ed5da77a7097db58bd466569",
       "bytes": 204711
+    },
+    "committee-watcher": {
+      "file": "committee-watcher.jpg",
+      "sha256": "14056fc8292737ea6ea184654a52fd825fe6844525213c9b2d67bfd3d096a6a9",
+      "bytes": 179457
     },
     "committee-yard-npc": {
       "file": "committee-yard-npc.jpg",
@@ -231,10 +236,20 @@
       "sha256": "815898d2ee1958f87c847631a774e7d1fa6583b3d0fcb95cefb8f528d7f670af",
       "bytes": 322957
     },
+    "item-lullaby-thread": {
+      "file": "item-lullaby-thread.jpg",
+      "sha256": "ba557ca9d20a8490407eddc7f85cc40cc919e86f540995535234361bddbf7371",
+      "bytes": 241807
+    },
     "item-millstone": {
       "file": "item-millstone.jpg",
       "sha256": "024fdeef4a104ab11246b1074a44ef478698571502c48034176b7d2e6b2a62e3",
       "bytes": 388783
+    },
+    "item-name-fragment": {
+      "file": "item-name-fragment.jpg",
+      "sha256": "017ef417d19cee05230d0581832b93d61fd16e780ffc5b4e8f3230b1efd12573",
+      "bytes": 251599
     },
     "item-name-page": {
       "file": "item-name-page.jpg",
@@ -260,6 +275,11 @@
       "file": "item-red-log.jpg",
       "sha256": "7acac2fd66b55cf39cddcd3814c9646aa389e7b201e929c9c9a86b44eae9949c",
       "bytes": 305787
+    },
+    "item-register-plate": {
+      "file": "item-register-plate.jpg",
+      "sha256": "9187270a97587c65c1cd1f7921107c4936337ea74b2b9a7b094fd99432b6a0f8",
+      "bytes": 291679
     },
     "item-sample-bottle": {
       "file": "item-sample-bottle.jpg",
@@ -316,10 +336,30 @@
       "sha256": "bc1ffe561c7f9fa6f6c3182f2de5de01f3c4f1e397ad8481d0afcd11ee7730b1",
       "bytes": 433439
     },
+    "kronos-npc": {
+      "file": "kronos-npc.jpg",
+      "sha256": "991d6813cd14255fb1a614216049f19f07064149a64b95810cb27c94fc581865",
+      "bytes": 173330
+    },
     "land_2qw7rgze": {
       "file": "land_2qw7rgze.jpg",
       "sha256": "368e4bbf8094f45b933c98ee817c80a2f22655052573c185f63e227c9a9e20c6",
       "bytes": 496994
+    },
+    "library-girl": {
+      "file": "library-girl.jpg",
+      "sha256": "4cd9796015a59b9c04d257cbb9f9d3f9778e7f92f791664c19ddfa7be1a82139",
+      "bytes": 187372
+    },
+    "library-sleepers": {
+      "file": "library-sleepers.jpg",
+      "sha256": "2fb570b9511087e7b90e4ceba091f8837d4b097aaa6ba24b4cdbcc0bf5d78818",
+      "bytes": 253502
+    },
+    "library-tongueless": {
+      "file": "library-tongueless.jpg",
+      "sha256": "1c365824c2700653fca19095bc012909db2406339740c592ae586755a2cd34f4",
+      "bytes": 206319
     },
     "line-watchman-npc": {
       "file": "line-watchman-npc.jpg",
@@ -430,6 +470,11 @@
       "file": "volma-jam.jpg",
       "sha256": "866aa92c8ec72c75ce1284b7764e27076c390900920ff976923f09e7f117ee12",
       "bytes": 390525
+    },
+    "vyaz-zhmeni": {
+      "file": "vyaz-zhmeni.jpg",
+      "sha256": "16e9b1a74f5e6950efb4919ce379d7f273bbd23998fe574e3838cb1155c58888",
+      "bytes": 511076
     },
     "war-tree-npc": {
       "file": "war-tree-npc.jpg",

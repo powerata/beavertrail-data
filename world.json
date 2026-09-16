@@ -2887,7 +2887,11 @@
             {
               "id": "reply_q1s2need",
               "label": "Что нужно для леса?",
-              "nextId": "node_q1s2nnd0"
+              "nextId": "node_q1s2nnd0",
+              "gate": {
+                "stepNotDoneId": "q1-s2-lumberyard",
+                "visibility": "hidden"
+              }
             },
             {
               "id": "reply_vjdc3l04",
@@ -3494,6 +3498,10 @@
               "id": "reply_q1s1acc0",
               "label": "Принять наряд",
               "nextId": "node_q1s1acc0",
+              "gate": {
+                "stepNotDoneId": "q1-s1-chancery",
+                "visibility": "hidden"
+              },
               "effects": {
                 "setFlag": "q1-naryad-taken"
               }
@@ -6432,6 +6440,13 @@
       "imageFromPrequel": true
     },
     {
+      "id": "item-blank-stack",
+      "name": "Пачка бланков",
+      "description": "Пачка чистой гербовой бумаги из канцелярии Комитета. Лист отдаёшь — объявления на доске переписывают заново: пока пачка при тебе, доска сменяется лишний раз в день.",
+      "updatedAt": 0,
+      "boardReroll": 1
+    },
+    {
       "id": "item-bridge-tag",
       "name": "Бирка с моста",
       "description": "Жестяная бирка старого моста через Волму. Номер 19 пробит насквозь. Списанная, но в дело годится: ходовой товар.",
@@ -8664,5 +8679,5 @@
       "updatedAt": 0
     }
   ],
-  "contentVersion": 1789553910909
+  "contentVersion": 1789593830858
 }
