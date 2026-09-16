@@ -1,15 +1,45 @@
 {
-  "version": 1789485849317,
+  "version": 1789553910909,
   "assets": {
+    "aspida-library": {
+      "file": "aspida-library.jpg",
+      "sha256": "9d65ab12ae09dbae2fad373fdc2b62650ebfaf81925e73dd42aa4e1fde981446",
+      "bytes": 407054
+    },
+    "aspida-npc": {
+      "file": "aspida-npc.jpg",
+      "sha256": "4373441f28846f996c9ef3c9fc2997f9c48a65f3a7a99097de116b301cb0db71",
+      "bytes": 310391
+    },
     "beaver": {
       "file": "beaver.jpg",
       "sha256": "170cb553f394198c92a6a9e3ddc851b1da11591901c9d52a9745292c2085ecf6",
       "bytes": 320620
     },
+    "black-train": {
+      "file": "black-train.jpg",
+      "sha256": "669923b668fff6e1c54aefa0644a6a3e2e14a2f9b400a6ea915b69b397401ff1",
+      "bytes": 331540
+    },
+    "boat-npc": {
+      "file": "boat-npc.jpg",
+      "sha256": "0e3825e9d046fb4a94ea0a3cb62a3fb819ca63e0e1775f8bc3a8520d4ce6ffcd",
+      "bytes": 520088
+    },
     "bookworm-npc": {
       "file": "bookworm-npc.jpg",
       "sha256": "90cbe33a7bb0446067f318ba1e0bf8ac40ec176250eba911b84edd36a435f8fa",
       "bytes": 205766
+    },
+    "camp-book": {
+      "file": "camp-book.jpg",
+      "sha256": "87aaba70ebce3e76d38a88b3c84e0196caf3c25cc81145fe6cc6a9c12625f697",
+      "bytes": 357261
+    },
+    "camp-counselor-npc": {
+      "file": "camp-counselor-npc.jpg",
+      "sha256": "17234fa903e1724002c168ef0def645bb97579a3388e3c3a323f45f35ccb3b7d",
+      "bytes": 333551
     },
     "camp-ogonyok": {
       "file": "camp-ogonyok.jpg",
@@ -96,6 +126,11 @@
       "sha256": "82f148077d06239f26c66281f6c33704c763a2d04ac3f69a05b4a819e78d8ce1",
       "bytes": 369378
     },
+    "empty-platform": {
+      "file": "empty-platform.jpg",
+      "sha256": "316852ce81623edf870c7e4ce3efe2fb4e0da5eec892babe1389ac4054d46649",
+      "bytes": 347085
+    },
     "far-felling": {
       "file": "far-felling.jpg",
       "sha256": "4d1fecff1a359ec242533f6385cdaf9daa0eaa43ede088bb51226db74c2c800c",
@@ -110,6 +145,11 @@
       "file": "fish-land.jpg",
       "sha256": "cc814eeb1882d488caba85ba8c98fd223ef39135bec126d3bed9e90c5b6d29b1",
       "bytes": 443213
+    },
+    "gargoyle-npc": {
+      "file": "gargoyle-npc.jpg",
+      "sha256": "9b98d8f646f3e702f3aa4f305919d0e6f183de61f236c7c606d38d92fd9d688a",
+      "bytes": 471880
     },
     "gravedigger-npc": {
       "file": "gravedigger-npc.jpg",
@@ -131,6 +171,21 @@
       "sha256": "572fcd9cba4d554f14367ebafba863c5a0b0aa03a7cbb16d6272ebd43b3d3d45",
       "bytes": 296348
     },
+    "item-brand-foolishness": {
+      "file": "item-brand-foolishness.png",
+      "sha256": "4f4eaf24dd2bce5221e4f45a4ff704451f0135676c75c55d4f5c720abd996b5a",
+      "bytes": 2360193
+    },
+    "item-brand-misfortune": {
+      "file": "item-brand-misfortune.png",
+      "sha256": "9a5618bdc6fcff424a8d8b15b49eadb239190c9af31fd02069b3b366bfb57d27",
+      "bytes": 2558256
+    },
+    "item-brand-weakness": {
+      "file": "item-brand-weakness.png",
+      "sha256": "3cb22cd99523f2f337a1d94e8594f66b3fa40f4a5ea46b55f887ceb89f91915e",
+      "bytes": 2654886
+    },
     "item-bridge-tag": {
       "file": "item-bridge-tag.jpg",
       "sha256": "475cd09566816a2aa3643aa42ebad0a9c3c5d9d8772447b7174a705b369a88dd",
@@ -150,6 +205,16 @@
       "file": "item-felling-order.jpg",
       "sha256": "e3fa03d2181e9dfa468fe33d36dc0723988856080e941b207544db1a1a9644f4",
       "bytes": 228088
+    },
+    "item-ferry-book": {
+      "file": "item-ferry-book.jpg",
+      "sha256": "3b6ee0ffebc632c3e11d80c8364f1e091b9390964867b7dc04bfee8aee6bf4cd",
+      "bytes": 653007
+    },
+    "item-ferry-charm": {
+      "file": "item-ferry-charm.jpg",
+      "sha256": "cd81061c7229d1ece249482237344f443c1a29afbba749ea902ffc8e3ca4a93d",
+      "bytes": 474655
     },
     "item-letter-volma": {
       "file": "item-letter-volma.jpg",
@@ -281,10 +346,20 @@
       "sha256": "d3d1c14274d47854aeb63cc68aff6e668bb4f2f26b28f349d18623fc21f1f27a",
       "bytes": 294545
     },
+    "old-embankment": {
+      "file": "old-embankment.jpg",
+      "sha256": "cbb4ccda90ed8b3c99f0d52f17f3898ad8e76868b983f9c608db5f9591f2b91d",
+      "bytes": 417891
+    },
     "old-mill": {
       "file": "old-mill.jpg",
       "sha256": "d3141b92add7644fc84282d6467b2cea8df4720623fb27aeb2a1da5e908e8ec2",
       "bytes": 389618
+    },
+    "pioneer-statue": {
+      "file": "pioneer-statue.jpg",
+      "sha256": "3d18805f67c2ccb0b3ae83722854c53267c968d1a57abba74daca4a848d354c1",
+      "bytes": 749114
     },
     "rails-end": {
       "file": "rails-end.jpg",
@@ -296,10 +371,25 @@
       "sha256": "ee93c40d33563186a7c444cc92b6114e64ab0125a09361a0a860c942e646c926",
       "bytes": 397017
     },
+    "silver-nest": {
+      "file": "silver-nest.jpg",
+      "sha256": "93f343df366e509d5f75ca59fff2e28ed8b877a53a9a9dc450081b6081330f12",
+      "bytes": 458471
+    },
+    "silver-stork-npc": {
+      "file": "silver-stork-npc.png",
+      "sha256": "e32652479777634d5f91d7311b66d492e776e4f110ecb794ed6a9ea5d2359120",
+      "bytes": 2411043
+    },
     "slepoy-porog": {
       "file": "slepoy-porog.jpg",
       "sha256": "2d0f67b3155d1f05741be5dcd035b61ceeb885805790113077547f40c53cf89d",
       "bytes": 390616
+    },
+    "staraya-pristan": {
+      "file": "staraya-pristan.jpg",
+      "sha256": "eb74db3fbc5bdec95200154684f76bb0ee7f0d36ed89cb5ef3e8a206bd835a81",
+      "bytes": 646756
     },
     "staraya-roshcha": {
       "file": "staraya-roshcha.jpg",
