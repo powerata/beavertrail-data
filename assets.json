@@ -1,5 +1,5 @@
 {
-  "version": 1789673778898,
+  "version": 1789682979339,
   "assets": {
     "aspida-library": {
       "file": "aspida-library.jpg",
@@ -271,6 +271,11 @@
       "sha256": "bca58529bd8eb60ecae0a71288d9630db462189d9f7843289c467e99f7bba262",
       "bytes": 344786
     },
+    "item-pushcha-mark": {
+      "file": "item-pushcha-mark.jpg",
+      "sha256": "4c914bca4de7e129f9e89f7ff2946f298f32341ca624cf929e753b211b1bae66",
+      "bytes": 386714
+    },
     "item-red-log": {
       "file": "item-red-log.jpg",
       "sha256": "7acac2fd66b55cf39cddcd3814c9646aa389e7b201e929c9c9a86b44eae9949c",
@@ -400,6 +405,121 @@
       "file": "pioneer-statue.jpg",
       "sha256": "3d18805f67c2ccb0b3ae83722854c53267c968d1a57abba74daca4a848d354c1",
       "bytes": 749114
+    },
+    "push-road-borovoe": {
+      "file": "push-road-borovoe.jpg",
+      "sha256": "bbb143d5982f312d538b43b1226ec6e8eabcb2bdd8523f34e02866bf9c35389f",
+      "bytes": 456876
+    },
+    "push-road-brakovo": {
+      "file": "push-road-brakovo.jpg",
+      "sha256": "efb1930cb20f709a5a1c71611cc588dbae1df4bb853d8e2a28aefd0d7cc7fa87",
+      "bytes": 405958
+    },
+    "push-road-derechin": {
+      "file": "push-road-derechin.jpg",
+      "sha256": "fcf4d3caec07b5655703e54b1bbe7dc2fc629a1a748210458b26536a0df6499e",
+      "bytes": 448401
+    },
+    "push-road-derevnaya": {
+      "file": "push-road-derevnaya.jpg",
+      "sha256": "790e7173f7bf2d2ffb8cae9cc2953ed39aa48b4477a2b53aea9128c079ede339",
+      "bytes": 441172
+    },
+    "push-road-dyatlovo": {
+      "file": "push-road-dyatlovo.jpg",
+      "sha256": "d36e16bac472fadf1133765f8054c1caa8fbd70a845022c5da88a34f9bf8b36c",
+      "bytes": 404810
+    },
+    "push-road-kovalevshchina": {
+      "file": "push-road-kovalevshchina.jpg",
+      "sha256": "8af9d34c45ce42afbadef35ed6f44f2d7cabf901c1207090004d8c664b492fb8",
+      "bytes": 402116
+    },
+    "push-road-kroman": {
+      "file": "push-road-kroman.jpg",
+      "sha256": "64f53434b318b0c2cc614168b664d9288ae7531602e8dc06baa8ac7920b05bf8",
+      "bytes": 327780
+    },
+    "push-road-kul": {
+      "file": "push-road-kul.jpg",
+      "sha256": "e1613d252fe55b3d237dcf7a35e32fea788ba9d4c60251406517732684857ea4",
+      "bytes": 377391
+    },
+    "push-road-lyskava": {
+      "file": "push-road-lyskava.jpg",
+      "sha256": "4e97033da774e678f5ac9400e1c3f2c5a2d73ca6c04e4dfbe7af6e66248444f0",
+      "bytes": 323598
+    },
+    "push-road-nalibaki": {
+      "file": "push-road-nalibaki.jpg",
+      "sha256": "ce672d19e32669b7d73037825f248017734d68e2f1850e95ce6c25c1155449e6",
+      "bytes": 369969
+    },
+    "push-road-novaya-yelnya": {
+      "file": "push-road-novaya-yelnya.jpg",
+      "sha256": "b5dbcb5c95b355a2fac75920107c8ede0d983008ba2dbb038d7164033ac4566e",
+      "bytes": 399566
+    },
+    "push-road-novodevyatkovichy": {
+      "file": "push-road-novodevyatkovichy.jpg",
+      "sha256": "cb7522a32a764061e302c6d0f46210b97f988ff523b25a7eaa6a5ceadae41cba",
+      "bytes": 390435
+    },
+    "push-road-raitsa": {
+      "file": "push-road-raitsa.jpg",
+      "sha256": "54632b5f0c53d9efd93efac581f2e6db1f422ce2e0f60c450339ce87cd0beb55",
+      "bytes": 450795
+    },
+    "push-road-raitsa-estate": {
+      "file": "push-road-raitsa-estate.jpg",
+      "sha256": "6543905e16f2086f939b781daf873468451bba62becee06dcfdc03939ed6d179",
+      "bytes": 470516
+    },
+    "push-road-rubiazhevichy": {
+      "file": "push-road-rubiazhevichy.jpg",
+      "sha256": "519a734d762d8160fbce3b8571cc988a745394f57dbf2ccce242f0fbda79f974",
+      "bytes": 372523
+    },
+    "push-road-rubiazhevichy-cemetery": {
+      "file": "push-road-rubiazhevichy-cemetery.jpg",
+      "sha256": "f22511b14e45d12ce0075d69067ecd989c731017d0aab252a648278f5658c8dd",
+      "bytes": 413591
+    },
+    "push-road-rudnya-pilnyanskaya": {
+      "file": "push-road-rudnya-pilnyanskaya.jpg",
+      "sha256": "47cd7ab6c82d78c6e60a67144329edc07bc23006637a90eca86087965b9f2cc9",
+      "bytes": 429599
+    },
+    "push-road-servach": {
+      "file": "push-road-servach.jpg",
+      "sha256": "8adc8fe4b20f9e47c31a6afae12fc643a1d5f6da88c79503ad4ad89d7c174459",
+      "bytes": 455724
+    },
+    "push-road-synkovichy": {
+      "file": "push-road-synkovichy.jpg",
+      "sha256": "2d14bda803b50ef61e39bb123417dcedf09bb04f1a1a3d38a05e805bc1abba42",
+      "bytes": 297563
+    },
+    "push-road-voroncha": {
+      "file": "push-road-voroncha.jpg",
+      "sha256": "6466bef47d6cf7e6b0a7a463d51ca822950f85ae2be73127164dc31f99195fcf",
+      "bytes": 295881
+    },
+    "push-road-zubr": {
+      "file": "push-road-zubr.jpg",
+      "sha256": "6200e40027b7d16dcd01bf61901912b77ee5bd33f103d3e210b387da139afae1",
+      "bytes": 398382
+    },
+    "pushcha-cordon": {
+      "file": "pushcha-cordon.jpg",
+      "sha256": "b20f70dfd53cf448109f5a35cb67207417865cfc38126af0199dae41060abfd3",
+      "bytes": 467356
+    },
+    "pushcha-warden-npc": {
+      "file": "pushcha-warden-npc.jpg",
+      "sha256": "b291c267d38da33cd14ca5335d4c3cfb8b41f218ef0deeda7646842af5ac4507",
+      "bytes": 386711
     },
     "rails-end": {
       "file": "rails-end.jpg",

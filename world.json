@@ -1248,6 +1248,60 @@
         ]
       },
       "updatedAt": 0
+    },
+    {
+      "id": "pushcha-cordon",
+      "properties": {
+        "id": "pushcha-cordon",
+        "name": "Кордон Пущи",
+        "peace": true,
+        "description": "Ворота без вывески на краю старого леса: два выветренных столба с перекладом, мох по штакетнику, тропа в чащу. Здесь дорога кончается, а Пуща начинается, и порог держит Смотритель — покуда Пуща стоит.",
+        "fill": "#3f5236",
+        "fillOpacity": 0.3,
+        "objects": [
+          {
+            "id": "pushcha-cordon-warden",
+            "kind": "npc",
+            "name": "Смотритель",
+            "faction": "hosts",
+            "portraitId": "asset:pushcha-warden-npc",
+            "npcId": "pushcha-warden-npc"
+          },
+          {
+            "id": "pushcha-cordon-threshold",
+            "kind": "threshold",
+            "name": "Порог Пущи"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.80093,
+              52.5687
+            ],
+            [
+              23.80563,
+              52.5687
+            ],
+            [
+              23.80563,
+              52.5716
+            ],
+            [
+              23.80093,
+              52.5716
+            ],
+            [
+              23.80093,
+              52.5687
+            ]
+          ]
+        ]
+      },
+      "updatedAt": 0
     }
   ],
   "factions": [
@@ -1441,6 +1495,13 @@
       "portraitId": "asset:camp-counselor-npc",
       "updatedAt": 0,
       "faction": "hosts"
+    },
+    {
+      "id": "pushcha-warden-npc",
+      "name": "Смотритель",
+      "faction": "hosts",
+      "portraitId": "asset:pushcha-warden-npc",
+      "updatedAt": 0
     }
   ],
   "dialogues": [
@@ -7982,6 +8043,109 @@
         }
       ],
       "updatedAt": 0
+    },
+    {
+      "objectId": "pushcha-warden-npc",
+      "startId": "node_r1cordon",
+      "nodes": [
+        {
+          "id": "node_r1cordon",
+          "npcText": "(не смотрит на машину; смотрит в лес) Дошла. Дорога тебя вела, а ты её держала. Тут порог: дальше Пуща, а не дорога. С этого места лес тебя слышит. (отворяет ворота) Заходи. Знак возьми: покажешь — лес не тронет, покуда не начнёшь считать.",
+          "replies": [
+            {
+              "id": "reply_r1who0",
+              "label": "Кто ты?",
+              "nextId": "node_r1who"
+            },
+            {
+              "id": "reply_r1letter0",
+              "label": "Кто писал письмо?",
+              "nextId": "node_r1letter"
+            },
+            {
+              "id": "reply_r1count0",
+              "label": "Почему не считать?",
+              "nextId": "node_r1count"
+            },
+            {
+              "id": "reply_r1enter0",
+              "label": "Войти в Пущу",
+              "nextId": "node_r1enter",
+              "gate": {
+                "when": [
+                  {
+                    "kind": "step-done",
+                    "stepId": "r1-s22-zubr"
+                  },
+                  {
+                    "kind": "step-not-done",
+                    "stepId": "r1-s23-cordon"
+                  }
+                ],
+                "visibility": "hidden"
+              },
+              "effects": [
+                {
+                  "kind": "complete-step",
+                  "stepId": "r1-s23-cordon"
+                }
+              ]
+            },
+            {
+              "id": "reply_r1enter1",
+              "label": "Войти в Пущу",
+              "nextId": "node_r1enter",
+              "gate": {
+                "when": [
+                  {
+                    "kind": "step-done",
+                    "stepId": "r1-s23-cordon"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "node_r1who",
+          "npcText": "Смотритель. Держу порог, покуда Пуща стоит.",
+          "replies": [
+            {
+              "id": "reply_r1back0",
+              "label": "К воротам",
+              "nextId": "node_r1cordon"
+            }
+          ]
+        },
+        {
+          "id": "node_r1letter",
+          "npcText": "(молчит; смотрит на лес) Дорога и писала. Кто по ней ходил — тот и подписывал. Подписи не ищи.",
+          "replies": [
+            {
+              "id": "reply_r1back1",
+              "label": "К воротам",
+              "nextId": "node_r1cordon"
+            }
+          ]
+        },
+        {
+          "id": "node_r1count",
+          "npcText": "Считать — это по бумаге. А ты доехала по имени. Разницу держи при себе.",
+          "replies": [
+            {
+              "id": "reply_r1back2",
+              "label": "К воротам",
+              "nextId": "node_r1cordon"
+            }
+          ]
+        },
+        {
+          "id": "node_r1enter",
+          "npcText": "(ворота отходят без скрипа) Иди. Дорогу не благодари — она тебя сама выбрала.",
+          "replies": []
+        }
+      ],
+      "updatedAt": 0
     }
   ],
   "items": [
@@ -8171,6 +8335,13 @@
       "description": "Щепа чёрного морёного дерева с реки, обтёртая водой до блеска, с пробитым ушком и кручёным шнуром. По краю — старые зарубки, будто счёт глубин. Пока при себе — вода к тебе добра. +1 удача.",
       "portraitId": "asset:item-ferry-charm",
       "luck": 1,
+      "updatedAt": 0
+    },
+    {
+      "id": "item-pushcha-mark",
+      "name": "Знак Пущи",
+      "description": "Деревянный знак с зарубками, гладкий от руки. Пока он при тебе, лес в Пуще тебя терпит.",
+      "portraitId": "asset:item-pushcha-mark",
       "updatedAt": 0
     }
   ],
@@ -9042,6 +9213,46 @@
         "refId": "camp-ogonyok"
       },
       "landId": "camp-ogonyok",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-note-unsigned-letter",
+      "section": "notes",
+      "title": "Письмо без подписи",
+      "body": "Старое письмо без подписи нашлось в крепости: дорога от двора до Пущи, стоянки по старым именам. Подписи нет — подпись это номер, а номер на дороге не держится.",
+      "sort": 63,
+      "unlock": {
+        "kind": "always"
+      },
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-land-pushcha-cordon",
+      "section": "lands",
+      "title": "Кордон Пущи",
+      "body": "Ворота без вывески, тропа в лес, мох по штакетнику. На пороге Пуща слышит тебя даже там, где клетка ещё закрыта. Смотритель держит порог, покуда Пуща стоит.",
+      "sort": 50,
+      "unlock": {
+        "kind": "land",
+        "refId": "pushcha-cordon"
+      },
+      "landId": "pushcha-cordon",
+      "updatedAt": 0
+    },
+    {
+      "id": "codex-dweller-warden",
+      "section": "dwellers",
+      "title": "Смотритель",
+      "body": "Хозяин порога Пущи: встречает у ворот без вывески и открывает Тенебру там, где клетка ещё закрыта. Говорит коротко, держит порог, покуда Пуща стоит. Главных имён леса не называет — их время ещё не пришло.",
+      "mark": "слухи",
+      "sort": 49,
+      "unlock": {
+        "kind": "npc",
+        "refId": "pushcha-warden-npc"
+      },
+      "factionId": "hosts",
+      "npcId": "pushcha-warden-npc",
+      "portraitId": "asset:pushcha-warden-npc",
       "updatedAt": 0
     }
   ],
@@ -10161,6 +10372,538 @@
               "replyId": "reply_q8s8vodh"
             }
           ]
+        },
+        {
+          "id": "quest-pushcha-road",
+          "order": 10,
+          "title": "Дорога на Пущу",
+          "blurb": "Старое письмо без подписи зовёт в дорогу: стоянки по старым именам до самых ворот Пущи.",
+          "main": false,
+          "factionId": "hosts",
+          "steps": [
+            {
+              "id": "r1-s1-fortress",
+              "order": 0,
+              "title": "Письмо в крепости",
+              "body": "Старое письмо без подписи нашлось в крепости — между бумаг, которых ты не клала. Бумага плотная, чернила поблёкли, края обтрёпаны. Дорога в нём описана не вёрстами, а местами: где встать, где послушать. Выходишь за ворота — и впервые за долгое время тебе не нужно никому докладывать.",
+              "media": [
+                {
+                  "id": "asset:committee-fortress"
+                }
+              ],
+              "lat": 53.93442,
+              "lng": 27.53265,
+              "radiusM": 120,
+              "inTenebra": false,
+              "verb": "visit",
+              "requires": [],
+              "letterBody": "Кто нашёл — тому и ехать. Подписи нет: подпись — это номер, а номер на дороге не держится. Дорога одна — от двора до Пущи. Где старое имя ещё слышно — там встань и послушай: место тебя пропустит. Дальше сам."
+            },
+            {
+              "id": "r1-s2-borovoe",
+              "order": 1,
+              "title": "Боровое",
+              "body": "Первая стоянка — у старой часовни на краю погоста. Кирпич выветрен, купол держится. Дорога здесь помнит имена: кто-то ехал ею задолго до тебя.",
+              "media": [
+                {
+                  "id": "asset:push-road-borovoe"
+                }
+              ],
+              "lat": 53.665348,
+              "lng": 27.01369,
+              "radiusM": 200,
+              "inTenebra": false,
+              "verb": "visit",
+              "requires": [
+                "r1-s1-fortress"
+              ],
+              "check": {
+                "stat": "luck",
+                "dc": 10,
+                "successXp": 5,
+                "successBody": "Под мокрым листом у стены — глубокая зарубка, старая. Такие ставили не для счёта, а для памяти. Место тебя услышало."
+              }
+            },
+            {
+              "id": "r1-s3-rubiazhevichy",
+              "order": 2,
+              "title": "Рубежевичи",
+              "body": "Местечко стоит на старой дороге: костёл, низкие дома, мокрый тракт. Дорога здесь шла всегда, и здешние имена не стёрлись — просто замолчали до времени.",
+              "media": [
+                {
+                  "id": "asset:push-road-rubiazhevichy"
+                }
+              ],
+              "lat": 53.694239,
+              "lng": 26.869446,
+              "radiusM": 250,
+              "inTenebra": false,
+              "verb": "visit",
+              "requires": [
+                "r1-s2-borovoe"
+              ]
+            },
+            {
+              "id": "r1-s4-cemetery",
+              "order": 3,
+              "title": "Еврейское кладбище",
+              "body": "На склоне за местечком — старые камни, поставленные рядами. Имена на них выветрились, но ряды держатся. Место просит одного: обойти ряды и не потревожить спящих. Оступишься — встанешь сама.",
+              "media": [
+                {
+                  "id": "asset:push-road-rubiazhevichy-cemetery"
+                }
+              ],
+              "lat": 53.691516,
+              "lng": 26.869898,
+              "radiusM": 200,
+              "inTenebra": false,
+              "verb": "rite",
+              "rite": {
+                "kind": "watch",
+                "rounds": 1,
+                "rarity": "D",
+                "seed": "push-cemetery"
+              },
+              "requires": [
+                "r1-s3-rubiazhevichy"
+              ]
+            },
+            {
+              "id": "r1-s5-kul",
+              "order": 4,
+              "title": "Куль",
+              "body": "Каплица у деревенской улицы — маленькая, старая, с нишей вместо образа. Если встать рядом и не спешить, дорога скажет, что помнит.",
+              "media": [
+                {
+                  "id": "asset:push-road-kul"
+                }
+              ],
+              "lat": 53.802571,
+              "lng": 26.747433,
+              "radiusM": 150,
+              "inTenebra": false,
+              "verb": "visit",
+              "requires": [
+                "r1-s4-cemetery"
+              ],
+              "check": {
+                "stat": "luck",
+                "dc": 10,
+                "successXp": 5,
+                "successBody": "Ниша пуста, а тень в ней держится, будто кто-то стоит. Стоянка принята."
+              }
+            },
+            {
+              "id": "r1-s6-derevnaya",
+              "order": 5,
+              "title": "Деревная",
+              "body": "Деревня в лесу, костёл с двумя башнями, за ним — лесничество. Тут дорога входит в Налибокскую пущу и меняет счёт: людей меньше, деревьев больше.",
+              "media": [
+                {
+                  "id": "asset:push-road-derevnaya"
+                }
+              ],
+              "lat": 53.761448,
+              "lng": 26.660952,
+              "radiusM": 200,
+              "inTenebra": false,
+              "verb": "visit",
+              "requires": [
+                "r1-s5-kul"
+              ]
+            },
+            {
+              "id": "r1-s7-rudnya",
+              "order": 6,
+              "title": "Мельница в Рудне",
+              "body": "Мельница на лесной реке: колесо вросло в мох, вода подперта завалом — бревно на бревне. Старые разбирали завалы по одному, не тронув чужое. Разведи залом — вода пойдёт, дорога откроется.",
+              "media": [
+                {
+                  "id": "asset:push-road-rudnya-pilnyanskaya"
+                }
+              ],
+              "lat": 53.796557,
+              "lng": 26.578336,
+              "radiusM": 200,
+              "inTenebra": false,
+              "verb": "rite",
+              "rite": {
+                "kind": "unblock",
+                "rounds": 1,
+                "rarity": "D",
+                "seed": "push-mill-rudnya"
+              },
+              "requires": [
+                "r1-s6-derevnaya"
+              ]
+            },
+            {
+              "id": "r1-s8-nalibaki",
+              "order": 7,
+              "title": "Налибоки",
+              "body": "Костёл над озёрной дорогой, местечко на пологом берегу; за ним вода и лес без конца. Кто-то ждёт в тростнике — или это ветер?",
+              "media": [
+                {
+                  "id": "asset:push-road-nalibaki"
+                }
+              ],
+              "lat": 53.758148,
+              "lng": 26.470785,
+              "radiusM": 250,
+              "inTenebra": false,
+              "verb": "visit",
+              "requires": [
+                "r1-s7-rudnya"
+              ],
+              "check": {
+                "stat": "cunning",
+                "dc": 11,
+                "successXp": 5,
+                "successBody": "В зарослях — старый лодочный след, будто вчерашний. Место показало тропу."
+              }
+            },
+            {
+              "id": "r1-s9-kroman",
+              "order": 8,
+              "title": "Кромань",
+              "body": "Дикое озеро в глубине леса, несколько тёмных построек у воды. Здесь не спрашивают, зачем приехал: лес знает, кто свой.",
+              "media": [
+                {
+                  "id": "asset:push-road-kroman"
+                }
+              ],
+              "lat": 53.707276,
+              "lng": 26.32236,
+              "radiusM": 300,
+              "inTenebra": false,
+              "verb": "visit",
+              "requires": [
+                "r1-s8-nalibaki"
+              ]
+            },
+            {
+              "id": "r1-s10-servach",
+              "order": 9,
+              "title": "Сервач",
+              "body": "Каплица на краю деревни — тёмный кирпич, стрельчатое окно, сухой плющ. Место маленькое, но имя держит крепко.",
+              "media": [
+                {
+                  "id": "asset:push-road-servach"
+                }
+              ],
+              "lat": 53.477825,
+              "lng": 26.133095,
+              "radiusM": 150,
+              "inTenebra": false,
+              "verb": "visit",
+              "requires": [
+                "r1-s9-kroman"
+              ]
+            },
+            {
+              "id": "r1-s11-voroncha",
+              "order": 10,
+              "title": "Воронча",
+              "body": "Костёл Св. Анны стоит над деревней белым клином. В притворе — старая книга: слева имена, справа числа, страницы перепутаны. Сведи имена с числами — храм отпустит дальше.",
+              "media": [
+                {
+                  "id": "asset:push-road-voroncha"
+                }
+              ],
+              "lat": 53.413134,
+              "lng": 26.059648,
+              "radiusM": 250,
+              "inTenebra": false,
+              "verb": "rite",
+              "rite": {
+                "kind": "merge",
+                "rounds": 1,
+                "rarity": "D",
+                "seed": "push-voroncha"
+              },
+              "requires": [
+                "r1-s10-servach"
+              ]
+            },
+            {
+              "id": "r1-s12-raitsa",
+              "order": 11,
+              "title": "Райца",
+              "body": "Костёл Св. Варвары с куполом, липы, мокрый гравий. Под липами кто-то ходил недавно — или очень давно.",
+              "media": [
+                {
+                  "id": "asset:push-road-raitsa"
+                }
+              ],
+              "lat": 53.467333,
+              "lng": 26.024846,
+              "radiusM": 200,
+              "inTenebra": false,
+              "verb": "visit",
+              "requires": [
+                "r1-s11-voroncha"
+              ],
+              "check": {
+                "stat": "luck",
+                "dc": 11,
+                "successXp": 5,
+                "successBody": "На скамье под липой — горсть сушёных ягод и чей-то след. Стоянка принята."
+              }
+            },
+            {
+              "id": "r1-s13-raitsa-estate",
+              "order": 12,
+              "title": "Усадьба в Райце",
+              "body": "Усадебный дом в заросшем парке: пустые окна, облезлая краска. Парк живой, дом — нет; дорога идёт мимо, не задерживаясь.",
+              "media": [
+                {
+                  "id": "asset:push-road-raitsa-estate"
+                }
+              ],
+              "lat": 53.473513,
+              "lng": 26.023051,
+              "radiusM": 200,
+              "inTenebra": false,
+              "verb": "visit",
+              "requires": [
+                "r1-s12-raitsa"
+              ]
+            },
+            {
+              "id": "r1-s14-kovalevshchina",
+              "order": 13,
+              "title": "Мельница в Ковалевщине",
+              "body": "Мельница XIX века на реке: вода в пруду стоит слоями — светлая, тёмная, ржавая. Старые мельники различали воду по слоям. Разбери слои — колесо повернётся.",
+              "media": [
+                {
+                  "id": "asset:push-road-kovalevshchina"
+                }
+              ],
+              "lat": 53.440642,
+              "lng": 25.734628,
+              "radiusM": 200,
+              "inTenebra": false,
+              "verb": "rite",
+              "rite": {
+                "kind": "alchemy",
+                "rounds": 1,
+                "rarity": "D",
+                "seed": "push-mill-koval"
+              },
+              "requires": [
+                "r1-s13-raitsa-estate"
+              ]
+            },
+            {
+              "id": "r1-s15-novaya-yelnya",
+              "order": 14,
+              "title": "Новоельня",
+              "body": "Колонна на площади — белая, невысокая, памятник давнему счёту. Здесь дорога считала вёрсты, а теперь просто стоит.",
+              "media": [
+                {
+                  "id": "asset:push-road-novaya-yelnya"
+                }
+              ],
+              "lat": 53.452805,
+              "lng": 25.575861,
+              "radiusM": 150,
+              "inTenebra": false,
+              "verb": "visit",
+              "requires": [
+                "r1-s14-kovalevshchina"
+              ]
+            },
+            {
+              "id": "r1-s16-dyatlovo",
+              "order": 15,
+              "title": "Дятлово",
+              "body": "Старая площадь местечка: низкие дома, мокрая брусчатка, купол над крышами. Торг тут кончился, а дорога — нет.",
+              "media": [
+                {
+                  "id": "asset:push-road-dyatlovo"
+                }
+              ],
+              "lat": 53.464802,
+              "lng": 25.406099,
+              "radiusM": 250,
+              "inTenebra": false,
+              "verb": "visit",
+              "requires": [
+                "r1-s15-novaya-yelnya"
+              ],
+              "check": {
+                "stat": "luck",
+                "dc": 11,
+                "successXp": 5,
+                "successBody": "На углу под навесом — старая метка: две зарубки крест-накрест. Место тебя засчитало."
+              }
+            },
+            {
+              "id": "r1-s17-derechin",
+              "order": 16,
+              "title": "Деречин",
+              "body": "Местечко у старого парка: остатки усадьбы, мокрые тополя. Дорога тут узкая и тихая, будто едешь по чужому двору.",
+              "media": [
+                {
+                  "id": "asset:push-road-derechin"
+                }
+              ],
+              "lat": 53.247816,
+              "lng": 24.921683,
+              "radiusM": 250,
+              "inTenebra": false,
+              "verb": "visit",
+              "requires": [
+                "r1-s16-dyatlovo"
+              ]
+            },
+            {
+              "id": "r1-s18-synkovichy",
+              "order": 17,
+              "title": "Сынковичи",
+              "body": "Храм-крепость XVI века стоит в поле: толстые стены, узкие окна, одна башня. Обойди его по кругу, ступая на твёрдое, — кладка этого не забывает.",
+              "media": [
+                {
+                  "id": "asset:push-road-synkovichy"
+                }
+              ],
+              "lat": 53.123117,
+              "lng": 25.157628,
+              "radiusM": 250,
+              "inTenebra": false,
+              "verb": "rite",
+              "rite": {
+                "kind": "watch",
+                "rounds": 1,
+                "rarity": "D",
+                "seed": "push-synkovichy"
+              },
+              "requires": [
+                "r1-s17-derechin"
+              ]
+            },
+            {
+              "id": "r1-s19-brakovo",
+              "order": 18,
+              "title": "Браково",
+              "body": "Белая каплица на лесистом холме — родовая усыпальня. Стоит особняком, и дорога к ней — как гребень: вверх и вниз.",
+              "media": [
+                {
+                  "id": "asset:push-road-brakovo"
+                }
+              ],
+              "lat": 53.050462,
+              "lng": 25.277847,
+              "radiusM": 200,
+              "inTenebra": false,
+              "verb": "visit",
+              "requires": [
+                "r1-s18-synkovichy"
+              ]
+            },
+            {
+              "id": "r1-s20-novodevyatkovichy",
+              "order": 19,
+              "title": "Новодевятковичи",
+              "body": "Костёл 1790 года и отдельная звонница — редкая пара. Встань между ними и замри.",
+              "media": [
+                {
+                  "id": "asset:push-road-novodevyatkovichy"
+                }
+              ],
+              "lat": 52.916,
+              "lng": 25.1682,
+              "radiusM": 250,
+              "inTenebra": false,
+              "verb": "visit",
+              "requires": [
+                "r1-s19-brakovo"
+              ],
+              "check": {
+                "stat": "luck",
+                "dc": 12,
+                "successXp": 5,
+                "successBody": "Ветер тронул язычок — один тихий удар, без звона, будто из-под земли. Место тебя услышало."
+              }
+            },
+            {
+              "id": "r1-s21-lyskava",
+              "order": 20,
+              "title": "Лысково",
+              "body": "Костёл Св. Троицы у пруда: две башни, изогнутый фасад. В ограде — старая плита с узором, расколотая на части. Сложи узор — храм присмотрит за дорогой.",
+              "media": [
+                {
+                  "id": "asset:push-road-lyskava"
+                }
+              ],
+              "lat": 52.856305,
+              "lng": 24.614868,
+              "radiusM": 200,
+              "inTenebra": false,
+              "verb": "rite",
+              "rite": {
+                "kind": "sudoku",
+                "rounds": 1,
+                "rarity": "D",
+                "seed": "push-lyskava"
+              },
+              "requires": [
+                "r1-s20-novodevyatkovichy"
+              ]
+            },
+            {
+              "id": "r1-s22-zubr",
+              "order": 21,
+              "title": "Зубр",
+              "body": "Вот и стена Пущи: сосны выше церквей, запах хвои и мокрой земли. У дороги — тёмный зубр на камне. Последняя стоянка перед воротами.",
+              "media": [
+                {
+                  "id": "asset:push-road-zubr"
+                }
+              ],
+              "lat": 52.553358,
+              "lng": 23.794393,
+              "radiusM": 250,
+              "inTenebra": false,
+              "verb": "visit",
+              "requires": [
+                "r1-s21-lyskava"
+              ],
+              "check": {
+                "stat": "luck",
+                "dc": 12,
+                "successXp": 5,
+                "successBody": "Зубр смотрит в лес, а не на дорогу. Ты оборачиваешься туда же. Из леса смотрят в ответ — спокойно. Ворота ждут."
+              }
+            },
+            {
+              "id": "r1-s23-cordon",
+              "order": 22,
+              "title": "Кордон",
+              "body": "Кордон на краю Пущи: ворота без вывески, тропа в лес, мох по штакетнику. Здесь дорога кончается, а Пуща начинается. Порог держит Смотритель.",
+              "media": [
+                {
+                  "id": "asset:pushcha-cordon"
+                }
+              ],
+              "lat": 52.570151,
+              "lng": 23.803283,
+              "radiusM": 200,
+              "inTenebra": true,
+              "verb": "talk",
+              "npcId": "pushcha-warden-npc",
+              "landId": "pushcha-cordon",
+              "requires": [
+                "r1-s22-zubr"
+              ]
+            }
+          ],
+          "reward": [
+            {
+              "kind": "give-item",
+              "itemId": "item-pushcha-mark"
+            }
+          ]
         }
       ],
       "triggers": [
@@ -10395,5 +11138,5 @@
       "updatedAt": 0
     }
   ],
-  "contentVersion": 1789673778898
+  "contentVersion": 1789682979339
 }
