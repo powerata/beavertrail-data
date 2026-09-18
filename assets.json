@@ -1,5 +1,5 @@
 {
-  "version": 1789682979339,
+  "version": 1789711645258,
   "assets": {
     "aspida-library": {
       "file": "aspida-library.jpg",
@@ -408,108 +408,98 @@
     },
     "push-road-borovoe": {
       "file": "push-road-borovoe.jpg",
-      "sha256": "bbb143d5982f312d538b43b1226ec6e8eabcb2bdd8523f34e02866bf9c35389f",
-      "bytes": 456876
+      "sha256": "9f12463e4a96688de9967fd184cc2f7e89e68fbd50ecba1621680c084074ed58",
+      "bytes": 303830
     },
     "push-road-brakovo": {
       "file": "push-road-brakovo.jpg",
-      "sha256": "efb1930cb20f709a5a1c71611cc588dbae1df4bb853d8e2a28aefd0d7cc7fa87",
-      "bytes": 405958
+      "sha256": "9fa5ccc1a85f9c5769528a879c141bceda3f6621c0e330817096de8a9fe100d9",
+      "bytes": 397229
     },
     "push-road-derechin": {
       "file": "push-road-derechin.jpg",
-      "sha256": "fcf4d3caec07b5655703e54b1bbe7dc2fc629a1a748210458b26536a0df6499e",
-      "bytes": 448401
+      "sha256": "2b06d8c3402c9ab2a2ba0cf4719c12840535db3856120ebb9152ed69a42e4b9c",
+      "bytes": 255650
     },
     "push-road-derevnaya": {
       "file": "push-road-derevnaya.jpg",
-      "sha256": "790e7173f7bf2d2ffb8cae9cc2953ed39aa48b4477a2b53aea9128c079ede339",
-      "bytes": 441172
+      "sha256": "4726c52e5b22ee018add08485afd874e374640fd7ca269e43d42be03a3724eff",
+      "bytes": 296331
     },
     "push-road-dyatlovo": {
       "file": "push-road-dyatlovo.jpg",
-      "sha256": "d36e16bac472fadf1133765f8054c1caa8fbd70a845022c5da88a34f9bf8b36c",
-      "bytes": 404810
+      "sha256": "5df73a181de7d3b3e95dfd2903aa058920fb1d4033bbd44568964337279c9bc3",
+      "bytes": 356181
     },
     "push-road-kovalevshchina": {
       "file": "push-road-kovalevshchina.jpg",
-      "sha256": "8af9d34c45ce42afbadef35ed6f44f2d7cabf901c1207090004d8c664b492fb8",
-      "bytes": 402116
+      "sha256": "f41f8cfb1e24964ecfabf411c031220d48fedc9b51cff30b84aa2b3a86aa287f",
+      "bytes": 414263
     },
     "push-road-kroman": {
       "file": "push-road-kroman.jpg",
-      "sha256": "64f53434b318b0c2cc614168b664d9288ae7531602e8dc06baa8ac7920b05bf8",
-      "bytes": 327780
+      "sha256": "4534b4810062c7c96359dba0665ab520a47f2dfcd89a663079c1218786008054",
+      "bytes": 212955
     },
     "push-road-kul": {
       "file": "push-road-kul.jpg",
-      "sha256": "e1613d252fe55b3d237dcf7a35e32fea788ba9d4c60251406517732684857ea4",
-      "bytes": 377391
+      "sha256": "39ef77d1524b2ebb69a4b2b9a1e24a02836f38e494a40b1e8bbb0826afddfa24",
+      "bytes": 289344
     },
     "push-road-lyskava": {
       "file": "push-road-lyskava.jpg",
-      "sha256": "4e97033da774e678f5ac9400e1c3f2c5a2d73ca6c04e4dfbe7af6e66248444f0",
-      "bytes": 323598
+      "sha256": "e43794c07d84b73751c3b30be0a096c71ca981b442cd6f323ec7bdae1cf910d7",
+      "bytes": 405352
     },
     "push-road-nalibaki": {
       "file": "push-road-nalibaki.jpg",
-      "sha256": "ce672d19e32669b7d73037825f248017734d68e2f1850e95ce6c25c1155449e6",
-      "bytes": 369969
-    },
-    "push-road-novaya-yelnya": {
-      "file": "push-road-novaya-yelnya.jpg",
-      "sha256": "b5dbcb5c95b355a2fac75920107c8ede0d983008ba2dbb038d7164033ac4566e",
-      "bytes": 399566
+      "sha256": "74a9324a5a22f89e2bab943ed23e3501b1942e1b74aae02ec03609667f623690",
+      "bytes": 321455
     },
     "push-road-novodevyatkovichy": {
       "file": "push-road-novodevyatkovichy.jpg",
-      "sha256": "cb7522a32a764061e302c6d0f46210b97f988ff523b25a7eaa6a5ceadae41cba",
-      "bytes": 390435
+      "sha256": "5f86b3a5314ae88332b0697362c973abaaec1d9590cc150937447aa0bf3515ca",
+      "bytes": 335272
     },
     "push-road-raitsa": {
       "file": "push-road-raitsa.jpg",
-      "sha256": "54632b5f0c53d9efd93efac581f2e6db1f422ce2e0f60c450339ce87cd0beb55",
-      "bytes": 450795
+      "sha256": "fed4fd21eb4ff10a3a406c3cafd19b2269e5740ed6df4568aeee8cdc55c08b72",
+      "bytes": 370867
     },
     "push-road-raitsa-estate": {
       "file": "push-road-raitsa-estate.jpg",
-      "sha256": "6543905e16f2086f939b781daf873468451bba62becee06dcfdc03939ed6d179",
-      "bytes": 470516
+      "sha256": "5cdee995fc36ac791c05f8f3224edcc31e8bfeb159f529ea0017efa5d53f0cc4",
+      "bytes": 416479
     },
     "push-road-rubiazhevichy": {
       "file": "push-road-rubiazhevichy.jpg",
-      "sha256": "519a734d762d8160fbce3b8571cc988a745394f57dbf2ccce242f0fbda79f974",
-      "bytes": 372523
+      "sha256": "3f558b6dfb4ab56b60050681c4c71bdf8a86997319496e1b374b2ca671d29aa7",
+      "bytes": 303097
     },
     "push-road-rubiazhevichy-cemetery": {
       "file": "push-road-rubiazhevichy-cemetery.jpg",
-      "sha256": "f22511b14e45d12ce0075d69067ecd989c731017d0aab252a648278f5658c8dd",
-      "bytes": 413591
+      "sha256": "a5ea0188b3b18ab94552a6042791940355c0055d9b6a80defe155c52e20143e7",
+      "bytes": 319173
     },
     "push-road-rudnya-pilnyanskaya": {
       "file": "push-road-rudnya-pilnyanskaya.jpg",
-      "sha256": "47cd7ab6c82d78c6e60a67144329edc07bc23006637a90eca86087965b9f2cc9",
-      "bytes": 429599
+      "sha256": "29ecf882f9a28f58d7f97918034435d91f40940db32e5e9b04175c2e62039621",
+      "bytes": 344851
     },
     "push-road-servach": {
       "file": "push-road-servach.jpg",
-      "sha256": "8adc8fe4b20f9e47c31a6afae12fc643a1d5f6da88c79503ad4ad89d7c174459",
-      "bytes": 455724
+      "sha256": "ff14165e5aea243c24bd0c6f5a417c90ffaed85dcc3fb91286454aebd3f808f6",
+      "bytes": 354979
     },
     "push-road-synkovichy": {
       "file": "push-road-synkovichy.jpg",
-      "sha256": "2d14bda803b50ef61e39bb123417dcedf09bb04f1a1a3d38a05e805bc1abba42",
-      "bytes": 297563
+      "sha256": "85e7ed786c4b2006ddf875148ca31f683907c395d905f0f7396e26159ddee4b3",
+      "bytes": 294906
     },
     "push-road-voroncha": {
       "file": "push-road-voroncha.jpg",
-      "sha256": "6466bef47d6cf7e6b0a7a463d51ca822950f85ae2be73127164dc31f99195fcf",
-      "bytes": 295881
-    },
-    "push-road-zubr": {
-      "file": "push-road-zubr.jpg",
-      "sha256": "6200e40027b7d16dcd01bf61901912b77ee5bd33f103d3e210b387da139afae1",
-      "bytes": 398382
+      "sha256": "5e72cc04ec6478f523b24a6c13b8523ed25b6bf52ab447975ae892a89d354be8",
+      "bytes": 247272
     },
     "pushcha-cordon": {
       "file": "pushcha-cordon.jpg",
