@@ -1,5 +1,5 @@
 {
-  "version": 1789711645258,
+  "version": 1789712517448,
   "assets": {
     "aspida-library": {
       "file": "aspida-library.jpg",
@@ -455,6 +455,11 @@
       "file": "push-road-nalibaki.jpg",
       "sha256": "74a9324a5a22f89e2bab943ed23e3501b1942e1b74aae02ec03609667f623690",
       "bytes": 321455
+    },
+    "push-road-nalibaki-golgotha": {
+      "file": "push-road-nalibaki-golgotha.jpg",
+      "sha256": "03bc7ff5ef70145f9e00dfb8276f56a131cc4732904c6db6c616c85d5a8a5608",
+      "bytes": 349447
     },
     "push-road-novodevyatkovichy": {
       "file": "push-road-novodevyatkovichy.jpg",
