@@ -527,6 +527,11 @@
             "faction": "committee",
             "portraitId": "asset:committee-watcher",
             "npcId": "committee-watcher"
+          },
+          {
+            "id": "kolodishchi-station-threshold",
+            "kind": "threshold",
+            "name": "Запасной путь"
           }
         ]
       },
@@ -11785,5 +11790,5 @@
       "updatedAt": 0
     }
   ],
-  "contentVersion": 1791014905149
+  "contentVersion": 1791017719237
 }
