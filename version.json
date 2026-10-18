@@ -1,9 +1,9 @@
 {
-  "version": "1.1.43",
-  "code": 1001043,
-  "size": 14840753,
-  "sha256": "630bb2fc803f3f8b3adbd1af3ee8022fc582f1ffe16cd0d7c1a333b946527ee2",
+  "version": "1.1.44",
+  "code": 1001044,
+  "size": 14840733,
+  "sha256": "f7e661614742740d85719c60eb95341db0cc9fd569b0ebb04c38cdcae3ad2ff5",
   "url": "https://vps-a2be6aa0.vps.ovh.net/beavertrail/BeaverTrail.apk",
   "notes": "",
-  "builtAt": "2026-10-18T07:11:59.327Z"
+  "builtAt": "2026-10-18T07:16:18.395Z"
 }
