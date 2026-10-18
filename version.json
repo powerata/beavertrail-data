@@ -1,10 +1,10 @@
 {
-  "version": "1.1.47",
-  "code": 1001047,
-  "size": 14847656,
-  "sha256": "b1473d81d62aaae2ac4930a4f1087e0a64f882af1d20ca7b5f007996c13136ac",
+  "version": "1.1.48",
+  "code": 1001048,
+  "size": 14847653,
+  "sha256": "da143da0783e0fe120a4f1dc632f82dc41adafe24e82329e4dad0fa3ee19bdd7",
   "url": "https://vps-a2be6aa0.vps.ovh.net/beavertrail/BeaverTrail.apk",
-  "notes": "Полоска и блокировка входа при обновлении Скачать вручную: https://vps-a2be6aa0.vps.ovh.net/beavertrail/BeaverTrail.apk",
-  "builtAt": "2026-10-18T07:50:01.77Z"
+  "notes": "Тест экрана обновления Скачать вручную: https://vps-a2be6aa0.vps.ovh.net/beavertrail/BeaverTrail.apk",
+  "builtAt": "2026-10-18T07:51:41.02Z"
 }
 
