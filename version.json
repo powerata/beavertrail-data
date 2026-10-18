@@ -1,10 +1,9 @@
 {
-  "version": "1.1.54",
-  "code": 1001054,
-  "size": 14848601,
-  "sha256": "44efb6da55b10616237ea3bb1939461e6332368c5afa690d2dc6efde5116799b",
+  "version": "1.1.55",
+  "code": 1001055,
+  "size": 14853273,
+  "sha256": "d40615e6ac652f75e70669c8788fd91a7529be94e3effc6db48b0ef211583995",
   "url": "https://vps-a2be6aa0.vps.ovh.net/beavertrail/BeaverTrail.apk",
-  "notes": "Починка старых сейвов: клеймо заводит задание Серебряного аиста Скачать вручную: https://vps-a2be6aa0.vps.ovh.net/beavertrail/BeaverTrail.apk",
-  "builtAt": "2026-10-18T16:23:38.837Z"
+  "notes": "Клеймо: Марта у статуи аиста, случайный круг по Минску и письмо для аиста Скачать вручную: https://vps-a2be6aa0.vps.ovh.net/beavertrail/BeaverTrail.apk",
+  "builtAt": "2026-10-18T17:24:17.201Z"
 }
-
